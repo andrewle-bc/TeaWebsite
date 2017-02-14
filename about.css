@@ -1,0 +1,475 @@
+body {
+	font-family: sans-serif;
+	margin: 0;
+}
+
+header {
+	width: 100%;
+	height: 300px;
+	background-color: #94C433;
+	position: relative;
+	z-index: 200; /* above EVERYTHINg including stickynav */
+}
+
+#header_interior {
+	width: 760px; /* to be changed to match whatever content-width we decide */
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+/* placeholder image until logo is designed */
+#header_interior img {
+	border-radius: 50%; /* creates circle around image, may not be necessary depending on logo */
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: 25px;
+}
+
+header h1 {
+	font-size: 48px;
+}
+
+/* Sticky navbar */
+#stickyNav {
+	z-index: 100; /* above everything EXCEPT header */
+	position: fixed;
+	width: 100%;
+	background-color: #333;
+	color: #fff;
+	top: 0;
+	height: 48px;
+}
+
+/* navbar style for both navbars */
+nav {
+	z-index: 1;
+	background-color: #333;
+	width: 100%;	
+}
+
+/* stylizes contents of both nav bars */
+nav ul {
+	list-style-type: none;
+	background-color: #333;
+	margin-top: 0;
+	padding: 0;
+	overflow: hidden;
+	width: 760px; /* to be changed to match whatever content-width we decide */
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* stylizes buttons of both nav bars */
+nav li a {
+	display: inline-block;
+	float: left;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	padding: 15px;
+	position: relative;
+}
+
+/* changes color of nav buttons when hovering over */
+nav li a:hover {
+	background-color: #94C433;
+}
+
+/* puts registration and sign-in to the right side of nav bar */
+nav .sign-in {
+	float: right;
+}
+
+
+
+nav li form{
+	padding-top: 10px;
+	float:right;
+	
+	background-repeat: no-repeat;
+}
+
+/* nav search bar */ 
+nav li form input[type=text]{
+	font-size: small;
+	height: 15px;
+	width: 140px;
+    box-sizing: border-box;
+    
+    font-size: 16px;
+    color: white;
+    background-color: #333;
+    background-image: url('search.png');
+    background-position: 6px 0;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+/*nav bar on focus */
+
+nav li form input[type=text]:focus{
+	box-sizing: border-box;
+	width: 740px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	background-color: #333;
+	z-index:1000;
+
+
+}
+
+
+
+/* drop-down menu under information for stickyNav */
+.infoDropContentSticky {
+	display: none;
+	position: absolute;
+	margin-left: 72px;
+	top: 48px; /* size of navbar */
+	background-color: #94C433;
+	width: inherit;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+/* shows drop-down menu on hover over information nav in stickNav */
+.infoDropSticky:hover .infoDropContentSticky {
+	display: block;
+}
+
+/* drop-down menu under information for normal nav */
+.infoDropContent {
+	display: none;
+	position: absolute;
+	margin-left: 72px;
+	top: 348px; /* size of navbar plus banner */
+	background-color: #94C433;
+	width: inherit;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	float: left;
+}
+
+/* shows drop-down menu on hover over information nav in normal Nav */
+.infoDrop:hover .infoDropContent {
+	display: block;
+}
+
+/* actual drop-down menu contents for normal nav*/
+.infoDropContent a {
+	display: block;
+	width: 100%;
+	text-align: left;
+}
+
+/* actual drop-down menu contents for sticky nav*/
+.infoDropContentSticky a {
+	display: block;
+	width: 100%;
+	text-align: left;
+}
+
+/* changes color of items in drop-down when hovered over for normal nav */
+.infoDropContent li a:hover {
+	background-color: #CFF18A;
+	color: #485952;
+}
+
+/* changes color of items in drop-down when hovered over for sticky nav */
+.infoDropContentSticky li a:hover {
+	background-color: #CFF18A;
+	color: #485952;
+}
+
+/* content wrapping just cause I needed some page-width and scrollable content to work with */
+/*
+#wrapper {  
+	width: 760px; /* to be changed to match whatever content-width we decide */
+	/*
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+*/
+
+
+
+/* Breadcrumbs */
+
+#breadcrumbs {
+    font-size: small;
+    width: 760px;
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+
+
+#breadcrumbs ul {
+    margin-right: -5px;
+ 
+}
+
+#breadcrumbs li {
+    display: inline;
+    font-weight: bold;
+}
+ #breadcrumbs a{
+    text-decoration: none;
+    color: black;
+    margin-right: -5px;
+    display: inline;  
+}
+
+.lastcrumb {
+    text-decoration: underline
+}
+
+
+
+
+
+/* ANDREWS CSS CODE */
+/*Commented out Jeff's wrapper since i replaced it with main*/
+/*all of the css will be here, but eventually we will need to break the css up later */
+
+/*in main css file*/
+main {
+	width: 760px; /* to be changed to match whatever content-width we decide */
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+
+	margin-top: 50px;
+	margin-bottom: 300px;
+	
+}
+.anchor{
+	clear:both;			/*need for floating*/
+}
+/*article css file*/
+#article_body{
+	margin-left: 4em;
+	margin-right: 4em;
+}
+#article_title{
+	text-align: center;
+}
+#article_banner{	/* not sure if we need. leaving it here for now. */
+}
+#article_banner h5 {	/*add link preferences for hovering and such*/
+	margin-top: 0;
+	color: grey;
+	text-align: right;
+}
+#article_banner img{ /* makes the image not stretch out the div, the image example is HUGE fyi */
+	height: auto;
+	max-height: 100%;
+	width: auto;
+	max-width: 100%;
+}
+#article_author {
+	/* add link preferences for hovering and such*/
+	/* also font for date and time */
+}
+#article_content {
+	/*what font do we use????*/
+}
+
+/*about section*/
+.about_author{
+	margin: 0.5em 0 0.5em 0;
+	padding: 1em;
+	border: 1px solid black;
+	border-radius: 1em;
+}
+.about_portrait{
+	float:left;
+	width: 20%;	/*20% of the author box will be the portrait*/
+}
+.about_portrait img{
+	border: 1px solid black;
+	height: auto;		/*portrait will auto adjust height based on image width*/
+	max-width: 100%;	/*100% of the image will be in the PARENT (20% of author box)*/
+}
+.about_content {
+	float: right;
+	width: 80%;			/*80% of the author box will be content (includes the padding)*/
+	max-height: 100%;
+}
+.about_description{
+	border: 1px solid black;
+	margin-left: 1em;
+	max-height: 100%;
+}
+.about_description p{
+	margin: 1em;
+}
+
+/*site map section*/
+.site_map_content{
+}
+#sm_right{
+	border-left: 1px solid black;
+	padding-left: 1em;
+	width:48%;
+	float:right;
+}
+#sm_left{
+	width:48%;
+	float:left;
+}
+
+/*index section*/
+.index_scroll{
+	border: 1px solid black;
+	height:200px;
+}
+.index_article{
+}
+#index_left{
+	width:48%;
+	float:left;
+}
+#index_right{
+	width:48%;
+	float:right;
+}
+.index_article a:link {
+    text-decoration: none;
+}
+.index_article a:visited {
+    text-decoration: none;
+}
+.index_article a:hover {
+    text-decoration: none;
+}
+.index_article a:active {
+    text-decoration: none;
+}
+.index_article_img{
+	float:left;
+	width:48%;
+}
+.index_article_img img{
+	border: 1px solid black;
+	height: auto;		/*portrait will auto adjust height based on image width*/
+	max-width: 100%;
+}
+.index_article_text{
+	float:right;
+	width:48%;
+}
+.index_article_text p {
+	margin:0;
+}
+
+
+/* register section */
+.register_content{
+}
+#reg_right{
+	border-left: 1px solid black;
+	padding-left: 1em;
+	width:48%;
+	float:right;
+}
+#reg_left{
+	width:48%;
+	float:left;
+}
+.type_box{
+	width: 250px;
+	height: 20px;
+	border: 1px solid black;
+}
+
+
+
+/* info main wheel section */
+.info_wheel{
+	width: inherit;
+	height: 500px;
+	border: 1px solid black;
+}
+
+
+/*info page section */
+.info_heading{
+	width:inherit;
+}
+.info_content{
+	width:inherit;
+}
+.info_image{
+	margin: 1em;
+	float: left;
+	
+	width:40%;
+}
+.info_image img{
+	width:100%;
+}
+.info_image h5 {	/*add link preferences for hovering and such*/
+	margin: 0;
+	color: grey;
+	text-align: left;
+}
+.info_text{
+	clear:right;
+}
+
+
+
+/* FOOTER  */
+
+footer {
+	font-family: sans-serif;
+	position: relative;
+    width: 100%;
+    background-color: #8E7784;
+    
+}
+
+.footer-content{
+    width: 760px;
+    list-style-type: none;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+footer li {
+    display: inline;
+    padding:40px;
+   
+}
+
+footer a:link{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+footer a:visited{
+    text-decoration: none;
+    font-weight: bold;
+    color: 
+}
+
+footer a:hover{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+footer a:active{
+    text-decoration: none;
+    font-weight: bold;
+    color:
+}

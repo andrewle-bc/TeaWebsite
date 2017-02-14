@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Test Web Page</title>
+		<link rel="stylesheet" href="register.css">
+	</head>
+
+	<body>
+	
+	<!--Header-->
+		<header>
+			<div id="header_interior">
+					<img src="logo.jpg" alt:"logo" height:"200" width:"200"><!--placeholder logo-->
+					<h1>SereniTEA</h1>
+			</div>
+		</header>
+	
+		<!--Navbar  that stays fixed at top of screen.
+		Basically had to create two nav bars, one of which (stickyNav) is hidden
+		underneath the banner until the user scrolls past the first nav bar. There's an easier way to 
+		do this with JavaScript but I don't know how yet. I will change the code
+		after I learn how. For now, this accomplishes the same thing. Would be 100x easier to have the nav
+		bar above the banner apparently but whatever.-->	
+		<nav id="stickyNav">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li class="infoDropSticky"><a href="info_main.html">Information</a><!--Class to activate drop down menu-->
+					<ul class="infoDropContentSticky"><!--Drop down menu contents -->
+						<li><a href="info_page.html">Types of Tea</a></li>
+						<li><a href="info_page.html">The History of Tea</a></li>
+						<li><a href="info_page.html">Tea Producers</a></li>
+						<li><a href="info_page.html">Steeping Methods</a></li>
+					</ul>
+				</li>
+				<li><a href="forum.html">Forum</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+				<li class="sign-in"><a href="register.html">Register/Sign In</a></li><!--Separate class to align to right-side of nav bar-->
+				<li>
+					<form>
+					<input type="text" placeholder="Search..">
+					</form>
+				</li>
+			</ul>
+
+			
+		</nav>
+
+		<!--Second Navbar that displays underneath the banner and disappears in normal
+		flow to be replaced in viewport by the stickyNav.-->
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li class="infoDrop"><a href="info_main.html">Information</a><!--Class to activate drop down menu-->
+					<ul class="infoDropContent"><!--Drop down menu contents -->
+						<li><a href="info_page.html">Types of Tea</a></li>
+						<li><a href="info_page.html">The History of Tea</a></li>
+						<li><a href="info_page.html">Tea Producers</a></li>
+						<li><a href="info_page.html">Steeping Methods</a></li>
+					</ul>
+				</li>
+				<li><a href="forum.html">Forum</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+				<li class="sign-in"><a href="register.html">Register/Sign In</a></li><!--Separate class to align to right-side of nav bar-->
+				<li>
+					<form>
+					<input type="text" placeholder="Search..">
+					</form>
+				</li>
+			</ul>
+		</nav>
+
+		<main>
+			<div class="register_content" id="reg_left">
+				<h3>SIGN-IN HERE</h3>
+				
+				<h4>Username: </h4>
+					<form>
+						<input type="text" placeholder="Enter Username here..">
+					</form>
+				<h4>Password: </h4>
+					<form>
+						<input type="text" placeholder="Enter password here..">
+					</form>
+
+				<button id="reg_left_button"> Submit </button>
+
+
+			</div>
+			
+			<div class="register_content" id="reg_right">
+				<h3>
+				NOT A MEMBER? REGISTER HERE
+				</h3>
+				
+				<h4>Full Name: </h4>
+					<form>
+						<input type="text" placeholder="Enter full name here..">
+					</form>
+				<h4>Username: </h4>
+					<form> 
+						<input type="text" placeholder="Enter username here..">
+					<form>
+				<h4>E-Mail Address: </h4>
+					<form>
+						<input type="email" placeholder="Enter e-mail address here.." required="required">
+					</form>
+				<h4>Password: </h4>
+					<form>
+						<input type="password" placeholder="Enter password here.."> 
+					</form>
+				<h4>Re-type Password: </h4>	
+					<form>
+						<input type="password" placeholder="Re-type password here..">
+					</form>
+
+				<button id="reg_right_button"> Submit</button>
+			
+			<div class="anchor"
+			</div>
+		</main>		
+	<footer>
+        <div id="footer-inner">
+            <ul class="footer-content">
+                <li><a href="/sitemap.html">Sitemap</a></li>
+                <li><a href="/feedback.html">Feedback</a></li>
+                <li><a href="/copyright.html">Copyright</a></li>
+                <li><a href="/tips.html">Tips</a></li>
+                <li><a href="/socialmedia">Social media</a></li>
+                </ul>
+        </div>
+    </footer>	
+
+</body>
+		
+		
+		
