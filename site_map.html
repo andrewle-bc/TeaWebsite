@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Test Web Page</title>
+		<link rel="stylesheet" href="site_map.css">
+	</head>
+
+	<body>
+	
+	<!--Header-->
+		<header>
+			<div id="header_interior">
+					<img src="logo.jpg" alt:"logo" height:"200" width:"200"><!--placeholder logo-->
+					<h1>SereniTEA</h1>
+			</div>
+		</header>
+	
+		<!--Navbar  that stays fixed at top of screen.
+		Basically had to create two nav bars, one of which (stickyNav) is hidden
+		underneath the banner until the user scrolls past the first nav bar. There's an easier way to 
+		do this with JavaScript but I don't know how yet. I will change the code
+		after I learn how. For now, this accomplishes the same thing. Would be 100x easier to have the nav
+		bar above the banner apparently but whatever.-->	
+		<nav id="stickyNav">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li class="infoDropSticky"><a href="info_main.html">Information</a><!--Class to activate drop down menu-->
+					<ul class="infoDropContentSticky"><!--Drop down menu contents -->
+						<li><a href="info_page.html">Types of Tea</a></li>
+						<li><a href="info_page.html">The History of Tea</a></li>
+						<li><a href="info_page.html">Tea Producers</a></li>
+						<li><a href="info_page.html">Steeping Methods</a></li>
+					</ul>
+				</li>
+				<li><a href="forum.html">Forum</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+				<li class="sign-in"><a href="register.html">Register/Sign In</a></li><!--Separate class to align to right-side of nav bar-->
+				<li>
+					<form>
+					<input type="text" placeholder="Search..">
+					</form>
+				</li>
+			</ul>
+
+			
+		</nav>
+
+		<!--Second Navbar that displays underneath the banner and disappears in normal
+		flow to be replaced in viewport by the stickyNav.-->
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li class="infoDrop"><a href="info_main.html">Information</a><!--Class to activate drop down menu-->
+					<ul class="infoDropContent"><!--Drop down menu contents -->
+						<li><a href="info_page.html">Types of Tea</a></li>
+						<li><a href="info_page.html">The History of Tea</a></li>
+						<li><a href="info_page.html">Tea Producers</a></li>
+						<li><a href="info_page.html">Steeping Methods</a></li>
+					</ul>
+				</li>
+				<li><a href="forum.html">Forum</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+				<li class="sign-in"><a href="register.html">Register/Sign In</a></li><!--Separate class to align to right-side of nav bar-->
+				<li>
+					<form>
+					<input type="text" placeholder="Search..">
+					</form>
+				</li>
+			</ul>
+		</nav>
+
+		<div id="breadcrumbs"> <!-- types of tea page -->
+        	<ul>
+            	<li><a href="index.html">Home Page</a>&nbsp ></li>
+            	<li class="lastcrumb">Sitemap</li>
+        	</ul>   
+    	</div>
+
+		<main>
+			<div class="site_map_content" id="sm_left">
+				<h1>SITE MAP</h1>
+				<h2>Page heading</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+				Phasellus tempor, arcu et sagittis elementum, mi quam ultricies tortor, 
+				a lacinia urna diam et dolor. Nulla vitae enim non dolor aliquet 
+				efficitur at non felis. Morbi non felis sit amet felis mollis malesuada 
+				sed quis neque. Nunc auctor dolor ut ex rhoncus volutpat sit amet 
+				quis felis. </p>
+				
+				<h2>Section heading</h2>
+				<p>Aenean ornare pretium nunc a tincidunt. Proin ut fermentum leo, non 
+				eleifend neque. Vivamus porta lobortis leo, non efficitur lacus volutpat
+				id. Vestibulum iaculis nulla quis lectus venenatis sodales vel a enim. 
+				Maecenas vel tempus est, elementum faucibus arcu.</p>
+				
+				<h2>Section heading</h2>
+				<p>Etiam vel consequat enim, ac tristique nisi. Pellentesque nunc nulla, 
+				blandit semper sem in, condimentum feugiat leo. Sed vel ligula pretium, 
+				pulvinar ex id, congue sapien.</p>
+			</div>
+			
+			<div class="site_map_content" id="sm_right">
+				<h1>MORE LINKS</h1>
+				<h2>Page heading</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+				Phasellus tempor, arcu et sagittis elementum, mi quam ultricies tortor, 
+				a lacinia urna diam et dolor. Nulla vitae enim non dolor aliquet 
+				efficitur at non felis. Morbi non felis sit amet felis mollis malesuada 
+				sed quis neque. Nunc auctor dolor ut ex rhoncus volutpat sit amet 
+				quis felis. </p>
+				
+				<h2>Section heading</h2>
+				<p>Aenean ornare pretium nunc a tincidunt. Proin ut fermentum leo, non 
+				eleifend neque. Vivamus porta lobortis leo, non efficitur lacus volutpat
+				id. Vestibulum iaculis nulla quis lectus venenatis sodales vel a enim. 
+				Maecenas vel tempus est, elementum faucibus arcu.</p>
+				
+				<h2>Section heading</h2>
+				<p>Etiam vel consequat enim, ac tristique nisi. Pellentesque nunc nulla, 
+				blandit semper sem in, condimentum feugiat leo. Sed vel ligula pretium, 
+				pulvinar ex id, congue sapien.</p>
+			
+			<div class="anchor"
+			</div>
+		</main>		
+
+	<footer>
+        <div id="footer-inner">
+            <ul class="footer-content">
+                <li><a href="/sitemap.html">Sitemap</a></li>
+                <li><a href="/feedback.html">Feedback</a></li>
+                <li><a href="/copyright.html">Copyright</a></li>
+                <li><a href="/tips.html">Tips</a></li>
+                <li><a href="/socialmedia">Social media</a></li>
+                </ul>
+        </div>
+    </footer>
+</body>
+		
+		
+		
