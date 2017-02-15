@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Test Web Page</title>
+		
+        <link rel="stylesheet" href="base.css">
+	</head>
+
+	<body>
+	
+	<!--Header-->
+		<header>
+			<div id="header_interior">
+					<img src="logo.jpg" alt:"logo" height:"200" width:"200"><!--placeholder logo-->
+					<h1>SereniTEA</h1>
+			</div>
+		</header>
+	
+		<!--Navbar  that stays fixed at top of screen.
+		Basically had to create two nav bars, one of which (stickyNav) is hidden
+		underneath the banner until the user scrolls past the first nav bar. There's an easier way to 
+		do this with JavaScript but I don't know how yet. I will change the code
+		after I learn how. For now, this accomplishes the same thing. Would be 100x easier to have the nav
+		bar above the banner apparently but whatever.-->	
+		<nav id="stickyNav">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li class="infoDropSticky"><a href="info_main.html">Information</a><!--Class to activate drop down menu-->
+					<ul class="infoDropContentSticky"><!--Drop down menu contents -->
+						<li><a href="info_page.html">Types of Tea</a></li>
+						<li><a href="info_page.html">The History of Tea</a></li>
+						<li><a href="info_page.html">Tea Producers</a></li>
+						<li><a href="info_page.html">Steeping Methods</a></li>
+					</ul>
+				</li>
+				<li><a href="forum.html">Forum</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+				<li class="sign-in"><a href="register.html">Register/Sign In</a></li><!--Separate class to align to right-side of nav bar-->
+				<li>
+					<form>
+					<input type="text" placeholder="Search..">
+					</form>
+				</li>
+			</ul>
+
+			
+		</nav>
+
+		<!--Second Navbar that displays underneath the banner and disappears in normal
+		flow to be replaced in viewport by the stickyNav.-->
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li class="infoDrop"><a href="info_main.html">Information</a><!--Class to activate drop down menu-->
+					<ul class="infoDropContent"><!--Drop down menu contents -->
+						<li><a href="info_page.html">Types of Tea</a></li>
+						<li><a href="info_page.html">The History of Tea</a></li>
+						<li><a href="info_page.html">Tea Producers</a></li>
+						<li><a href="info_page.html">Steeping Methods</a></li>
+					</ul>
+				</li>
+				<li><a href="forum.html">Forum</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+				<li class="sign-in"><a href="register.html">Register/Sign In</a></li><!--Separate class to align to right-side of nav bar-->
+				<li>
+					<form>
+					<input type="text" placeholder="Search..">
+					</form>
+				</li>
+			</ul>
+		</nav>
+		
+	<!--Filler content just to test scrolling-->	
+	
+				
+			<main>
+				<div class="contact_left"> 
+					<h2>Contact us</h2>
+					<h3>Headquarter Address</h3>
+					<p>3700 Willingdon Avenue Burnaby, BC, V5G 3H2</p>
+					<h3>Phone Number</h3>
+					<p>604-123-2345</p>
+					<h3>Email</h3>
+					<p>contact.us@email.com</p>
+				</div>
+		
+			
+
+				<div class="contact_right">
+                    <h2>Leave a Message</h2>
+                    <fieldset>
+                        <label for="name">Your Name (required)</label>
+                        <br>
+                        <input id="name" type="text" name="name" >
+                    </fieldset>
+                    <fieldset>
+                        <label for="email">Your Email (required)</label>
+                        <br>
+                        <input id="email" type="text" name="email">
+                    </fieldset>
+                    <fieldset>
+                        <label for="subject">Subject</label>
+                        <br>
+                        <input id="subject" type="text" name="subject">
+                    </fieldset>
+                    <fieldset>
+						<label for="comment">Message</label>
+						<br>
+                        <textarea id="comment" name="comment" rows="10"></textarea>
+                    </fieldset>
+                    <br>
+                    <input id="submit" type="submit" value="Send">
+					
+				
+					<!-- business inquiries, opportunities, marketing --> 
+				</div>
+				<div class="anchor"></div>
+				<br>
+				<div id="map">My map will go here</div>
+				<br>
+			</main>		
+	
+	<footer>
+        <div id="footer-inner">
+            <ul class="footer-content">
+                <li><a href="/sitemap.html">Sitemap</a></li>
+                <li><a href="/feedback.html">Feedback</a></li>
+                <li><a href="/copyright.html">Copyright</a></li>
+                <li><a href="/tips.html">Tips</a></li>
+                <li><a href="/socialmedia">Social media</a></li>
+                </ul>
+        </div>
+    </footer>
+
+</body>
+		
+		
+		

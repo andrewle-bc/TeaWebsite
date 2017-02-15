@@ -455,6 +455,52 @@ main {
 	background-color: #ffede6;
 }
 
+/*Comments*/
+main {
+	width:760px;
+	margin: auto;
+
+}
+.contact_left {
+	float:right;
+	width:200px;
+	
+	
+}
+.contact_right {
+	float:left;
+	width:500px;
+	
+
+}
+
+fieldset {
+	border:none;
+}
+input, textarea {
+    width:100%;
+	padding: 10px;
+	border-radius: 8px;
+}
+
+fieldset {
+	margin-left:0px;
+	padding-left:0px;
+}
+
+input:focus, textarea:focus {
+	border:3px solid #555;
+}
+
+.submit{
+	padding-left:-10px;
+}
+
+#map {
+	border: 1px solid black;
+	height: 300px;
+}
+
 
 /* FOOTER  */
 
