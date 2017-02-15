@@ -8,7 +8,7 @@ header {
 	height: 300px;
 	background-color: #94C433;
 	position: relative;
-	z-index: 200; /* above EVERYTHINg including stickynav */
+	z-index: 1; /* allows for banner to show above stickNav */
 }
 
 #header_interior {
@@ -33,7 +33,7 @@ header h1 {
 
 /* Sticky navbar */
 #stickyNav {
-	z-index: 100; /* above everything EXCEPT header */
+	z-index: 0;
 	position: fixed;
 	width: 100%;
 	background-color: #333;
@@ -81,50 +81,6 @@ nav li a:hover {
 nav .sign-in {
 	float: right;
 }
-
-
-
-nav li form{
-	padding-top: 10px;
-	padding-right: 0;
-	float:right;
-	
-	background-repeat: no-repeat;
-}
-
-/* nav search bar */ 
-nav li form input[type=text]{
-	font-size: small;
-	height: 15px;
-	width: 20px;
-    box-sizing: border-box;
-    border: none;
-    font-size: 16px;
-    color: white;
-    background-color: #333;
-    background-image: url('search.png');
-    background-position: 6px 0;
-    background-repeat: no-repeat;
-    padding: 12px 10px 12px 40px;
-    -webkit-transition: width 0.4s ease-in-out;
-    transition: width 0.4s ease-in-out;
-}
-
-/*nav bar on focus */
-
-nav li form input[type=text]:focus{
-	box-sizing: border-box;
-	width: 740px;
-	margin-bottom: 10px;
-	margin-left: 10px;
-	margin-right: 10px;
-	background-color: #333;
-	z-index:1000;
-
-
-}
-
-
 
 /* drop-down menu under information for stickyNav */
 .infoDropContentSticky {
@@ -201,39 +157,6 @@ nav li form input[type=text]:focus{
 
 
 
-/* Breadcrumbs */
-
-#breadcrumbs {
-    font-size: small;
-    width: 760px;
-    margin-left:auto;
-    margin-right:auto;
-
-}
-
-
-#breadcrumbs ul {
-    margin-right: -5px;
- 
-}
-
-#breadcrumbs li {
-    display: inline;
-    font-weight: bold;
-}
- #breadcrumbs a{
-    text-decoration: none;
-    color: black;
-    margin-right: -5px;
-    display: inline;  
-}
-
-.lastcrumb {
-    text-decoration: underline
-}
-
-
-
 
 
 
@@ -247,10 +170,6 @@ main {
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
-
-	margin-top: 50px;
-	margin-bottom: 300px;
-	
 }
 .anchor{
 	clear:both;			/*need for floating*/
@@ -428,52 +347,3 @@ main {
 }
 
 
-
-/* FOOTER  */
-
-footer {
-	font-family: sans-serif;
-	position: absolute;
-	margin-bottom: 0px;
-    width: 100%;
-    background-color: #8E7784;
-    
-}
-
-.footer-content{
-    width: 760px;
-    list-style-type: none;
-    margin: auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    
-}
-
-footer li {
-    display: inline;
-    padding:40px;
-   
-}
-
-footer a:link{
-    text-decoration: none;
-    font-weight: bold;
-    color: white;
-}
-
-footer a:visited{
-    text-decoration: none;
-    font-weight: bold;
-    color: 
-}
-
-footer a:hover{
-    text-decoration: none;
-    font-weight: bold;
-    color: black;
-}
-footer a:active{
-    text-decoration: none;
-    font-weight: bold;
-    color:
-}
