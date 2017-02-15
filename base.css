@@ -154,7 +154,36 @@ nav .sign-in {
 }
 */
 
+/* Breadcrumbs */
 
+#breadcrumbs {
+    font-size: small;
+    width: 760px;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+
+#breadcrumbs ul {
+    margin-right: -5px;
+ 
+}
+
+#breadcrumbs li {
+    display: inline;
+    font-weight: bold;
+}
+ #breadcrumbs a{
+    text-decoration: none;
+    color: black;
+    margin-right: -5px;
+    display: inline;  
+}
+
+.lastcrumb {
+    text-decoration: underline
+}
 
 
 
@@ -346,4 +375,51 @@ main {
 	clear:right;
 }
 
+/* FOOTER  */
 
+footer {
+	font-family: sans-serif;
+	position: absolute;
+	margin-bottom: 0px;
+    width: 100%;
+    background-color: #8E7784;
+    
+}
+
+.footer-content{
+    width: 760px;
+    list-style-type: none;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+footer li {
+    display: inline;
+    padding:40px;
+   
+}
+
+footer a:link{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+footer a:visited{
+    text-decoration: none;
+    font-weight: bold;
+    color: 
+}
+
+footer a:hover{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+footer a:active{
+    text-decoration: none;
+    font-weight: bold;
+    color:
+}
