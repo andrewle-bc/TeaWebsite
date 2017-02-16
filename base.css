@@ -6,13 +6,14 @@ body {
 header {
 	width: 100%;
 	height: 300px;
-	background-color: #94C433;
+	background-color: #8D5273;
 	position: relative;
-	z-index: 200; /* above EVERYTHINg including stickynav */
+	z-index: 250; /* above EVERYTHINg including stickynav */
 }
 
 #header_interior {
 	width: 760px; /* to be changed to match whatever content-width we decide */
+	height:inherit;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
@@ -20,15 +21,19 @@ header {
 
 /* placeholder image until logo is designed */
 #header_interior img {
-	border-radius: 50%; /* creates circle around image, may not be necessary depending on logo */
 	margin-left: auto;
 	margin-right: auto;
 	position: relative;
-	top: 25px;
+	height: auto;
+	max-height: 75%;
+	width: auto;
+	max-width: 100%;
 }
 
 header h1 {
 	font-size: 48px;
+	margin:0;
+	color: #FFFFFF;
 }
 
 /* Sticky navbar */
@@ -187,41 +192,24 @@ nav li form input[type=text]:focus{
 	color: #485952;
 }
 
-/* content wrapping just cause I needed some page-width and scrollable content to work with */
-/*
-#wrapper {  
-	width: 760px; /* to be changed to match whatever content-width we decide */
-	/*
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
-}
-*/
-
-
-
-
 /* Breadcrumbs */
-
 #breadcrumbs {
     font-size: small;
     width: 760px;
     margin-left:auto;
     margin-right:auto;
-
 }
-
 
 #breadcrumbs ul {
     margin-right: -5px;
- 
 }
 
 #breadcrumbs li {
     display: inline;
     font-weight: bold;
 }
- #breadcrumbs a{
+
+#breadcrumbs a{
     text-decoration: none;
     color: black;
     margin-right: -5px;
@@ -232,29 +220,17 @@ nav li form input[type=text]:focus{
     text-decoration: underline
 }
 
-
-
-
-
-
-/* ANDREWS CSS CODE */
-/*Commented out Jeff's wrapper since i replaced it with main*/
-/*all of the css will be here, but eventually we will need to break the css up later */
-
-/*in main css file*/
 main {
-	width: 760px; /* to be changed to match whatever content-width we decide */
+	width: 760px; 		/* to be changed to match whatever content-width we decide */
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
-
-	margin-top: 50px;
-	margin-bottom: 300px;
-	
+	margin-bottom: 2em;
 }
 .anchor{
 	clear:both;			/*need for floating*/
 }
+
 /*article css file*/
 #article_body{
 	margin-left: 4em;
@@ -320,6 +296,7 @@ main {
 #sm_right{
 	border-left: 1px solid black;
 	padding-left: 1em;
+	height:500px;
 	width:48%;
 	float:right;
 }
@@ -374,7 +351,8 @@ main {
 
 
 /* register section */
-.register_content{
+.register_content input{
+	width: 250px;
 }
 #reg_right{
 	border-left: 1px solid black;
@@ -385,11 +363,6 @@ main {
 #reg_left{
 	width:48%;
 	float:left;
-}
-.type_box{
-	width: 250px;
-	height: 20px;
-	border: 1px solid black;
 }
 
 
@@ -412,7 +385,6 @@ main {
 .info_image{
 	margin: 1em;
 	float: left;
-	
 	width:40%;
 }
 .info_image img{
@@ -455,23 +427,13 @@ main {
 	background-color: #ffede6;
 }
 
-/*Comments*/
-main {
-	width:760px;
-	margin: auto;
-
-}
 .contact_left {
 	float:right;
 	width:200px;
-	
-	
 }
 .contact_right {
 	float:left;
 	width:500px;
-	
-
 }
 
 fieldset {
@@ -503,14 +465,13 @@ input:focus, textarea:focus {
 
 
 /* FOOTER  */
-
 footer {
 	font-family: sans-serif;
 	position: absolute;
 	margin-bottom: 0px;
     width: 100%;
     background-color: #8E7784;
-    
+	text-align: center;
 }
 
 .footer-content{
@@ -519,13 +480,11 @@ footer {
     margin: auto;
     padding-top: 20px;
     padding-bottom: 20px;
-    
 }
 
 footer li {
     display: inline;
-    padding:40px;
-   
+    padding:20px;
 }
 
 footer a:link{
@@ -537,7 +496,7 @@ footer a:link{
 footer a:visited{
     text-decoration: none;
     font-weight: bold;
-    color: 
+    color: white;
 }
 
 footer a:hover{
