@@ -136,7 +136,7 @@ nav li form input[type=text]:focus{
 .infoDropContentSticky {
 	display: none;
 	position: absolute;
-	margin-left: 72px;
+	margin-left: 71px;
 	top: 48px; /* size of navbar */
 	background-color: #94C433;
 	width: inherit;
@@ -153,7 +153,7 @@ nav li form input[type=text]:focus{
 .infoDropContent {
 	display: none;
 	position: absolute;
-	margin-left: 72px;
+	margin-left: 71px;
 	top: 348px; /* size of navbar plus banner */
 	background-color: #94C433;
 	width: inherit;
