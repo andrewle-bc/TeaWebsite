@@ -1,18 +1,21 @@
 body {
-	font-family: sans-serif;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	margin: 0;
+	background-color: #8E7784;
 }
 
 header {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	width: 100%;
 	height: 300px;
-	background-color: #94C433;
+	background-color: #8D5273;
 	position: relative;
-	z-index: 1; /* allows for banner to show above stickNav */
+	z-index: 250; /* above EVERYTHINg including stickynav */
 }
 
 #header_interior {
 	width: 760px; /* to be changed to match whatever content-width we decide */
+	height:inherit;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
@@ -20,20 +23,24 @@ header {
 
 /* placeholder image until logo is designed */
 #header_interior img {
-	border-radius: 50%; /* creates circle around image, may not be necessary depending on logo */
 	margin-left: auto;
 	margin-right: auto;
 	position: relative;
-	top: 25px;
+	height: auto;
+	max-height: 75%;
+	width: auto;
+	max-width: 100%;
 }
 
 header h1 {
 	font-size: 48px;
+	margin:0;
+	color: #FFFFFF;
 }
 
 /* Sticky navbar */
 #stickyNav {
-	z-index: 0;
+	z-index: 100; /* above everything EXCEPT header */
 	position: fixed;
 	width: 100%;
 	background-color: #333;
@@ -54,6 +61,7 @@ nav ul {
 	list-style-type: none;
 	background-color: #333;
 	margin-top: 0;
+	margin-bottom: 0;
 	padding: 0;
 	overflow: hidden;
 	width: 760px; /* to be changed to match whatever content-width we decide */
@@ -82,11 +90,51 @@ nav .sign-in {
 	float: right;
 }
 
+
+
+nav li form{
+	padding-top: 10px;
+	padding-right: 0;
+	float:right;
+	
+	background-repeat: no-repeat;
+}
+
+/* nav search bar */ 
+nav li form input[type=text]{
+	font-size: small;
+	height: 15px;
+	width: 20px;
+    box-sizing: border-box;
+    border: none;
+    font-size: 16px;
+    color: white;
+    background-color: #333;
+    background-image: url('search.png');
+    background-position: 6px 0;
+    background-repeat: no-repeat;
+    padding: 12px 10px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+/*nav bar on focus */
+
+nav li form input[type=text]:focus{
+	box-sizing: border-box;
+	width: 740px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	background-color: #333;
+	z-index:1000;
+}
+
 /* drop-down menu under information for stickyNav */
 .infoDropContentSticky {
 	display: none;
 	position: absolute;
-	margin-left: 72px;
+	margin-left: 71px;
 	top: 48px; /* size of navbar */
 	background-color: #94C433;
 	width: inherit;
@@ -103,7 +151,7 @@ nav .sign-in {
 .infoDropContent {
 	display: none;
 	position: absolute;
-	margin-left: 72px;
+	margin-left: 71px;
 	top: 348px; /* size of navbar plus banner */
 	background-color: #94C433;
 	width: inherit;
@@ -143,38 +191,24 @@ nav .sign-in {
 	color: #485952;
 }
 
-/* content wrapping just cause I needed some page-width and scrollable content to work with */
-/*
-#wrapper {  
-	width: 760px; /* to be changed to match whatever content-width we decide */
-	/*
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
-}
-*/
-
 /* Breadcrumbs */
-
 #breadcrumbs {
     font-size: small;
     width: 760px;
     margin-left:auto;
     margin-right:auto;
-
 }
-
 
 #breadcrumbs ul {
     margin-right: -5px;
- 
 }
 
 #breadcrumbs li {
     display: inline;
     font-weight: bold;
 }
- #breadcrumbs a{
+
+#breadcrumbs a{
     text-decoration: none;
     color: black;
     margin-right: -5px;
@@ -185,24 +219,21 @@ nav .sign-in {
     text-decoration: underline
 }
 
-
-
-
-
-/* ANDREWS CSS CODE */
-/*Commented out Jeff's wrapper since i replaced it with main*/
-/*all of the css will be here, but eventually we will need to break the css up later */
-
-/*in main css file*/
 main {
-	width: 760px; /* to be changed to match whatever content-width we decide */
+	padding-top:1px;
+	margin-bottom:1px;
+	background-color: #FFFFFF;
+}
+#wrapper {
+	width: 760px; 		/* to be changed to match whatever content-width we decide */
 	margin-left: auto;
 	margin-right: auto;
-	display: block;
+	padding-bottom: 50px;
 }
 .anchor{
 	clear:both;			/*need for floating*/
 }
+
 /*article css file*/
 #article_body{
 	margin-left: 4em;
@@ -268,6 +299,7 @@ main {
 #sm_right{
 	border-left: 1px solid black;
 	padding-left: 1em;
+	height:500px;
 	width:48%;
 	float:right;
 }
@@ -322,7 +354,8 @@ main {
 
 
 /* register section */
-.register_content{
+.register_content input{
+	width: 250px;
 }
 #reg_right{
 	border-left: 1px solid black;
@@ -333,11 +366,6 @@ main {
 #reg_left{
 	width:48%;
 	float:left;
-}
-.type_box{
-	width: 250px;
-	height: 20px;
-	border: 1px solid black;
 }
 
 
@@ -360,7 +388,6 @@ main {
 .info_image{
 	margin: 1em;
 	float: left;
-	
 	width:40%;
 }
 .info_image img{
@@ -374,31 +401,106 @@ main {
 .info_text{
 	clear:right;
 }
+.steep_image{		/*to be formatted later when picture is finalized*/
+	margin: 1em;
+	float: left;
+	width:40%;
+}
+.steep_image img{	/*to be formatted later when picture is finalized*/
+	width:100%;
+}
+.steep_image h5 { 	/*to be formatted later when picture is finalized*/
+	margin: 0;
+	color: grey;
+	text-align: left;
+}
+#steepTimeTable {
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: sans-serif;
+	border-collapse: collapse;
+}
+
+
+#steepTimeTable th {
+	height: 50px;
+	background-color: #FFB192;
+	border-bottom: 3px solid #D26337;
+}
+
+#steepTimeTable th, td {
+	padding: 15px;
+	text-align: left;
+	color: #333;
+}
+
+#steepTimeTable td {
+	border-bottom: 1px solid #B19C94
+}
+
+.tableData:hover {
+	background-color: #ffede6;
+}
+
+.contact_left {
+	float:right;
+	width:200px;
+}
+.contact_right {
+	float:left;
+	width:500px;
+}
+
+fieldset {
+	border:none;
+}
+input, textarea {
+    width:100%;
+	padding: 10px;
+	border-radius: 8px;
+}
+
+fieldset {
+	margin-left:0px;
+	padding-left:0px;
+}
+
+input:focus, textarea:focus {
+	border:3px solid #555;
+}
+
+#map {
+	border: 1px solid black;
+	height: 300px;
+}
+
 
 /* FOOTER  */
-
 footer {
-	font-family: sans-serif;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	position: absolute;
 	margin-bottom: 0px;
     width: 100%;
     background-color: #8E7784;
-    
+	text-align: center;
+	color:white;
 }
-
 .footer-content{
     width: 760px;
     list-style-type: none;
     margin: auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    
+    padding: 20px 0 20px 0;
+}
+
+footer img{
+	height:20px;
 }
 
 footer li {
     display: inline;
-    padding:40px;
-   
+    padding:20px;
+
 }
 
 footer a:link{
@@ -410,7 +512,7 @@ footer a:link{
 footer a:visited{
     text-decoration: none;
     font-weight: bold;
-    color: 
+    color: white;
 }
 
 footer a:hover{
@@ -421,5 +523,4 @@ footer a:hover{
 footer a:active{
     text-decoration: none;
     font-weight: bold;
-    color:
 }
