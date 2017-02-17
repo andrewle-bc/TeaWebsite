@@ -486,7 +486,6 @@ footer {
 	text-align: center;
 	color:white;
 }
-
 .footer-content{
     width: 760px;
     list-style-type: none;
@@ -501,6 +500,7 @@ footer img{
 footer li {
     display: inline;
     padding:20px;
+
 }
 
 footer a:link{
