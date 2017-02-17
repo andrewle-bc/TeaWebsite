@@ -8,7 +8,7 @@ header {
 	height: 300px;
 	background-color: #94C433;
 	position: relative;
-	z-index: 1; /* allows for banner to show above stickNav */
+	z-index: 200; /* above EVERYTHINg including stickynav */
 }
 
 #header_interior {
@@ -33,7 +33,7 @@ header h1 {
 
 /* Sticky navbar */
 #stickyNav {
-	z-index: 0;
+	z-index: 100; /* above everything EXCEPT header */
 	position: fixed;
 	width: 100%;
 	background-color: #333;
@@ -81,6 +81,49 @@ nav li a:hover {
 nav .sign-in {
 	float: right;
 }
+
+
+
+nav li form{
+	padding-top: 10px;
+	float:right;
+	
+	background-repeat: no-repeat;
+}
+
+/* nav search bar */ 
+nav li form input[type=text]{
+	font-size: small;
+	height: 15px;
+	width: 140px;
+    box-sizing: border-box;
+    
+    font-size: 16px;
+    color: white;
+    background-color: #333;
+    background-image: url('search.png');
+    background-position: 6px 0;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+/*nav bar on focus */
+
+nav li form input[type=text]:focus{
+	box-sizing: border-box;
+	width: 740px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	background-color: #333;
+	z-index:1000;
+
+
+}
+
+
 
 /* drop-down menu under information for stickyNav */
 .infoDropContentSticky {
@@ -154,14 +197,12 @@ nav .sign-in {
 }
 */
 
+
+
 /* Breadcrumbs */
 
 #breadcrumbs {
     font-size: small;
-    width: 760px;
-    margin-left:auto;
-    margin-right:auto;
-
 }
 
 
@@ -188,7 +229,6 @@ nav .sign-in {
 
 
 
-
 /* ANDREWS CSS CODE */
 /*Commented out Jeff's wrapper since i replaced it with main*/
 /*all of the css will be here, but eventually we will need to break the css up later */
@@ -199,6 +239,10 @@ main {
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
+
+	margin-top: 50px;
+	margin-bottom: 300px;
+	
 }
 .anchor{
 	clear:both;			/*need for floating*/
@@ -375,12 +419,14 @@ main {
 	clear:right;
 }
 
+
+
 /* FOOTER  */
 
 footer {
 	font-family: sans-serif;
 	position: absolute;
-	margin-bottom: 0px;
+	bottom: 0;
     width: 100%;
     background-color: #8E7784;
     
