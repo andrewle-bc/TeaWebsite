@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Test Web Page</title>
-		<link rel="stylesheet" href="contact.css">
+		<link rel="stylesheet" href="base.css">
 	</head>
 
 	<body>
@@ -11,7 +11,7 @@
 	<!--Header-->
 		<header>
 			<div id="header_interior">
-					<img src="logo.jpg" alt:"logo" height:"200" width:"200"><!--placeholder logo-->
+					<img src="logo.png" alt="logo" height="200" width="200"><!--placeholder logo-->
 					<h1>SereniTEA</h1>
 			</div>
 		</header>
@@ -71,39 +71,76 @@
 				</li>
 			</ul>
 		</nav>
-		
-	<!--Filler content just to test scrolling-->	
-		<div id="wrapper">
-				
-			<main>
+			
+		<main>
+			<div id="breadcrumbs"> 
+				<ul>
+					<li><a href="index.html">Home</a> &nbsp; ></li>
+					<li class="lastcrumb">Contact Us</li>
+				</ul>    
+			</div>
+			
+			<div id="wrapper">
 				<div class="contact_left"> 
-
-					<!-- general inquiries, messages, contact --> 
-
+					<h2>Contact us</h2>
+					<h3>Headquarter Address</h3>
+					<p>3700 Willingdon Avenue Burnaby, BC, V5G 3H2</p>
+					<h3>Phone Number</h3>
+					<p>604-123-2345</p>
+					<h3>Email</h3>
+					<p>contact.us@email.com</p>
 				</div>
-
+	
+		
 
 				<div class="contact_right">
-
-
+					<h2>Leave a Message</h2>
+					<fieldset>
+						<label for="name">Your Name (required)</label>
+						<br>
+						<input id="name" type="text" name="name" >
+					</fieldset>
+					<fieldset>
+						<label for="email">Your Email (required)</label>
+						<br>
+						<input id="email" type="text" name="email">
+					</fieldset>
+					<fieldset>
+						<label for="subject">Subject</label>
+						<br>
+						<input id="subject" type="text" name="subject">
+					</fieldset>
+					<fieldset>
+						<label for="comment">Message</label>
+						<br>
+						<textarea id="comment" name="comment" rows="10"></textarea>
+					</fieldset>
+					<br>
+					<input id="submit" type="submit" value="Send">
+					
+				
 					<!-- business inquiries, opportunities, marketing --> 
-
-
 				</div>
-			</main>		
-		</div> <!--Content-->
-	<footer>
-        <div id="footer-inner">
-            <ul class="footer-content">
-                <li><a href="/sitemap.html">Sitemap</a></li>
-                <li><a href="/feedback.html">Feedback</a></li>
-                <li><a href="/copyright.html">Copyright</a></li>
-                <li><a href="/tips.html">Tips</a></li>
-                <li><a href="/socialmedia">Social media</a></li>
-                </ul>
-        </div>
-    </footer>
-
+				<div class="anchor"></div>
+				<br>
+				<div id="map">My map will go here</div>
+				<br>
+			</div>
+		</main>		
+	
+			<footer>
+			<div id="footer-inner">
+				<ul class="footer-content">
+					<li><a href="site_map.html">Sitemap</a></li>
+					<li><a href="contact.html">Feedback</a></li>
+					<li>&copy; Copyright</li>
+					
+					<li><a href="https://www.facebook.com/"><img src="facebook.jpg" alt="facebook"></a></li>
+					<li><a href="https://www.instagram.com/"><img src="instagram.jpg" alt="facebook"></a></li>
+					<li><a href="https://www.twitter.com/"><img src="twitter.jpg" alt="facebook"></a></li>
+				</ul>
+			</div>
+		</footer>
 </body>
 		
 		
