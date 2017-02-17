@@ -405,7 +405,19 @@ main {
 .info_text{
 	clear:right;
 }
-
+.steep_image{		/*to be formatted later when picture is finalized*/
+	margin: 1em;
+	float: left;
+	width:40%;
+}
+.steep_image img{	/*to be formatted later when picture is finalized*/
+	width:100%;
+}
+.steep_image h5 { 	/*to be formatted later when picture is finalized*/
+	margin: 0;
+	color: grey;
+	text-align: left;
+}
 #steepTimeTable {
 	width: 95%;
 	margin-left: auto;
