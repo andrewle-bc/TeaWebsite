@@ -128,11 +128,7 @@ nav li form input[type=text]:focus{
 	margin-right: 10px;
 	background-color: #333;
 	z-index:1000;
-
-
 }
-
-
 
 /* drop-down menu under information for stickyNav */
 .infoDropContentSticky {
@@ -473,10 +469,6 @@ input:focus, textarea:focus {
 	border:3px solid #555;
 }
 
-.submit{
-	padding-left:-10px;
-}
-
 #map {
 	border: 1px solid black;
 	height: 300px;
@@ -503,7 +495,6 @@ footer {
 
 footer img{
 	height:20px;
-	margin-bottom: :-4px;
 }
 
 footer li {
@@ -531,5 +522,4 @@ footer a:hover{
 footer a:active{
     text-decoration: none;
     font-weight: bold;
-    color:
 }
