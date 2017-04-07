@@ -2,19 +2,15 @@
 	<html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>Test Web Page</title>
-		<link rel="stylesheet" href="base.css">
+		<title>SereniTEA - Test Article</title>
+		<link rel="stylesheet" href="alt.css">
 	</head>
 
 	<body>
 	
 	<!--Header-->
-		<header>
-			<div id="header_interior">
-					<img src="logo.jpg" alt:"logo" height:"200" width:"200"><!--placeholder logo-->
-					<h1>SereniTEA</h1>
-			</div>
-		</header>
+		<div id="nullHeader">
+		</div>
 	
 		<!--Navbar  that stays fixed at top of screen.
 		Basically had to create two nav bars, one of which (stickyNav) is hidden
@@ -23,14 +19,18 @@
 		after I learn how. For now, this accomplishes the same thing. Would be 100x easier to have the nav
 		bar above the banner apparently but whatever.-->	
 		<nav id="stickyNav">
-			<ul>
+			<div id ="logoBox">
+			<img id ="logo" src="img/logo.png" alt="logo"><!--placeholder logo-->
+			<h1 id="logoTitle">SereniTEA</h1>
+			</div>
+			<ul id="navList">
 				<li><a href="index.html">Home</a></li>
 				<li class="infoDropSticky"><a href="info_main.html">Information</a><!--Class to activate drop down menu-->
-					<ul class="infoDropContentSticky"><!--Drop down menu contents -->
-						<li><a href="info_page.html">Types of Tea</a></li>
+					<ul id="dropDown" class="infoDropContentSticky"><!--Drop down menu contents -->
+						<li><a href="info_main.html">Types of Tea</a></li>
 						<li><a href="info_page.html">The History of Tea</a></li>
 						<li><a href="info_page.html">Tea Producers</a></li>
-						<li><a href="info_page.html">Steeping Methods</a></li>
+						<li><a href="steeping_methods.html">Steeping Methods</a></li>
 					</ul>
 				</li>
 				<li><a href="forum.html">Forum</a></li>
@@ -47,123 +47,102 @@
 			
 		</nav>
 
-		<!--Second Navbar that displays underneath the banner and disappears in normal
-		flow to be replaced in viewport by the stickyNav.-->
-		<nav>
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li class="infoDrop"><a href="info_main.html">Information</a><!--Class to activate drop down menu-->
-					<ul class="infoDropContent"><!--Drop down menu contents -->
-						<li><a href="info_page.html">Types of Tea</a></li>
-						<li><a href="info_page.html">The History of Tea</a></li>
-						<li><a href="info_page.html">Tea Producers</a></li>
-						<li><a href="info_page.html">Steeping Methods</a></li>
-					</ul>
-				</li>
-				<li><a href="forum.html">Forum</a></li>
-				<li><a href="about.html">About</a></li>
-				<li><a href="contact.html">Contact Us</a></li>
-				<li class="sign-in"><a href="register.html">Register/Sign In</a></li><!--Separate class to align to right-side of nav bar-->
-				<li>
-					<form>
-					<input type="text" placeholder="Search..">
-					</form>
-				</li>
-			</ul>
-		</nav>
-
-		<div id="breadcrumbs"> <!-- news articles page -->
-        	<ul>
-            	<li><a href="index.html">Home Page</a> &nbsp ></li>
-            	<li class="lastcrumb">News Articles</li>
-        	</ul>    
-    	</div>
-		
+				
 		<main>
-			<article id="article_body">
-				<h2 id="article_title">
-				Titles should be fairly long to at least fill up the width
-				of the page to draw attention.
-				</h2>
-				
-				<div id="article_banner">
-					<img src="article_banner.jpg" alt="article_banner">
-					<h5>Image credits:<a href="https://commons.wikimedia.org/wiki/User:Vanderdecken">
-					Vanderdecken</a>
-					</h5>
-				</div>
-				
-				<hr>
-				
-				<div id="article_author">
-					<h4>
-					<a href="div-about.html">Name (links to forum profile or about page)<a>
-					<br>
-					date and time
-					</h4>
-				</div>
-				
-				<hr>
-				
-				<div id="article_content">
-					<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-					Phasellus tempor, arcu et sagittis elementum, mi quam ultricies tortor, 
-					a lacinia urna diam et dolor. Nulla vitae enim non dolor aliquet 
-					efficitur at non felis. Morbi non felis sit amet felis mollis malesuada 
-					sed quis neque. Nunc auctor dolor ut ex rhoncus volutpat sit amet 
-					quis felis.
-					</p>
-					<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-					Phasellus tempor, arcu et sagittis elementum, mi quam ultricies tortor, 
-					a lacinia urna diam et dolor. Nulla vitae enim non dolor aliquet 
-					efficitur at non felis. Morbi non felis sit amet felis mollis malesuada 
-					sed quis neque. Nunc auctor dolor ut ex rhoncus volutpat sit amet 
-					quis felis.
-					</p>
-					<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-					Phasellus tempor, arcu et sagittis elementum, mi quam ultricies tortor, 
-					a lacinia urna diam et dolor. Nulla vitae enim non dolor aliquet 
-					efficitur at non felis. Morbi non felis sit amet felis mollis malesuada 
-					sed quis neque. Nunc auctor dolor ut ex rhoncus volutpat sit amet 
-					quis felis.
-					</p>
-				</div>
-				<hr>
-				<div id="article_comments">
-					<h3>
-					Comment Section. will JS
-					</h3>
-					<h4>userID</h4>
-					<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-					</p>
-					<h4>userID</h4>
-					<p>
-					Phasellus tempor, arcu et sagittis elementum, mi quam ultricies tortor, 
-					a lacinia urna diam et dolor.
-					</p>
-					<h4>userID</h4>
-					<p>
-					Nulla vitae enim non dolor aliquet efficitur at non felis.
-					</p>
-				</div>
-			</article>
+			<div id="breadcrumbs"> <!-- news articles page -->
+				<ul>
+					<li><a href="index.html">Home</a> &nbsp; ></li>
+					<li class="lastcrumb">News Articles</li>
+				</ul>    
+			</div>
+			<div id="wrapper">
+				<article id="article_body">
+					<h2 id="article_title">
+					Titles should be fairly long to at least fill up the width
+					of the page to draw attention.
+					</h2>
+					
+					<div id="article_banner">
+						<img src="img/article_banner.jpg" alt="article_banner">
+						<h5>Image credits:<a href="https://www.flickr.com/people/vanderdecken/">
+						Vanderdecken</a>
+						</h5>
+					</div>
+					
+					<hr>
+					
+					<div id="article_author">
+						<h4>
+						<a href="about.html">Name (links to forum profile or about page)</a>
+						<br>
+						date and time
+						</h4>
+					</div>
+					
+					<hr>
+					
+					<div id="article_content">
+						<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+						Phasellus tempor, arcu et sagittis elementum, mi quam ultricies tortor, 
+						a lacinia urna diam et dolor. Nulla vitae enim non dolor aliquet 
+						efficitur at non felis. Morbi non felis sit amet felis mollis malesuada 
+						sed quis neque. Nunc auctor dolor ut ex rhoncus volutpat sit amet 
+						quis felis.
+						</p>
+						<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+						Phasellus tempor, arcu et sagittis elementum, mi quam ultricies tortor, 
+						a lacinia urna diam et dolor. Nulla vitae enim non dolor aliquet 
+						efficitur at non felis. Morbi non felis sit amet felis mollis malesuada 
+						sed quis neque. Nunc auctor dolor ut ex rhoncus volutpat sit amet 
+						quis felis.
+						</p>
+						<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+						Phasellus tempor, arcu et sagittis elementum, mi quam ultricies tortor, 
+						a lacinia urna diam et dolor. Nulla vitae enim non dolor aliquet 
+						efficitur at non felis. Morbi non felis sit amet felis mollis malesuada 
+						sed quis neque. Nunc auctor dolor ut ex rhoncus volutpat sit amet 
+						quis felis.
+						</p>
+					</div>
+					<hr>
+					<div id="article_comments">
+						<h3>
+						Comment Section. will JS
+						</h3>
+						<h4>userID</h4>
+						<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+						</p>
+						<h4>userID</h4>
+						<p>
+						Phasellus tempor, arcu et sagittis elementum, mi quam ultricies tortor, 
+						a lacinia urna diam et dolor.
+						</p>
+						<h4>userID</h4>
+						<p>
+						Nulla vitae enim non dolor aliquet efficitur at non felis.
+						</p>
+					</div>
+				</article>
+			</div>
 		</main>		
-	<footer>
-        <div id="footer-inner">
-            <ul class="footer-content">
-                <li><a href="/sitemap.html">Sitemap</a></li>
-                <li><a href="/feedback.html">Feedback</a></li>
-                <li><a href="/copyright.html">Copyright</a></li>
-                <li><a href="/tips.html">Tips</a></li>
-                <li><a href="/socialmedia">Social media</a></li>
-                </ul>
-        </div>
-    </footer>
-</body>
 		
+		<footer>
+			<div id="footer-inner">
+				<ul class="footer-content">
+					<li><a href="site_map.html">Sitemap</a></li>
+					<li><a href="contact.html">Feedback</a></li>
+					<li>&copy; Copyright</li>
+					
+					<!--Social Media Links-->
+					<li><a href="https://www.facebook.com/"><img src="img/facebook.jpg" alt="facebook"></a></li>
+					<li><a href="https://www.instagram.com/"><img src="img/instagram.jpg" alt="facebook"></a></li>
+					<li><a href="https://www.twitter.com/"><img src="img/twitter.jpg" alt="facebook"></a></li>
+				</ul>
+			</div>
+		</footer>
 		
-		
+	</body>

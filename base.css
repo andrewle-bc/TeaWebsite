@@ -1,71 +1,217 @@
 body {
-	font-family: sans-serif;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	margin: 0;
+	background-color: #8E7784;
 }
 
 header {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	width: 100%;
-	height: 300px;
-	background-color: #94C433;
+	height: 600px;
+	overflow:hidden;
+	background-color: #8D5273;
 	position: relative;
-	z-index: 1; /* allows for banner to show above stickNav */
+	margin-top: 200px;
+	z-index: 1; /* above EVERYTHINg including stickynav */
 }
 
-#header_interior {
-	width: 760px; /* to be changed to match whatever content-width we decide */
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
+
+
+.fadein { 
+	display: block;
+	z-index: 3;
 }
 
-/* placeholder image until logo is designed */
-#header_interior img {
-	border-radius: 50%; /* creates circle around image, may not be necessary depending on logo */
-	margin-left: auto;
-	margin-right: auto;
-	position: relative;
-	top: 25px;
+.fadein p img{
+	position:absolute; left:0; top:0; 
+	width: 100%;
+	height: auto;
+	z-index: 2;
+}
+
+.indexCover {
+	width: 100%;
+	height: auto;
+}
+
+#logo{
+	position: fixed;
+	left: 45%;
+	top: 20px;
+	height: 150px;
+	width: 150px;
+	z-index: 5;
+	
+}
+
+#logo.transEnabl{
+	transition: 0.4s ease;
+}
+
+
+#logo:hover {
+	opacity: 0.6;
+	transition: 0.6s;
+}
+
+
+
+#logoTitle{
+	font-size: 60px;
+	color: #3f3f3f;
+	position: fixed; 
+	left: 42%;
+	top: 10%;
+	z-index: 6;
+	
+}
+
+#logoTitle.transEnabl{
+	transition: 0.4s ease;
+}
+
+
+
+.scrolled-nav #logoTitle{
+	font-size: 30px;
+	color: #8D5273;
+	position: fixed; 
+	left: 150px;
+	top: 18px;
+	z-index: 6;
+	transition: 0.4s ease;
+}
+
+.scrolled-nav #logo{
+	position: fixed;
+	top: 15px;
+	left:70px;
+	height: 70px;
+	width: 70px;
+	z-index: 5;
+	transition: 0.4s ease;
 }
 
 header h1 {
-	font-size: 48px;
+	font-size: 30px;
+	margin:0;
+	color: #FFFFFF;
+	position: fixed;
+	top: 0;
+	left: 20px; 
+	z-index: 3;
+
+}
+
+header h2{
+	font-size: 20px;
+	font-weight: lighter;
+	font-style: italic;
+	margin:0;
+	color: #FFFFFF;
+	z-index: 3;
+	position: absolute;
+	top: 60.5%;
+	left: 45.5%;
+}
+
+header h2 span{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 35px;
+}
+
+
+
+
+#isolate p{
+	font-size: 25px;
+	margin:0;
+	color: #FFFFFF;
+	
+	position: absolute;
+	top: 70.5%;
+	left: 70.5%;
 }
 
 /* Sticky navbar */
 #stickyNav {
-	z-index: 0;
+	z-index: 5; /* above everything EXCEPT header */
 	position: fixed;
 	width: 100%;
-	background-color: #333;
+	background-color: #6cbd9a;
 	color: #fff;
 	top: 0;
-	height: 48px;
+	height: 300px;
+
+	transition: 0.4s ease;
 }
+
+#stickyNav.scrolled-nav {
+  height: 100px;
+  
+}
+
+#navList{
+	padding-top: 220px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+
+}
+
+.scrolled-nav #navList{
+	padding-top: 20px;
+}
+
+#dropDown{
+	position: fixed;
+	padding-top: 0px;
+	margin-right: 5px;
+	padding-left:0px;
+	margin-top: 230px;
+	z-index: 8;
+}
+
+.scrolled-nav #dropDown{
+	position: fixed;
+	margin-top: 30px;
+}
+
 
 /* navbar style for both navbars */
 nav {
 	z-index: 1;
-	background-color: #333;
-	width: 100%;	
+	background-color: #6cbd9a;
+	width: 100%;
+	padding-top: 10px;	
+	transition: all 0.4s ease;
+}
+
+nav.shrink{
+	min-height: 60px;
 }
 
 /* stylizes contents of both nav bars */
 nav ul {
 	list-style-type: none;
-	background-color: #333;
+	background-color:#6cbd9a;
 	margin-top: 0;
-	padding: 0;
+	margin-bottom: 0;
+	padding-top: 100px;
 	overflow: hidden;
 	width: 760px; /* to be changed to match whatever content-width we decide */
 	margin-left: auto;
 	margin-right: auto;
+	transition: all 0.4s ease;
 }
+
+
 
 /* stylizes buttons of both nav bars */
 nav li a {
 	display: inline-block;
 	float: left;
-	color: white;
+	color: #3f3f3f;
 	text-align: center;
 	text-decoration: none;
 	padding: 15px;
@@ -74,24 +220,79 @@ nav li a {
 
 /* changes color of nav buttons when hovering over */
 nav li a:hover {
-	background-color: #94C433;
+	border-bottom: 1px solid #485952; 
+	color: #485952;
+
 }
 
 /* puts registration and sign-in to the right side of nav bar */
 nav .sign-in {
-	float: right;
+	
+}
+
+/*nav search bar form*/
+
+nav li form{
+	padding-top: 10px;
+	padding-right: 0;
+	float:right;
+	
+	background-repeat: no-repeat;
+}
+
+/* nav search bar */ 
+nav li form input[type=text]{
+	font-size: small;
+	height: 15px;
+	width: 20px;
+    box-sizing: border-box;
+    border: none;
+    font-size: 16px;
+    color: white;
+    background-color: #6cbd9a;
+    background-image: url('img/search3.png');
+    background-position: 6px 0;
+    background-repeat: no-repeat;
+    padding: 12px 10px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+nav li form input[type=text]:hover{
+
+	background-image:url('img/search4.png');
+	background-position: 6px 0;
+    background-repeat: no-repeat;
+
+}
+
+/*nav bar on focus */
+
+nav li form input[type=text]:focus{
+	box-sizing: border-box;
+	background-color: white;
+	background-position: left;
+	color: #485952;
+	width: 150px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	
+	z-index:7;
+	outline: none;
 }
 
 /* drop-down menu under information for stickyNav */
 .infoDropContentSticky {
 	display: none;
-	position: absolute;
-	margin-left: 72px;
+	
+	margin-left: 71px;
 	top: 48px; /* size of navbar */
-	background-color: #94C433;
+	background-color: white;
 	width: inherit;
+	border-width: 0;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	z-index: 1;
+	z-index: 3;
 }
 
 /* shows drop-down menu on hover over information nav in stickNav */
@@ -103,12 +304,12 @@ nav .sign-in {
 .infoDropContent {
 	display: none;
 	position: absolute;
-	margin-left: 72px;
-	top: 348px; /* size of navbar plus banner */
+	margin-left: 71px;
+	top: 800px; /* size of navbar plus banner */
 	background-color: #94C433;
 	width: inherit;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	z-index: 1;
+	z-index: 8;
 	float: left;
 }
 
@@ -133,48 +334,34 @@ nav .sign-in {
 
 /* changes color of items in drop-down when hovered over for normal nav */
 .infoDropContent li a:hover {
-	background-color: #CFF18A;
+	
 	color: #485952;
 }
 
 /* changes color of items in drop-down when hovered over for sticky nav */
 .infoDropContentSticky li a:hover {
-	background-color: #CFF18A;
+	border: none;
 	color: #485952;
 }
 
-/* content wrapping just cause I needed some page-width and scrollable content to work with */
-/*
-#wrapper {  
-	width: 760px; /* to be changed to match whatever content-width we decide */
-	/*
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
-}
-*/
-
 /* Breadcrumbs */
-
 #breadcrumbs {
     font-size: small;
     width: 760px;
     margin-left:auto;
     margin-right:auto;
-
 }
-
 
 #breadcrumbs ul {
     margin-right: -5px;
- 
 }
 
 #breadcrumbs li {
     display: inline;
     font-weight: bold;
 }
- #breadcrumbs a{
+
+#breadcrumbs a{
     text-decoration: none;
     color: black;
     margin-right: -5px;
@@ -185,24 +372,22 @@ nav .sign-in {
     text-decoration: underline
 }
 
-
-
-
-
-/* ANDREWS CSS CODE */
-/*Commented out Jeff's wrapper since i replaced it with main*/
-/*all of the css will be here, but eventually we will need to break the css up later */
-
-/*in main css file*/
 main {
-	width: 760px; /* to be changed to match whatever content-width we decide */
+	padding-top:1px;
+	margin-bottom:1px;
+	background-color: #FFFFFF;
+}
+#wrapper {
+	width: 760px; 		/* to be changed to match whatever content-width we decide */
 	margin-left: auto;
 	margin-right: auto;
-	display: block;
+	padding-bottom: 50px;
+
 }
 .anchor{
 	clear:both;			/*need for floating*/
 }
+
 /*article css file*/
 #article_body{
 	margin-left: 4em;
@@ -268,6 +453,7 @@ main {
 #sm_right{
 	border-left: 1px solid black;
 	padding-left: 1em;
+	height:500px;
 	width:48%;
 	float:right;
 }
@@ -322,7 +508,8 @@ main {
 
 
 /* register section */
-.register_content{
+.register_content input{
+	width: 250px;
 }
 #reg_right{
 	border-left: 1px solid black;
@@ -333,11 +520,6 @@ main {
 #reg_left{
 	width:48%;
 	float:left;
-}
-.type_box{
-	width: 250px;
-	height: 20px;
-	border: 1px solid black;
 }
 
 
@@ -360,7 +542,6 @@ main {
 .info_image{
 	margin: 1em;
 	float: left;
-	
 	width:40%;
 }
 .info_image img{
@@ -374,31 +555,106 @@ main {
 .info_text{
 	clear:right;
 }
+.steep_image{		/*to be formatted later when picture is finalized*/
+	margin: 1em;
+	float: left;
+	width:40%;
+}
+.steep_image img{	/*to be formatted later when picture is finalized*/
+	width:100%;
+}
+.steep_image h5 { 	/*to be formatted later when picture is finalized*/
+	margin: 0;
+	color: grey;
+	text-align: left;
+}
+#steepTimeTable {
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: sans-serif;
+	border-collapse: collapse;
+}
+#steepTimeTable th {
+	height: 50px;
+	background-color: #FFB192;
+	border-bottom: 3px solid #D26337;
+}
+#steepTimeTable th, td {
+	padding: 15px;
+	text-align: left;
+	color: #333;
+}
+
+#steepTimeTable td {
+	border-bottom: 1px solid #B19C94
+}
+
+/* creates highlighting effect when hovering over a row of data in the table */
+.tableData:hover {
+	background-color: #ffede6;
+}
+
+.contact_left {
+	float:right;
+	width:200px;
+}
+.contact_right {
+	float:left;
+	width:500px;
+}
+
+fieldset {
+	border:none;
+}
+input, textarea {
+    width:100%;
+	padding: 10px;
+	border-radius: 8px;
+}
+
+fieldset {
+	margin-left:0px;
+	padding-left:0px;
+}
+
+input:focus, textarea:focus {
+	border:3px solid #555;
+}
+
+#map {
+	border: 1px solid black;
+	height: 300px;
+}
+
 
 /* FOOTER  */
-
 footer {
-	font-family: sans-serif;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	position: absolute;
 	margin-bottom: 0px;
     width: 100%;
     background-color: #8E7784;
-    
+	text-align: center;
+	color:white;
 }
 
+/* inside container for the main portion of footer content */
 .footer-content{
     width: 760px;
     list-style-type: none;
     margin: auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    
+    padding: 20px 0 20px 0;
+}
+
+/* formats social media images*/
+footer img{
+	height:20px;
 }
 
 footer li {
     display: inline;
-    padding:40px;
-   
+    padding:20px;
 }
 
 footer a:link{
@@ -410,7 +666,7 @@ footer a:link{
 footer a:visited{
     text-decoration: none;
     font-weight: bold;
-    color: 
+    color: white;
 }
 
 footer a:hover{
@@ -421,5 +677,4 @@ footer a:hover{
 footer a:active{
     text-decoration: none;
     font-weight: bold;
-    color:
 }

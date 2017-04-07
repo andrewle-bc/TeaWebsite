@@ -2,8 +2,9 @@
 	<html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>Test Web Page</title>
-		<link rel="stylesheet" href="base.css">
+		<title>SereniTEA - Register/Sign-in</title>
+		<link rel="stylesheet" href="alt.css">
+		<script src="validation.js"></script>
 	</head>
 
 	<body>
@@ -11,8 +12,7 @@
 	<!--Header-->
 		<header>
 			<div id="header_interior">
-					<img src="logo.jpg" alt:"logo" height:"200" width:"200"><!--placeholder logo-->
-					<h1>SereniTEA</h1>
+					<img id="indexCover" src="img/Register.png" alt="contactUsBanner"><!--placeholder logo-->
 			</div>
 		</header>
 	
@@ -23,14 +23,18 @@
 		after I learn how. For now, this accomplishes the same thing. Would be 100x easier to have the nav
 		bar above the banner apparently but whatever.-->	
 		<nav id="stickyNav">
-			<ul>
+			<div id ="logoBox">
+			<img id ="logo" src="img/logo.png" alt="logo"><!--placeholder logo-->
+			<h1 id="logoTitle">SereniTEA</h1>
+			</div>
+			<ul id="navList">
 				<li><a href="index.html">Home</a></li>
 				<li class="infoDropSticky"><a href="info_main.html">Information</a><!--Class to activate drop down menu-->
-					<ul class="infoDropContentSticky"><!--Drop down menu contents -->
-						<li><a href="info_page.html">Types of Tea</a></li>
+					<ul id="dropDown" class="infoDropContentSticky"><!--Drop down menu contents -->
+						<li><a href="info_main.html">Types of Tea</a></li>
 						<li><a href="info_page.html">The History of Tea</a></li>
 						<li><a href="info_page.html">Tea Producers</a></li>
-						<li><a href="info_page.html">Steeping Methods</a></li>
+						<li><a href="steeping_methods.html">Steeping Methods</a></li>
 					</ul>
 				</li>
 				<li><a href="forum.html">Forum</a></li>
@@ -45,95 +49,82 @@
 			</ul>
 
 			
-		</nav>
-
-		<!--Second Navbar that displays underneath the banner and disappears in normal
-		flow to be replaced in viewport by the stickyNav.-->
-		<nav>
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li class="infoDrop"><a href="info_main.html">Information</a><!--Class to activate drop down menu-->
-					<ul class="infoDropContent"><!--Drop down menu contents -->
-						<li><a href="info_page.html">Types of Tea</a></li>
-						<li><a href="info_page.html">The History of Tea</a></li>
-						<li><a href="info_page.html">Tea Producers</a></li>
-						<li><a href="info_page.html">Steeping Methods</a></li>
-					</ul>
-				</li>
-				<li><a href="forum.html">Forum</a></li>
-				<li><a href="about.html">About</a></li>
-				<li><a href="contact.html">Contact Us</a></li>
-				<li class="sign-in"><a href="register.html">Register/Sign In</a></li><!--Separate class to align to right-side of nav bar-->
-				<li>
-					<form>
-					<input type="text" placeholder="Search..">
-					</form>
-				</li>
-			</ul>
 		</nav>
 
 		<main>
-			<div class="register_content" id="reg_left">
-				<h3>SIGN-IN HERE</h3>
-				
-				<h4>Username: </h4>
-					<form>
-						<input type="text" placeholder="Enter Username here..">
-					</form>
-				<h4>Password: </h4>
-					<form>
-						<input type="text" placeholder="Enter password here..">
-					</form>
-
-				<button id="reg_left_button"> Submit </button>
-
-
+			<div id="breadcrumbs"> 
+				<ul>
+					<li><a href="index.html">Home</a> &nbsp; ></li>
+					<li class="lastcrumb">Register/Sign In</li>
+				</ul>    
 			</div>
 			
-			<div class="register_content" id="reg_right">
-				<h3>
-				NOT A MEMBER? REGISTER HERE
-				</h3>
+			<div id="wrapper">
+				<div class="register_content" id="reg_left">
+					<h3>SIGN-IN HERE</h3>
+					<form method="post" action="http://webdevfoundations.net/scripts/formdemo.asp" onsubmit="return checkFormSignIn()">
+						<label for="signInUser"><h4>Username: </h4></label>
+						<input type="text" placeholder="Enter Username here.." id="signInUser" name="signInUser">
+						<span class="confirmMessage" id="confirmMessageUserSignIn"></span>
+						
+						<label for="signInPass"><h4>Password: </h4></label>					
+						<input type="password" placeholder="Enter password here.." id="signInPass" name="signInPass">
+						<span class="confirmMessage" id="confirmMessagePassSignIn"></span>
+						<br><br><br>
+					<input type="submit" id="reg_left_button">
+					</form>
+				</div>
 				
-				<h4>Full Name: </h4>
-					<form>
-						<input type="text" placeholder="Enter full name here..">
+				<div class="register_content" id="reg_right">
+					<h3>NOT A MEMBER? REGISTER HERE</h3>
+					<form method="post" action="http://webdevfoundations.net/scripts/formdemo.asp" onsubmit="return checkFormReg()">
+						
+						<label for="firstName"><h4>First Name: </h4></label>
+							<input type="text" placeholder="Enter first name here.." name="firstName" id="firstName">
+							<span class="confirmMessage" id="confirmMessageFirstName"></span>
+						
+						<label for="lastName"><h4>Last Name: </h4></label>
+							<input type="text" placeholder="Enter last name here.." name="lastName" id="lastName">
+							<span class="confirmMessage" id="confirmMessageLastName"></span>
+						
+						<label for="user"><h4>Username: </h4></label>
+							<input type="text" placeholder="Enter username here.." name="user" id="user">
+							<span class="confirmMessage" id="confirmMessageUser"></span>
+						
+						<label for="email"><h4>E-Mail Address: </h4></label>
+							<input type="text" placeholder="Enter e-mail address here.." name="email" id="email">
+							<span class="confirmMessage" id="confirmMessageEmail"></span>
+						
+						<label for="pass1"><h4>Password: </h4></label>
+							<input type="password" placeholder="Enter password here.." name="pass1" id="pass1">
+							<span class="confirmMessage" id="confirmMessagePass"></span>
+						
+						<label for="pass2"><h4>Re-type Password: </h4></label>
+							<input type="password" placeholder="Re-type password here.." name="pass2" id="pass2" onkeyup="checkPass(); return false;">
+         					<span class="confirmMessage" id="confirmMessageRepeat"></span>
+						<br><br><br>
+					<input type="submit" id="submit">
 					</form>
-				<h4>Username: </h4>
-					<form> 
-						<input type="text" placeholder="Enter username here..">
-					<form>
-				<h4>E-Mail Address: </h4>
-					<form>
-						<input type="email" placeholder="Enter e-mail address here.." required="required">
-					</form>
-				<h4>Password: </h4>
-					<form>
-						<input type="password" placeholder="Enter password here.."> 
-					</form>
-				<h4>Re-type Password: </h4>	
-					<form>
-						<input type="password" placeholder="Re-type password here..">
-					</form>
-
-				<button id="reg_right_button"> Submit</button>
-			
-			<div class="anchor"
+				</div>
+				
+				<div class="anchor">
+				</div>
 			</div>
 		</main>		
-	<footer>
-        <div id="footer-inner">
-            <ul class="footer-content">
-                <li><a href="/sitemap.html">Sitemap</a></li>
-                <li><a href="/feedback.html">Feedback</a></li>
-                <li><a href="/copyright.html">Copyright</a></li>
-                <li><a href="/tips.html">Tips</a></li>
-                <li><a href="/socialmedia">Social media</a></li>
-                </ul>
-        </div>
-    </footer>	
+		
+		<footer>
+			<div id="footer-inner">
+				<ul class="footer-content">
+					<li><a href="site_map.html">Sitemap</a></li>
+					<li><a href="contact.html">Feedback</a></li>
+					<li>&copy; Copyright</li>
+					
+					<!--Social Media Links-->
+					<li><a href="https://www.facebook.com/"><img src="img/facebook.jpg" alt="facebook"></a></li>
+					<li><a href="https://www.instagram.com/"><img src="img/instagram.jpg" alt="facebook"></a></li>
+					<li><a href="https://www.twitter.com/"><img src="img/twitter.jpg" alt="facebook"></a></li>
+				</ul>
+			</div>
+		</footer>
 
-</body>
-		
-		
-		
+	</body>
