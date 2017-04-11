@@ -43,9 +43,10 @@
 				<li class="infoDropSticky"><a href="info_main.php">Information</a><!--Class to activate drop down menu-->
 					<ul id="dropDown" class="infoDropContentSticky"><!--Drop down menu contents -->
 						<li><a href="info_main.php">Types of Tea</a></li>
-						<li><a href="info_page.php">The History of Tea</a></li>
 						<li><a href="info_page.php">Tea Producers</a></li>
+						<li><a href="info_page.php">How is Tea Produced</a></li>
 						<li><a href="steeping_methods.php">Steeping Methods</a></li>
+						<li><a href="info_page.php">The History of Tea</a></li>
 					</ul>
 				</li>
 				<li><a href="forum.php">Forum</a></li>
@@ -64,8 +65,6 @@
 					</form>
 				</li>
 			</ul>
-
-			
 		</nav>
 			
 		<main>
