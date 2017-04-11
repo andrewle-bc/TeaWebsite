@@ -4,17 +4,42 @@
 		<meta charset="utf-8">
 		<title>SereniTEA - Home</title>
 		<link rel="stylesheet" href="base.css">
+		<link rel="stylesheet" href="slideshow.css">
+		<script src="swipe_support.js"></script><!-- for swipe support on touch interfaces -->
+        <script src="slideshow.js"></script>
+		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script src="javaFuncIND.js"></script>
+
 	</head>
 
 	<body>
 	
-	<!--Header-->
-		<header>
-			<div id="header_interior">
-					<img src="img/logo.png" alt="logo" height="200" width="200"><!--placeholder logo-->
-					<h1>SereniTEA</h1>
-			</div>
-		</header>
+
+			<div class="bss-slides">
+				<figure>
+					<a href="articles/health_benefits.html"><img class="indexCover" src="img/slideShow1.jpg"/>
+					<figcaption>
+						<h1>The Various Health Benefits of Tea</h1>
+						<h3>Author McWriterguy</h3>
+					</figcaption> </a>
+				 </figure>
+				 <figure>
+					<a href="articles/tea_traditions.html"><img class="indexCover" src="img/slideShow2.png"/>
+					<figcaption>
+						<h1>Tea Traditions from Around the World</h1>
+						<h3>Author McWriterguy</h3>
+					</figcaption> </a>
+				 </figure>
+				 <figure>
+					<a href="articles/food_pairings.html"><img class="indexCover" src="img/slideShow3.jpg"/>
+					<figcaption>
+						<h1>The Perfect Match: Tea and Food Pairings</h1>
+						<h3>Author McWriterguy</h3>
+					</figcaption> </a>
+				</figure>
+			 </div> <!-- end of slide show container -->
+
+
 	
 		<!--Navbar  that stays fixed at top of screen.
 		Basically had to create two nav bars, one of which (stickyNav) is hidden
@@ -22,39 +47,15 @@
 		do this with JavaScript but I don't know how yet. I will change the code
 		after I learn how. For now, this accomplishes the same thing. Would be 100x easier to have the nav
 		bar above the banner apparently but whatever.-->	
+		
 		<nav id="stickyNav">
-			<ul>
+			<img id ="logo" class ="logo" src="img/logo.png" alt="logo"><!--placeholder logo-->
+			<h1 id="logoTitle" class = "logoTitle">SereniTEA</h1>
+			<ul id="navList">
 				<li><a href="index.html">Home</a></li>
 				<li class="infoDropSticky"><a href="info_main.html">Information</a><!--Class to activate drop down menu-->
-					<ul class="infoDropContentSticky"><!--Drop down menu contents -->
-						<li><a href="info_page.html">Types of Tea</a></li>
-						<li><a href="info_page.html">The History of Tea</a></li>
-						<li><a href="info_page.html">Tea Producers</a></li>
-						<li><a href="steeping_methods.html">Steeping Methods</a></li>
-					</ul>
-				</li>
-				<li><a href="forum.html">Forum</a></li>
-				<li><a href="about.html">About</a></li>
-				<li><a href="contact.html">Contact Us</a></li>
-				<li class="sign-in"><a href="register.html">Register/Sign In</a></li><!--Separate class to align to right-side of nav bar-->
-				<li>
-					<form>
-					<input type="text" placeholder="Search..">
-					</form>
-				</li>
-			</ul>
-
-			
-		</nav>
-
-		<!--Second Navbar that displays underneath the banner and disappears in normal
-		flow to be replaced in viewport by the stickyNav.-->
-		<nav>
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li class="infoDrop"><a href="info_main.html">Information</a><!--Class to activate drop down menu-->
-					<ul class="infoDropContent"><!--Drop down menu contents -->
-						<li><a href="info_page.html">Types of Tea</a></li>
+					<ul id="dropDown" class="infoDropContentSticky"><!--Drop down menu contents -->
+						<li><a href="info_main.html">Types of Tea</a></li>
 						<li><a href="info_page.html">The History of Tea</a></li>
 						<li><a href="info_page.html">Tea Producers</a></li>
 						<li><a href="steeping_methods.html">Steeping Methods</a></li>
@@ -73,23 +74,26 @@
 		</nav>
 		
 		<main>
+			
+        
+       <script>
+            var opts = {
+                auto : {
+                speed : 3500, 
+                pauseOnHover : true
+            },
+                fullScreen : false, 
+                swipe : true
+            };
+            makeBSS('.bss-slides', opts);
+        </script> 
 			<div id="wrapper">
-				<div class="index_scroll">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-				Phasellus tempor, arcu et sagittis elementum, mi quam ultricies tortor, 
-				a lacinia urna diam et dolor. </p>
-				<h2>PLACE HOLDER FOR SCROLLING JAVASCRIPT FEATURE</h2>
-				<p>Nulla vitae enim non dolor aliquet 
-				efficitur at non felis. Morbi non felis sit amet felis mollis malesuada 
-				sed quis neque. Nunc auctor dolor ut ex rhoncus volutpat sit amet 
-				quis felis. </p>
-				</div>
-				
 				<div class="index_article" id="index_left">
-					<a href="article.html">
-						<h2>ARTICLE TITLE</h2>
+					<a href="articles/health_benefits.html">
+						<h2>The Various Health Benefits of Tea</h2>
+						<h5>by Author McWriterguy</h5>
 						<div class="index_article_img">
-						<img src="img/portrait.png" alt="portrait">
+						<img src="img/tea_pour.jpg" alt="portrait">
 						</div>
 					</a>
 						<div class="index_article_text">
@@ -101,10 +105,11 @@
 				</div>
 				
 				<div class="index_article" id="index_right">
-					<a href="article.html">
-						<h2>ARTICLE TITLE</h2>
+					<a href="articles/food_pairings.html">
+						<h2>The Perfect Match: Food and Tea Pairings</h2>
+						<h5>by Author McWriterguy</h5>
 						<div class="index_article_img">
-						<img src="img/portrait.png" alt="portrait">
+						<img src="img/chamomile.jpg" alt="portrait">
 						</div>
 					</a>
 						<div class="index_article_text">

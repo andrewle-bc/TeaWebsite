@@ -3,7 +3,8 @@
 	<head>
 		<meta charset="utf-8">
 		<title>SereniTEA - Contact Us</title>
-        <link rel="stylesheet" href="base.css">
+        <link rel="stylesheet" href="alt.css">
+		<script src="validation.js"></script>
 	</head>
 
 	<body>
@@ -11,8 +12,7 @@
 	<!--Header-->
 		<header>
 			<div id="header_interior">
-					<img src="img/logo.png" alt="logo" height="200" width="200"><!--placeholder logo-->
-					<h1>SereniTEA</h1>
+					<img id="indexCover" src="img/contactUs.png" alt="contactUsBanner"><!--placeholder logo-->
 			</div>
 		</header>
 	
@@ -23,11 +23,15 @@
 		after I learn how. For now, this accomplishes the same thing. Would be 100x easier to have the nav
 		bar above the banner apparently but whatever.-->	
 		<nav id="stickyNav">
-			<ul>
+			<div id ="logoBox">
+			<img id ="logo" src="img/logo.png" alt="logo"><!--placeholder logo-->
+			<h1 id="logoTitle">SereniTEA</h1>
+			</div>
+			<ul id="navList">
 				<li><a href="index.html">Home</a></li>
 				<li class="infoDropSticky"><a href="info_main.html">Information</a><!--Class to activate drop down menu-->
-					<ul class="infoDropContentSticky"><!--Drop down menu contents -->
-						<li><a href="info_page.html">Types of Tea</a></li>
+					<ul id="dropDown" class="infoDropContentSticky"><!--Drop down menu contents -->
+						<li><a href="info_main.html">Types of Tea</a></li>
 						<li><a href="info_page.html">The History of Tea</a></li>
 						<li><a href="info_page.html">Tea Producers</a></li>
 						<li><a href="steeping_methods.html">Steeping Methods</a></li>
@@ -45,31 +49,6 @@
 			</ul>
 
 			
-		</nav>
-
-		<!--Second Navbar that displays underneath the banner and disappears in normal
-		flow to be replaced in viewport by the stickyNav.-->
-		<nav>
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li class="infoDrop"><a href="info_main.html">Information</a><!--Class to activate drop down menu-->
-					<ul class="infoDropContent"><!--Drop down menu contents -->
-						<li><a href="info_page.html">Types of Tea</a></li>
-						<li><a href="info_page.html">The History of Tea</a></li>
-						<li><a href="info_page.html">Tea Producers</a></li>
-						<li><a href="steeping_methods.html">Steeping Methods</a></li>
-					</ul>
-				</li>
-				<li><a href="forum.html">Forum</a></li>
-				<li><a href="about.html">About</a></li>
-				<li><a href="contact.html">Contact Us</a></li>
-				<li class="sign-in"><a href="register.html">Register/Sign In</a></li><!--Separate class to align to right-side of nav bar-->
-				<li>
-					<form>
-					<input type="text" placeholder="Search..">
-					</form>
-				</li>
-			</ul>
 		</nav>
 			
 		<main>
@@ -93,35 +72,46 @@
 	
 				<div class="contact_right">
 					<h2>Leave a Message</h2>
-					<fieldset>
-						<label for="name">Your Name (required)</label>
-						<br>
-						<input id="name" type="text" name="name" >
-					</fieldset>
-					<fieldset>
-						<label for="email">Your Email (required)</label>
-						<br>
-						<input id="email" type="text" name="email">
-					</fieldset>
-					<fieldset>
-						<label for="subject">Subject</label>
-						<br>
-						<input id="subject" type="text" name="subject">
-					</fieldset>
-					<fieldset>
-						<label for="comment">Message</label>
-						<br>
-						<textarea id="comment" name="comment" rows="10"></textarea>
-					</fieldset>
-					<br>
-					<input id="submit" type="submit" value="Send">
+					<form method="post" onsubmit="return checkFormContact()" action="http://webdevfoundations.net/scripts/formdemo.asp">
 					
+						<label for="name"><h4>Your Name</h4></label>
+						<input id="name" type="text" name="name" >
+						<span class="confirmMessage" id="confirmMessageName"></span>
+					
+						<label for="email"><h4>Your Email</h4></label>
+						<input id="email" type="text" name="email">
+						<span class="confirmMessage" id="confirmMessageEmail"></span>
+					
+						<label for="subject"><h4>Subject</h4></label>
+						<input id="subject" type="text" name="subject">
+						<span class="confirmMessage" id="confirmMessageSubject"></span>
+					
+						<label for="comment"><h4>Message</h4></label>
+						<textarea id="comment" name="comment" rows="10"></textarea>
+						<span class="confirmMessage" id="confirmMessageComment"></span>
+					
+					<br><br>
+					<input id="submit" type="submit" value="Send">
+					</form>
 				
 					<!-- business inquiries, opportunities, marketing --> 
 				</div>
 				<div class="anchor"></div>
 				<br>
-				<div id="map">My map will go here</div>
+				<div id="map" style="width:100%;height:400px"></div>
+
+				<script>
+				function myMap() {
+					var myCenter = new google.maps.LatLng(49.248918,-123.000955);
+					var mapCanvas = document.getElementById("map");
+					var mapOptions = {center: myCenter, zoom: 14};
+					var map = new google.maps.Map(mapCanvas, mapOptions);
+					var marker = new google.maps.Marker({position:myCenter});
+					marker.setMap(map);
+				}
+				</script>
+
+				<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAQIsOF-qvPvNxi90HT5VMXjhPgx8xHl7w&callback=myMap"></script>
 				<br>
 			</div>
 		</main>		
