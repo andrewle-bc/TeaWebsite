@@ -86,32 +86,8 @@
 					<p>contact.us@email.com</p>
 				</div>
 	
-				<div class="contact_right" id="contactform">
-					<h2>Leave a Message</h2>
-					<form method="post" onsubmit="return checkFormContact()" action="formmail.php">
-					
-						<label for="name"><h4>Your Name</h4></label>
-						<input id="name" type="text" name="name" >
-						<span class="confirmMessage" id="confirmMessageName"></span>
-					
-						<label for="email"><h4>Your Email</h4></label>
-						<input id="email" type="text" name="email">
-						<span class="confirmMessage" id="confirmMessageEmail"></span>
-					
-						<label for="subject"><h4>Subject</h4></label>
-						<input id="subject" type="text" name="subject">
-						<span class="confirmMessage" id="confirmMessageSubject"></span>
-					
-						<label for="comment"><h4>Message</h4></label>
-						<textarea id="comment" name="comment" rows="10"></textarea>
-						<span class="confirmMessage" id="confirmMessageComment"></span>
-					
-					<br><br>
-					<input id="submit" type="submit" value="Send">
-					<input type="hidden" name="recipients" value="andrewle.bc@gmail.com" />
-					<input type="hidden" name="subject" value="SereniTEA Contact" />
-					<input type="hidden" name="good_url" value="contactthankyou.php" />
-					</form>
+				<div class="contact_right">
+					<h2>Thank you!</h2>
 				
 					<!-- business inquiries, opportunities, marketing --> 
 				</div>

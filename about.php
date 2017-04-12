@@ -78,10 +78,9 @@
 					<div class="about_content"> <!--this div is important divide up the left and right floats-->
 						<div class="about_description">
 							<p>
-							Segal Au<br>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-							Phasellus tempor, arcu et sagittis elementum, mi quam ultricies tortor, 
-							a lacinia urna diam et dolor.
+							<strong>Segal Au</strong>
+							<br><br>
+							Hi! My name is Segal and I am a living bird meme. I am the best hearthstone player in CST, my highest was <em><u>rank 17</u></em>, so almost Legend. I enjoy long walks on the beach, and I frequency fly to nearby boats.
 							</p>
 						</div>
 					</div>
@@ -96,7 +95,8 @@
 					<div class="about_content"> <!--this div is important divide up the left and right floats-->
 						<div class="about_description">
 							<p>
-							Jeff Choy<br>
+							<strong>Joof Choy</strong>
+							<br><br>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 							Phasellus tempor, arcu et sagittis elementum, mi quam ultricies tortor, 
 							a lacinia urna diam et dolor.
@@ -114,7 +114,8 @@
 					<div class="about_content"> <!--this div is important divide up the left and right floats-->
 						<div class="about_description">
 							<p>
-							Andrew Le<br>
+							<strong>Andrew Le</strong>
+							<br><br>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 							Phasellus tempor, arcu et sagittis elementum, mi quam ultricies tortor, 
 							a lacinia urna diam et dolor.
@@ -127,12 +128,13 @@
 					
 				<div class="about_author" id="Jenny">
 					<div class="about_portrait">
-						<img src="img/portrait.png" alt="Protrait">
+						<img src="img/Jenny.jpg" alt="Protrait">
 					</div>
 					<div class="about_content"> <!--this div is important divide up the left and right floats-->
 						<div class="about_description">
 							<p>
-							Jenny Ly<br>
+							<strong>Jenny Ly</strong>
+							<br><br>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 							Phasellus tempor, arcu et sagittis elementum, mi quam ultricies tortor, 
 							a lacinia urna diam et dolor.
@@ -150,7 +152,8 @@
 					<div class="about_content"> <!--this div is important divide up the left and right floats-->
 						<div class="about_description">
 							<p>
-							Setareh Shir Koobi<br>
+							<strong>Setareh Shir Koobi</strong>
+							<br><br>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 							Phasellus tempor, arcu et sagittis elementum, mi quam ultricies tortor, 
 							a lacinia urna diam et dolor. Nulla vitae enim non dolor aliquet 
