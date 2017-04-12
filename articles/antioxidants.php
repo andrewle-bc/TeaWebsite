@@ -9,7 +9,7 @@
 	<html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>SereniTEA - 10 Positivi’tea’ Benefits</title>
+		<title>SereniTEA - What are Antioxidants?</title>
 		<link rel="stylesheet" href="../alt.css">
 	</head>
 
@@ -99,50 +99,31 @@
 					<hr>
 					
 					<div id="article_content">
-						<h1>10 Positivi’tea’ Benefits<h1>
-						<h2>1. Tea contains antioxidants</h2>
-						<p>
-							Because who doesn’t love buzzwords? For more information, please refer to <a href=”antioxidants.php">this article</a> for more information.
-						</p>
-						<h2>2. Tea fights diseases</h2>
-						<p>
-							Tea has been found to reduce to risk of Parkinson’s disease, Alzheimer’s disease, and <a href=” https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3689013/”>type 2 diabetes</a>.
-						</p>
-						<h2>3. Tea has less caffeine than coffee</h2> 
-						<p>
-							The most caffeinated tea, black tea, contains 30-75mg per cup; coffee contains 90-200mg of caffeine per cup. Tea also contains L-theanine which lowers the absorption rate of caffeine, which is why you do not get that sharp spike in energy like you do in coffee.
-						</p>
-						<h2>4. Tea reduces the risk of stroke</h2>
-						<p>
-							<a href=” https://www.ncbi.nlm.nih.gov/pubmed/19228856”>Proof</a>
-						</p>
-						<h2>5. Tea lets you live forever</h2>
-						<p>
-							Not really, but tea does reduce the risk of breast cancer, lung cancer, and prostate cancer.
-						</p>
-						<h2>6. Tea can help you lose weight</h2>
-						<p>
-							Tea promotes a healthy cardiovascular system, improving cholesterol levels, increasing blood flow, and burning fat. Caffeine helps to increase endurance during physical activities.
-						</p>
-						<h2>7. Your ‘Tea’th will shine</h2>
-						<p>
-							Black, and green teas contain fluoride which are absorbed by your teeth and bones. Let’s ignore the fact that it also contains tannins that can also stain teeth.
-						</p>
-						<h2>8. Tea has an endless variety</h2>
-						<p>
-							From green tea, black tea, white tea to Ice-T, there is a large variety of tea to choose from. Specialty teas have been becoming especially popular from distributors such as DavidsTea and Teavana.
-						</p>
-						<h2>9. Tea reduces stress</h2>
-						<p>
-							How can you be mad while drinking a nice cup of tea? 
-						</p>
-						<h2>10. Tea is more environmentally friendly than coffee</h2>
+						<h1>Antioxidants</h1>
 							<p>
-							Both tea and coffee both require harvesting, processing (drying), and shipping. Coffee is more intensive to process than tea, and weights significantly more for exportation.
-						</p>
-						
-						<h5>Disclaimer: this article does contain satire, please do not take this to heart.</h5>
-
+							The word antioxidant is used to advertise foods, supplements, and skin-care products, but what do skin-care products have in common with food? Are antioxidants just a buzz-term for marketing like organic, superfoods, or anti-aging? Here’s what you need to know.
+							</p>
+							<p>
+							An antioxidant is a molecule that prevents the oxidation of cells from free radicals, no, not politics, but a term you might remember from your high school chemistry class. Free radicals are molecules with an unpaired electron; they occur naturally in your body though digestion, and are used by your body’s immune system against foreign invaders. Antioxidants help regulate free radicals, too many can lead to diseases, and even cancer. 
+							</p>
+							<p>
+							More isn’t necessarily better, taking too many antioxidants can be detrimental. The good news is it is very hard to take too many just from foods in your diet. Taking antioxidant supplements can have a negative impact on your body, it is recommended to stick to natural sources from foods.
+							</p>
+							<p>
+							Antioxidants come in a very wide range, and it is necessary to consume a variety of foods to benefit. Certain antioxidants will help combat certain cancers, and others will prevent age-related degenerative diseases such as Alzheimer’s. For example, vitamin A is desired for the growth and development of the retina.
+							</p>
+							<p>
+							Foods such as blueberries, and pomegranate have been given the term “superfoods” because of their antioxidant properties. Vitamin C (ascorbic acid) is readily most fruits and vegetables, vitamin E (tocopherols, tocotrienols) can be found in nuts, and seeds such as sunflower seeds, and almonds.
+							</p>
+							<p>
+							So, what do foods like blueberries and tea have in common with anti-aging cream? As we age, we are exposed to more and more radicals. The sun is a major contributor, UV-lights (ultraviolet) create free radicals on our skin, causing our cells to destroy themselves as a defensive mechanism against cancer. Anti-aging creams are usually packed with antioxidants to prevent wrinkles, and to protect against UV-lights.
+							</p>
+							<p>
+							Retinol, an active form of vitamin A is the most common ingredient in anti-aging cremes. Vitamin C has become more popular in creams, it is used to heal damaged skin. Extracts from plants, such as Aloe Vera, and green tea are widely used in natural anti-aging creams. Aloe Vera has an abundance of vitamin E, it works great as a skin application because of its fat-soluble property.
+							</p>
+							<p>
+							Antioxidant is more than just a buzzword, they are essential – in moderation. The proper amount will promote good health, and protect against chronic diseases, such as Alzheimer’s, loss of vision, and cancer. A variety of fruits and vegetables will ensure that there are enough antioxidants in your diet to help you feel and look healthy. If you are concerned with the number of antioxidants in your diet, or if you are thinking of taking supplements, it is recommended that you talk it through with your general practitioner or nutritionist.	
+							</p>
 					</div>
 					<hr>
 					
