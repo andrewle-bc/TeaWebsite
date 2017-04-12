@@ -87,10 +87,10 @@
 				<li class="infoDropSticky"><a href="info_main.php">Information</a><!--Class to activate drop down menu-->
 					<ul id="dropDown" class="infoDropContentSticky"><!--Drop down menu contents -->
 						<li><a href="info_main.php">Types of Tea</a></li>
-						<li><a href="info_page.php">Tea Producers</a></li>
-						<li><a href="info_page.php">How is Tea Produced</a></li>
-						<li><a href="steeping_methods.php">Steeping Methods</a></li>
-						<li><a href="info_page.php">The History of Tea</a></li>
+						<li><a href="info_pages/tea_location.php">Tea Producers</a></li>
+						<li><a href="info_pages/tea_production.php">How is Tea Produced</a></li>
+						<li><a href="info_pages/brewing_method.php">Brewing Methods</a></li>
+						<li><a href="info_pages/tea_history.php">The History of Tea</a></li>
 					</ul>
 				</li>
 				<li><a href="forum.php">Forum</a></li>
