@@ -461,6 +461,12 @@ main {
 }
 .index_article{
 }
+.article_block{
+	display:block;
+}
+.author {
+	margin:1px;
+}
 #index_left{
 	width:48%;
 	float:left;

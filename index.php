@@ -105,35 +105,81 @@
         </script> 
 			<div id="wrapper">
 				<div class="index_article" id="index_left">
-					<a href="articles/health_benefits.php">
-						<h2>The Various Health Benefits of Tea</h2>
-						<h5>by Author McWriterguy</h5>
-						<div class="index_article_img">
-						<img src="img/tea_pour.jpg" alt="portrait">
-						</div>
-					</a>
+				
+					<div class="article_block">
+						<a href="articles/health_benefits.php">
+							<h2>10 Positivi’tea’ Benefits</h2>
+							<h5 class="author">by Andrew Le</h5>
+							<div class="index_article_img">
+								<img src="img/tea_pour.jpg" alt="portrait">
+							</div>
+						</a>
 						<div class="index_article_text">
-						<p>Aenean ornare pretium nunc a tincidunt. Proin ut fermentum leo, non 
-						eleifend neque. Vivamus porta lobortis leo, non efficitur lacus volutpat
-						id. Vestibulum iaculis nulla quis lectus venenatis sodales vel a enim. 
-						Maecenas vel tempus est, elementum faucibus arcu.</p>
+							<p>Aenean ornare pretium nunc a tincidunt. Proin ut fermentum leo, non 
+							eleifend neque. Vivamus porta lobortis leo, non efficitur lacus volutpat
+							id. Vestibulum iaculis nulla quis lectus venenatis sodales vel a enim. 
+							Maecenas vel tempus est, elementum faucibus arcu.</p>
 						</div>
+						<div class="anchor">
+						</div>
+					</div>
+					
+					<div class="article_block">
+						<a href="articles/health_benefits.php">
+							<h2>10 Positivi’tea’ Benefits</h2>
+							<h5 class="author">by Andrew Le</h5>
+							<div class="index_article_img">
+								<img src="img/tea_pour.jpg" alt="portrait">
+							</div>
+						</a>
+						<div class="index_article_text">
+							<p>Aenean ornare pretium nunc a tincidunt. Proin ut fermentum leo, non 
+							eleifend neque. Vivamus porta lobortis leo, non efficitur lacus volutpat
+							id. Vestibulum iaculis nulla quis lectus venenatis sodales vel a enim. 
+							Maecenas vel tempus est, elementum faucibus arcu.</p>
+						</div>
+						<div class="anchor">
+						</div>
+					</div>
 				</div>
 				
 				<div class="index_article" id="index_right">
-					<a href="articles/food_pairings.php?id=420">
-						<h2>The Perfect Match: Food and Tea Pairings</h2>
-						<h5>by Author McWriterguy</h5>
-						<div class="index_article_img">
-						<img src="img/chamomile.jpg" alt="portrait">
-						</div>
-					</a>
+				
+					<div class="article_block">
+						<a href="articles/antioxidants.php">
+							<h2>What are Antioxidants?</h2>
+							<h5 class="author">by Andrew Le</h5>
+							<div class="index_article_img">
+								<img src="img/chamomile.jpg" alt="portrait">
+							</div>
+						</a>
 						<div class="index_article_text">
-						<p>Aenean ornare pretium nunc a tincidunt. Proin ut fermentum leo, non 
-						eleifend neque. Vivamus porta lobortis leo, non efficitur lacus volutpat
-						id. Vestibulum iaculis nulla quis lectus venenatis sodales vel a enim. 
-						Maecenas vel tempus est, elementum faucibus arcu.</p>
+							<p>Aenean ornare pretium nunc a tincidunt. Proin ut fermentum leo, non 
+							eleifend neque. Vivamus porta lobortis leo, non efficitur lacus volutpat
+							id. Vestibulum iaculis nulla quis lectus venenatis sodales vel a enim. 
+							Maecenas vel tempus est, elementum faucibus arcu.</p>
 						</div>
+						<div class="anchor">
+						</div>
+					</div>
+					
+					<div class="article_block">
+						<a href="articles/antioxidants.php">
+							<h2>What are Antioxidants?</h2>
+							<h5 class="author">by Andrew Le</h5>
+							<div class="index_article_img">
+								<img src="img/chamomile.jpg" alt="portrait">
+							</div>
+						</a>
+						<div class="index_article_text">
+							<p>Aenean ornare pretium nunc a tincidunt. Proin ut fermentum leo, non 
+							eleifend neque. Vivamus porta lobortis leo, non efficitur lacus volutpat
+							id. Vestibulum iaculis nulla quis lectus venenatis sodales vel a enim. 
+							Maecenas vel tempus est, elementum faucibus arcu.</p>
+						</div>
+						<div class="anchor">
+						</div>
+					</div>
 				</div>
 				<div class="anchor">
 				</div>
