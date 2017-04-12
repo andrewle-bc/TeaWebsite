@@ -90,37 +90,28 @@
 					</div>
 					
 					<div class="info_text">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-						Phasellus tempor, arcu et sagittis elementum, mi quam ultricies tortor, 
-						a lacinia urna diam et dolor. Nulla vitae enim non dolor aliquet 
-						efficitur at non felis. Morbi non felis sit amet felis mollis malesuada 
-						sed quis neque. Nunc auctor dolor ut ex rhoncus volutpat sit amet 
-						quis felis. </p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-						Phasellus tempor, arcu et sagittis elementum, mi quam ultricies tortor, 
-						a lacinia urna diam et dolor. Nulla vitae enim non dolor aliquet 
-						efficitur at non felis. Morbi non felis sit amet felis mollis malesuada 
-						sed quis neque. Nunc auctor dolor ut ex rhoncus volutpat sit amet 
-						quis felis. </p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-						Phasellus tempor, arcu et sagittis elementum, mi quam ultricies tortor, 
-						a lacinia urna diam et dolor. Nulla vitae enim non dolor aliquet 
-						efficitur at non felis. Morbi non felis sit amet felis mollis malesuada 
-						sed quis neque. Nunc auctor dolor ut ex rhoncus volutpat sit amet 
-						quis felis. </p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-						Phasellus tempor, arcu et sagittis elementum, mi quam ultricies tortor, 
-						a lacinia urna diam et dolor. Nulla vitae enim non dolor aliquet 
-						efficitur at non felis. Morbi non felis sit amet felis mollis malesuada 
-						sed quis neque. Nunc auctor dolor ut ex rhoncus volutpat sit amet 
-						quis felis. </p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-						Phasellus tempor, arcu et sagittis elementum, mi quam ultricies tortor, 
-						a lacinia urna diam et dolor. Nulla vitae enim non dolor aliquet 
-						efficitur at non felis. Morbi non felis sit amet felis mollis malesuada 
-						sed quis neque. Nunc auctor dolor ut ex rhoncus volutpat sit amet 
-						quis felis. </p>
+						<p><h2>Herbal and Fruit Teas</h2>Herbal teas and fruit teas do not come from the Camellia sinensis plant and are 
+						technically not considered teas. It is not uncommon however to use the term tea to refer to plant and floral infusions 
+						or tisanes. These tisanes are usually blends of dried herbs, spices, fruit and other plant materials that are brewed in 
+						hot water similar to how teas would. Because they do not contain actual tea leaves, these beverages are usually free of 
+						caffeine and are much gentler on the body. In addition, depending on the materials that comprise the blend, herbal teas 
+						may have their own added particular health benefits that normal tea would not. Such cases would be traditional Chinese 
+						medicinal teas which have been used to enhance the immune system.</p>
+						<p>Examples of herbal and fruit teas include Rooibos teas, ginseng teas, coffee blossom teas, hibiscus teas and chamomile.</p>
 						
+						<p><h2>Pu-erh Tea</h2>Pu-erh teas are a special variety of tea that involves undergoing a fermenting process. Produced primarily 
+						in the Yunnan province of China and named after Pu’er City, this variety of tea is comprised of larger tea leaves that 
+						can be aged for several years. During the aging process, the tea leaves are exposed to microflora and bacteria to ferment the 
+						tea, similar to wine or yogurt. Prior to aging, the type is pressed into a number of shapes such as discs or bricks. The result 
+						of the fermentation process is a hearty, extremely dark brew. The taste is earthy and strong.</p>
+
+						<p>Pu-erh tea shares many similarities to that of fine wine. Like wine, Pu-erh tea is highly regulated to ensure authenticity; only 
+						tea leaves originating from the Yunnan province and fermented can be called Pu-Erh tea. In addition, many connoisseurs of Pu-erh teas 
+						re fond of collecting very old and well-aged teas, with some of the most treasured vintages being over 30 years old.</p>
+						
+						<p>In Chinese tradition, Pu-erh teas are said to have many health benefits that regularly tea does not. It is suggested that Pu-erh 
+						tea helps the body with digestion and weight loss. While these claims are unsubstantiated, the tea variety has been found to help with 
+						the lowering of cholesterol. </p>
 					</div>
 				</div>
 			</div>

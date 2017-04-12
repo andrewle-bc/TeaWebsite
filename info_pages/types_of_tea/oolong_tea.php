@@ -90,37 +90,32 @@
 					</div>
 					
 					<div class="info_text">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-						Phasellus tempor, arcu et sagittis elementum, mi quam ultricies tortor, 
-						a lacinia urna diam et dolor. Nulla vitae enim non dolor aliquet 
-						efficitur at non felis. Morbi non felis sit amet felis mollis malesuada 
-						sed quis neque. Nunc auctor dolor ut ex rhoncus volutpat sit amet 
-						quis felis. </p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-						Phasellus tempor, arcu et sagittis elementum, mi quam ultricies tortor, 
-						a lacinia urna diam et dolor. Nulla vitae enim non dolor aliquet 
-						efficitur at non felis. Morbi non felis sit amet felis mollis malesuada 
-						sed quis neque. Nunc auctor dolor ut ex rhoncus volutpat sit amet 
-						quis felis. </p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-						Phasellus tempor, arcu et sagittis elementum, mi quam ultricies tortor, 
-						a lacinia urna diam et dolor. Nulla vitae enim non dolor aliquet 
-						efficitur at non felis. Morbi non felis sit amet felis mollis malesuada 
-						sed quis neque. Nunc auctor dolor ut ex rhoncus volutpat sit amet 
-						quis felis. </p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-						Phasellus tempor, arcu et sagittis elementum, mi quam ultricies tortor, 
-						a lacinia urna diam et dolor. Nulla vitae enim non dolor aliquet 
-						efficitur at non felis. Morbi non felis sit amet felis mollis malesuada 
-						sed quis neque. Nunc auctor dolor ut ex rhoncus volutpat sit amet 
-						quis felis. </p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-						Phasellus tempor, arcu et sagittis elementum, mi quam ultricies tortor, 
-						a lacinia urna diam et dolor. Nulla vitae enim non dolor aliquet 
-						efficitur at non felis. Morbi non felis sit amet felis mollis malesuada 
-						sed quis neque. Nunc auctor dolor ut ex rhoncus volutpat sit amet 
-						quis felis. </p>
+						<p>The name Oolong literally translates as “Black Dragon” and is very popular in China. Oolong teas are semi-oxidized 
+						with levels ranging from 8% – 85%. Oolong teas are characterised for being extremely flavourful and highly aromatic. 
+						As such, these teas are consumed without milk and sugar and can often be used for repeat brewings.</p>
 						
+						<p>The leaves used in producing oolong tea are generally larger and more mature when picked. These leaves are then withered 
+						under a strong sun and partially oxidized. The leaves can be prepared in one of two distinct ways: twisted into long curly 
+						leaves or rolled into small beads. </p>
+						
+						<h2>Notable Oolong varieties</h2>
+						
+						<p><h3>Tie Guan Yin</h3>Translated as The Iron Buddha or Iron Goddess of Mercy, Tie Guan Yin is a premium variety of oolong 
+						tea produced in the Anxi area of China. This variety of oolong is a rolled oolong that produces a sweet and floral brew with a 
+						creamy drinking texture. This tea is only lightly oxidized, making it closer to green tea than black.</p>
+
+						<p><h3>Da Hong Pao </h3>One of the tea varieties belonging to the Wuyi categorization of teas. Wuyi teas are black and oolong 
+						teas grown in the Wuyi Mountains of northern Fujian, China. These teas have unusually rich, complex tastes with smoky 
+						overtones and a sweet aftertaste. The legend surround this tea involves the tea being used to cure the mother of a Chinese 
+						emperor of an illness. The emperor then sent red robes to clothe the bushes from which these teas originated on the Wuyi Mountain. 
+						These teas are famously expensive, where an ounce can sell for US $35,436. Due to its high quality and rarity, Da Hong Pao 
+						tea is used for highly honored guests in China.</p>
+						
+						<p><h3>Dong Ding</h3>Literally translated as “Frozen Summit”, Dong Ding tea derives its name from the mountain in Taiwan 
+						where the tea is cultivated. These plants were transplanted to the mountain from the Wuyi mountains famous for its oolong 
+						teas. This tea variety has only 15% - 30% oxidization and produces a toasty, woody flavour. The brew has a smooth mouth feel 
+						with a rich and sweet taste. </p>
+
 					</div>
 				</div>
 			</div>

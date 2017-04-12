@@ -22,12 +22,7 @@
 			</div>
 		</header>
 	
-		<!--Navbar  that stays fixed at top of screen.
-		Basically had to create two nav bars, one of which (stickyNav) is hidden
-		underneath the banner until the user scrolls past the first nav bar. There's an easier way to 
-		do this with JavaScript but I don't know how yet. I will change the code
-		after I learn how. For now, this accomplishes the same thing. Would be 100x easier to have the nav
-		bar above the banner apparently but whatever.-->	
+		
 		<nav id="stickyNav">
 			<div id ="logoBox">
 			<img id ="logo" src="img/logo.png" alt="logo"><!--placeholder logo-->
@@ -90,36 +85,28 @@
 					</div>
 					
 					<div class="info_text">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-						Phasellus tempor, arcu et sagittis elementum, mi quam ultricies tortor, 
-						a lacinia urna diam et dolor. Nulla vitae enim non dolor aliquet 
-						efficitur at non felis. Morbi non felis sit amet felis mollis malesuada 
-						sed quis neque. Nunc auctor dolor ut ex rhoncus volutpat sit amet 
-						quis felis. </p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-						Phasellus tempor, arcu et sagittis elementum, mi quam ultricies tortor, 
-						a lacinia urna diam et dolor. Nulla vitae enim non dolor aliquet 
-						efficitur at non felis. Morbi non felis sit amet felis mollis malesuada 
-						sed quis neque. Nunc auctor dolor ut ex rhoncus volutpat sit amet 
-						quis felis. </p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-						Phasellus tempor, arcu et sagittis elementum, mi quam ultricies tortor, 
-						a lacinia urna diam et dolor. Nulla vitae enim non dolor aliquet 
-						efficitur at non felis. Morbi non felis sit amet felis mollis malesuada 
-						sed quis neque. Nunc auctor dolor ut ex rhoncus volutpat sit amet 
-						quis felis. </p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-						Phasellus tempor, arcu et sagittis elementum, mi quam ultricies tortor, 
-						a lacinia urna diam et dolor. Nulla vitae enim non dolor aliquet 
-						efficitur at non felis. Morbi non felis sit amet felis mollis malesuada 
-						sed quis neque. Nunc auctor dolor ut ex rhoncus volutpat sit amet 
-						quis felis. </p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-						Phasellus tempor, arcu et sagittis elementum, mi quam ultricies tortor, 
-						a lacinia urna diam et dolor. Nulla vitae enim non dolor aliquet 
-						efficitur at non felis. Morbi non felis sit amet felis mollis malesuada 
-						sed quis neque. Nunc auctor dolor ut ex rhoncus volutpat sit amet 
-						quis felis. </p>
+						<p>White tea is among the most delicate of tea varieties because it is so minimally processed. It is made from the 
+						youngest and most delicate leaf tips and buds.  The buds are hand plucked before 
+						they are allowed to open, withered and then dried slowly at low temperatures. The leaves are not rolled and they 
+						receive only slight oxidization. The resulting flavour is extremely gentle and mild with very natural sweetness.</p>
+
+						<p>Due to the care required to oversee the detail oriented process of producing white tea, it is usually one of the 
+						more expensive varieties. White tea is almost primarily produced in China, in the Fujian Province. But due to 
+						the increasing popularity of white teas, production has spread to other large tea producing regions such as 
+						Darjeeling and Sri Lanka. White tea generally requires a very mild climate and abundant rainfall.</p>
+						
+						<h2>Popular types of White Tea</h2>
+						
+						<p><h3>White Peony</h3>Made from the first and second tips of a tea stem, White Peony is the most popular type of white 
+						tea. Its name is derived from the manner in which the brewed leaves will bloom like its namesake flower. The 
+						brew is a very pale green, almost yellow with a strong fruity and floral flavour and aroma. It generally has a 
+						fuller flavour than the other major type of white tea.</p>
+						
+						<p><h3>Bai Hao (Silver Needle)</h3>The Silver Needle type of white tea is made only from the single tips of the tea stem. 
+						When dried, these tips lose their colour and resemble silver needles or white hairs. This is by far the most expensive of white
+						teas due to the selective nature of choosing the leaves. When brewed the tea will have a pale-yellow colour with white hairs reflecting 
+						in the light. The tea has a sweet and delicate flavour.</p>
+
 						
 					</div>
 				</div>

@@ -126,7 +126,7 @@
 						<li id="GreenTea" onmouseout="deEmphCircle('info_greentea')" onmouseover="emphCircle('GreenTea', 'info_greentea')">
 							<a class="TeaLink" href="info_pages/types_of_tea/green_tea.php">
 								<div class="text">
-									<h1>Green Tea</h1>
+									<!--<h1>Green Tea</h1>-->
 								</div>
 							</a>
 						</li>
@@ -134,7 +134,7 @@
 						<li id="WhiteTea" onmouseout="deEmphCircle('info_whitetea')" onmouseover="emphCircle('WhiteTea', 'info_whitetea')">
 							<a class="TeaLink" href="info_pages/types_of_tea/white_tea.php">
 								<div class="text">
-									<h1>White Tea</h1>
+									<!--<h1>White Tea</h1>-->
 								</div>
 							</a>
 						</li>
@@ -142,7 +142,7 @@
 						<li id="OtherTea" onmouseout="deEmphCircle('info_othertea')" onmouseover="emphCircle('OtherTea', 'info_othertea')">
 							<a class="TeaLink" href="info_pages/types_of_tea/other_teas.php">
 								<div class="text">
-									<h1>Other Teas</h1>
+									<!--<h1>Other Teas</h1>-->
 								</div>
 							</a>
 						</li>
@@ -150,7 +150,7 @@
 						<li id="OolongTea" onmouseout="deEmphCircle('info_oolongtea')" onmouseover="emphCircle('OolongTea', 'info_oolongtea')">
 							<a class="TeaLink" href="info_pages/types_of_tea/oolong_tea.php">
 								<div class="text">
-									<h1>Oolong Tea</h1>
+									<!--<h1>Oolong Tea</h1>-->
 								</div>
 							</a>
 						</li>
@@ -158,7 +158,7 @@
 						<li id="BlackTea" onmouseout="deEmphCircle('info_blacktea')" onmouseover="emphCircle('BlackTea', 'info_blacktea')">
 							<a class="TeaLink" href="info_pages/types_of_tea/black_tea.php">
 								<div class="text">
-									<h1>Black Tea</h1>
+									<!--<h1>Black Tea</h1>-->
 								</div>
 							</a>
 						</li>
@@ -166,61 +166,59 @@
 					
 					<div id="info_greentea" class="popup">
 						<div class="popup">
-							<img src="img/green_tea_circle.jpg" alt="portrait">
+							<img src="img/greentea.jpg" alt="portrait">
 						</div>
 						<p class="popup"> 
-							<h5>GREEN TEA</h5> 
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempor, 
-							arcu et sagittis elementum, mi quam ultricies tortor, a lacinia urna diam
-							et dolor. Nulla vitae enim non dolor aliquet efficitur at non felis.
+							<h3>GREEN TEA</h3> 
+							Green tea is by far the most popular tea in Eastern Asia. Originating from China prior to 600 A.D., 
+							Green tea is an intrinsic part of a Chinese culture. Green teas are entirely unoxidized and as such, 
+							keep their vital green colour.
 						</p>
 					</div>
 					
 					<div id="info_whitetea" class="popup">
 						<div class="popup">
-							<img src="img/white_tea_circle.jpg" alt="portrait">
+							<img src="img/whitetea.jpg" alt="portrait">
 						</div>
 						<p class="popup"> 
-							<h5>WHITE TEA</h5> 
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempor, 
-							arcu et sagittis elementum, mi quam ultricies tortor, a lacinia urna diam
-							et dolor. Nulla vitae enim non dolor aliquet efficitur at non felis.
+							<h3>WHITE TEA</h3> 
+							White tea is among the most delicate of tea varieties because it is so minimally processed. 
+							It is made from the youngest and most delicate leaf tips and buds.
 						</p>
 					</div>
 					
 					<div id="info_othertea" class="popup">
 						<div class="popup">
-							<img src="img/other_tea_circle.jpg" alt="portrait">
+							<img src="img/herbaltea.jpg" alt="portrait">
 						</div>
 						<p class="popup"> 
-							<h5>OTHER TEAS</h5> 
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempor, 
-							arcu et sagittis elementum, mi quam ultricies tortor, a lacinia urna diam
-							et dolor. Nulla vitae enim non dolor aliquet efficitur at non felis.
+							<h3>OTHER TEAS</h3> 
+							A number of teas do not fit into the conventional definitions of tea. Chief among them are
+							Herbal and Fruit teas, or tisanes, and fermented teas, particularly Pu-erh Tea.
 						</p>
 					</div>
 					
 					<div id="info_oolongtea" class="popup">
 						<div class="popup">
-							<img src="img/oolong_tea_circle.jpg" alt="portrait">
+							<img src="img/oolongtea.jpg" alt="portrait">
 						</div>
 						<p class="popup"> 
-							<h5>OOLONG TEA</h5> 
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempor, 
-							arcu et sagittis elementum, mi quam ultricies tortor, a lacinia urna diam
-							et dolor. Nulla vitae enim non dolor aliquet efficitur at non felis.
+							<h3>OOLONG TEA</h3> 
+							The name Oolong literally translates as “Black Dragon”.  Oolong teas are semi-oxidized with 
+							levels ranging from 8% – 85%. They are characterised for being extremely flavourful and highly 
+							aromatic.
 						</p>
 					</div>
 					
 					<div id="info_blacktea" class="popup">
 						<div class="popup">
-							<img src="img/black_tea_circle.jpg" alt="portrait">
+							<img src="img/blacktea.jpg" alt="portrait">
 						</div>
 						<p class="popup"> 
-							<h5>BLACK TEA</h5> 
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempor, 
-							arcu et sagittis elementum, mi quam ultricies tortor, a lacinia urna diam
-							et dolor. Nulla vitae enim non dolor aliquet efficitur at non felis.
+							<h3>BLACK TEA</h3> 
+							Black tea is the most commonly known variety of tea in North America. It is the most highly oxidized 
+							and most fully fermented of the types of tea. Due to this high oxidation, black teas will usually have a 
+							much bolder flavour in comparison to other teas. 
 						</p>
 					</div>
 					
