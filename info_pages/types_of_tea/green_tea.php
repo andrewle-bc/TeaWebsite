@@ -25,12 +25,12 @@
 		
 		<nav id="stickyNav">
 			<div id ="logoBox">
-			<img id ="logo" src="img/logo.png" alt="logo"><!--placeholder logo-->
+			<img id ="logo" src="../../img/logo.png" alt="logo"><!--placeholder logo-->
 			<h1 id="logoTitle">SereniTEA</h1>
 			</div>
 			<ul id="navList">
 				<li><a href="../../index.php">Home</a></li>
-				<li class="infoDropSticky"><a href="info_main.php">Information</a><!--Class to activate drop down menu-->
+				<li class="infoDropSticky"><a href="../../info_main.php">Information</a><!--Class to activate drop down menu-->
 					<ul id="dropDown" class="infoDropContentSticky"><!--Drop down menu contents -->
 						<li><a href="../../info_main.php">Types of Tea</a></li>
 						<li><a href="../../info_page.php">Tea Producers</a></li>
