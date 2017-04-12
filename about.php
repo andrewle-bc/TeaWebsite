@@ -36,10 +36,10 @@
 				<li class="infoDropSticky"><a href="info_main.php">Information</a><!--Class to activate drop down menu-->
 					<ul id="dropDown" class="infoDropContentSticky"><!--Drop down menu contents -->
 						<li><a href="info_main.php">Types of Tea</a></li>
-						<li><a href="info_page.php">Tea Producers</a></li>
-						<li><a href="info_page.php">How is Tea Produced</a></li>
-						<li><a href="steeping_methods.php">Steeping Methods</a></li>
-						<li><a href="info_page.php">The History of Tea</a></li>
+						<li><a href="info_pages/tea_location.php">Tea Producers</a></li>
+						<li><a href="info_pages/tea_production.php">How is Tea Produced</a></li>
+						<li><a href="info_pages/brewing_methods.php">Brewing Methods</a></li>
+						<li><a href="info_pages/tea_history.php">The History of Tea</a></li>
 					</ul>
 				</li>
 				<li><a href="forum.php">Forum</a></li>
@@ -64,7 +64,7 @@
 		<main>
 			<div id="breadcrumbs"> <!-- about page -->
 				<ul>
-					<li><a href="index..php">Home</a> &nbsp; </li>
+					<li><a href="index..php">Home</a> &nbsp; ></li>
 					<li class="lastcrumb">About<li>
 				</ul>   
 			</div>
@@ -127,7 +127,7 @@
 					
 				<div class="about_author" id="Jenny">
 					<div class="about_portrait">
-						<img src="img/portrait.png" alt="Protrait">
+						<img src="img/Jenny.jpg" alt="Protrait">
 					</div>
 					<div class="about_content"> <!--this div is important divide up the left and right floats-->
 						<div class="about_description">

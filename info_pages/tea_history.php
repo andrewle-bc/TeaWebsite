@@ -18,7 +18,7 @@
 	<!--Header-->
 		<header>
 			<div id="header_interior">
-					<img id="indexCover" src="../img/infoPage.png" alt="contactUsBanner"><!--placeholder logo-->
+					<img id="indexCover" src="img/infoPage.png" alt="contactUsBanner"><!--placeholder logo-->
 			</div>
 		</header>
 	
@@ -32,10 +32,10 @@
 				<li class="infoDropSticky"><a href="info_main.php">Information</a><!--Class to activate drop down menu-->
 					<ul id="dropDown" class="infoDropContentSticky"><!--Drop down menu contents -->
 						<li><a href="../info_main.php">Types of Tea</a></li>
-						<li><a href="../info_page.php">Tea Producers</a></li>
-						<li><a href="../info_page.php">How is Tea Produced</a></li>
-						<li><a href="../steeping_methods.php">Steeping Methods</a></li>
-						<li><a href="../info_page.php">The History of Tea</a></li>
+						<li><a href="tea_location.php">Tea Producers</a></li>
+						<li><a href="tea_production.php">How is Tea Produced</a></li>
+						<li><a href="brewing_method.php">Brewing Methods</a></li>
+						<li><a href="tea_history.php">The History of Tea</a></li>
 					</ul>
 				</li>
 				<li><a href="../forum.php">Forum</a></li>
@@ -60,8 +60,8 @@
 		<main>
 			<div id="breadcrumbs"> <!-- information page -->
 				<ul>
-					<li><a href="../index.php">Home</a> &nbsp; ></li> 
-					<li><a href="../info_main.php">Information</a> &nbsp; ></li>
+					<li><a href="index.php">Home</a> &nbsp; ></li> 
+					<li><a href="info_main.php">Information</a> &nbsp; ></li>
 					<li class="lastcrumb">The History of Tea</li>
 				</ul>
 			</div>
