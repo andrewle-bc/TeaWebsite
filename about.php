@@ -147,7 +147,7 @@
 				
 				<div class="about_author" id="Setareh">
 					<div class="about_portrait">
-						<img src="img/portrait.png" alt="Protrait">
+						<img src="img/Setareh.jpg" alt="Protrait">
 					</div>
 					<div class="about_content"> <!--this div is important divide up the left and right floats-->
 						<div class="about_description">
