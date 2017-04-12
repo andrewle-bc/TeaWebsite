@@ -290,16 +290,15 @@ nav li form input[type=text]:hover{
 
 nav li form input[type=text]:focus{
 	box-sizing: border-box;
-	background-color: white;
-	background-position: left;
+	background-color: #6cbd9a;
+	 
 	color: #485952;
-	width: 150px;
-	margin-top: -10px;
-	margin-bottom: 0;
+	width: 130px;
+	
 	margin-left: 10px;
 	margin-right: 10px;
-	overflow: visible;
-	z-index:7;
+	
+	z-index:100;
 	outline: none;
 }
 

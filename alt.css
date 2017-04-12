@@ -260,12 +260,11 @@ nav li form input[type=text]:hover{
 
 nav li form input[type=text]:focus{
 	box-sizing: border-box;
-	background-color: white;
-	background-position: left; 
+	background-color: #6cbd9a;
+	 
 	color: #485952;
-	width: 155px;
-	margin-top: -10px;
-	margin-bottom: 10px;
+	width: 130px;
+	
 	margin-left: 10px;
 	margin-right: 10px;
 	
