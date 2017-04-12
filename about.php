@@ -70,14 +70,15 @@
 			</div>
 		
 			<div id="wrapper">
-				<div class="about_author">
+			
+				<div class="about_author" id="Segal">
 					<div class="about_portrait">
-						<img src="img/portrait.png" alt="Protrait">
+						<img src="img/Segal.jpg" alt="Protrait">
 					</div>
 					<div class="about_content"> <!--this div is important divide up the left and right floats-->
 						<div class="about_description">
 							<p>
-							PICTURE BIGGER THAN TEXT<br>
+							Segal Au<br>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 							Phasellus tempor, arcu et sagittis elementum, mi quam ultricies tortor, 
 							a lacinia urna diam et dolor.
@@ -88,14 +89,68 @@
 					</div>
 				</div>
 				
-				<div class="about_author">
+				<div class="about_author" id="Jeff">
+					<div class="about_portrait">
+						<img src="img/Jeff.jpg" alt="Protrait">
+					</div>
+					<div class="about_content"> <!--this div is important divide up the left and right floats-->
+						<div class="about_description">
+							<p>
+							Jeff Choy<br>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+							Phasellus tempor, arcu et sagittis elementum, mi quam ultricies tortor, 
+							a lacinia urna diam et dolor.
+							</p>
+						</div>
+					</div>
+					<div class="anchor"><!--this div is important anchor the left and right floats-->
+					</div>
+				</div>
+					
+				<div class="about_author" id="Andrew">
 					<div class="about_portrait">
 						<img src="img/portrait.png" alt="Protrait">
 					</div>
 					<div class="about_content"> <!--this div is important divide up the left and right floats-->
 						<div class="about_description">
 							<p>
-							TEXT BIGGER THAN PICTURE<br>
+							Andrew Le<br>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+							Phasellus tempor, arcu et sagittis elementum, mi quam ultricies tortor, 
+							a lacinia urna diam et dolor.
+							</p>
+						</div>
+					</div>
+					<div class="anchor"><!--this div is important anchor the left and right floats-->
+					</div>
+				</div>
+					
+				<div class="about_author" id="Jenny">
+					<div class="about_portrait">
+						<img src="img/portrait.png" alt="Protrait">
+					</div>
+					<div class="about_content"> <!--this div is important divide up the left and right floats-->
+						<div class="about_description">
+							<p>
+							Jenny Ly<br>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+							Phasellus tempor, arcu et sagittis elementum, mi quam ultricies tortor, 
+							a lacinia urna diam et dolor.
+							</p>
+						</div>
+					</div>
+					<div class="anchor"><!--this div is important anchor the left and right floats-->
+					</div>
+				</div>
+				
+				<div class="about_author" id="Setareh">
+					<div class="about_portrait">
+						<img src="img/portrait.png" alt="Protrait">
+					</div>
+					<div class="about_content"> <!--this div is important divide up the left and right floats-->
+						<div class="about_description">
+							<p>
+							Setareh Shir Koobi<br>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 							Phasellus tempor, arcu et sagittis elementum, mi quam ultricies tortor, 
 							a lacinia urna diam et dolor. Nulla vitae enim non dolor aliquet 
