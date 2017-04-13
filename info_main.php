@@ -166,7 +166,7 @@
 					
 					<div id="info_greentea" class="popup">
 						<div class="popup">
-							<img src="img/greentea.jpg" alt="portrait">
+							<img src="img/greentea_wheel.jpg" alt="portrait">
 						</div>
 						<p class="popup"> 
 							<h3>GREEN TEA</h3>
@@ -178,7 +178,7 @@
 					
 					<div id="info_whitetea" class="popup">
 						<div class="popup">
-							<img src="img/whitetea.jpg" alt="portrait">
+							<img src="img/whitetea_wheel.jpg" alt="portrait">
 						</div>
 						<p class="popup"> 
 							<h3>WHITE TEA</h3> 
@@ -189,7 +189,7 @@
 					
 					<div id="info_othertea" class="popup">
 						<div class="popup">
-							<img src="img/herbaltea.jpg" alt="portrait">
+							<img src="img/herbaltea_wheel.jpg" alt="portrait">
 						</div>
 						<p class="popup"> 
 							<h3>OTHER TEAS</h3> 
@@ -200,7 +200,7 @@
 					
 					<div id="info_oolongtea" class="popup">
 						<div class="popup">
-							<img src="img/oolongtea.jpg" alt="portrait">
+							<img src="img/oolongtea_wheel.jpg" alt="portrait">
 						</div>
 						<p class="popup"> 
 							<h3>OOLONG TEA</h3> 
@@ -212,7 +212,7 @@
 					
 					<div id="info_blacktea" class="popup">
 						<div class="popup">
-							<img src="img/blacktea.jpg" alt="portrait">
+							<img src="img/blacktea_wheel.jpg" alt="portrait">
 						</div>
 						<p class="popup"> 
 							<h3>BLACK TEA</h3> 
