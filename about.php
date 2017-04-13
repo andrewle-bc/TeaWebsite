@@ -80,7 +80,7 @@
 							<p>
 							<strong>Segal Au</strong>
 							<br><br>
-							Hi! My name is Segal and I am a living bird meme. I am the best hearthstone player in CST, my highest was <em><u>rank 17</u></em>, so almost Legend. I enjoy long walks on the beach, and I frequency fly to nearby boats.
+							Hi! My name is Segal and I am a living bird meme. I am the best hearthstone player in CST, my highest was <em><u>rank 17</u></em> (so almost Legend.) I enjoy long walks on the beach, and I frequency fly to nearby boats.
 							</p>
 						</div>
 					</div>
@@ -97,9 +97,8 @@
 							<p>
 							<strong>Joof Choy</strong>
 							<br><br>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-							Phasellus tempor, arcu et sagittis elementum, mi quam ultricies tortor, 
-							a lacinia urna diam et dolor.
+							Jeff is a computing student at BCIT. He has a degree in Political Science from the University of British Columbia. He is interested in basketball, politics and hip-hop. He is an avid Kanye defender.
+
 							</p>
 						</div>
 					</div>
@@ -116,9 +115,7 @@
 							<p>
 							<strong>Andrew Le</strong>
 							<br><br>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-							Phasellus tempor, arcu et sagittis elementum, mi quam ultricies tortor, 
-							a lacinia urna diam et dolor.
+							Andrew has actually reached the rank of <em>Legend</em> in hearthstone.
 							</p>
 						</div>
 					</div>
@@ -154,20 +151,7 @@
 							<p>
 							<strong>Setareh Shir Koobi</strong>
 							<br><br>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-							Phasellus tempor, arcu et sagittis elementum, mi quam ultricies tortor, 
-							a lacinia urna diam et dolor. Nulla vitae enim non dolor aliquet 
-							efficitur at non felis. Morbi non felis sit amet felis mollis malesuada 
-							sed quis neque. Nunc auctor dolor ut ex rhoncus volutpat sit amet 
-							quis felis.
-							</p>
-							<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-							Phasellus tempor, arcu et sagittis elementum, mi quam ultricies tortor, 
-							a lacinia urna diam et dolor. Nulla vitae enim non dolor aliquet 
-							efficitur at non felis. Morbi non felis sit amet felis mollis malesuada 
-							sed quis neque. Nunc auctor dolor ut ex rhoncus volutpat sit amet 
-							quis felis.
+							Setareh Shir-Koobi is Iranian and has a naturally passion for tea. She has a background in graphic design and is currently studying web development. Her strengths are Adobe Photoshop, Adobe InDesign, Adobe Illustrator, and programming languages such as, HTML, CSS, and JavaScript.
 							</p>
 						</div>
 					</div>

@@ -463,6 +463,7 @@ main {
 }
 .article_block{
 	display:block;
+	height:230px;
 }
 .author {
 	margin:1px;

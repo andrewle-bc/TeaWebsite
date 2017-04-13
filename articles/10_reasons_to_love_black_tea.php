@@ -9,7 +9,7 @@
 	<html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>SereniTEA - 10 Positivi’tea’ Benefits</title>
+		<title>SereniTEA - 10 Reasons to Love Black Tea!</title>
 		<link rel="stylesheet" href="../alt.css">
 	</head>
 
@@ -67,13 +67,13 @@
 			<div id="breadcrumbs"> <!-- news articles page -->
 				<ul>
 					<li><a href="../index.php">Home</a> &nbsp; ></li>
-					<li class="lastcrumb">The Various Health Benefits of Tea</li>
+					<li class="lastcrumb">10 Reasons to Love Black Tea!</li>
 				</ul>    
 			</div>
 			<div id="wrapper">
 				<article id="article_body">
 					<h2 id="article_title">
-					The Various Health Benefits of Tea
+					10 Reasons to Love Black Tea!
 					</h2>
 					
 					<div id="article_banner">
@@ -87,7 +87,7 @@
 					
 					<div id="article_author">
 						<h4>
-						<a href="../about.php">Andrew Le</a>
+						<a href="../about.php#Setareh">Setareh Shir Koobi</a>
 						<br>
 						date and time
 						</h4>
@@ -99,49 +99,27 @@
 					<hr>
 					
 					<div id="article_content">
-						<h1>10 Positivi’tea’ Benefits<h1>
-						<h2>1. Tea contains antioxidants</h2>
 						<p>
-							Because who doesn’t love buzzwords? For more information, please refer to <a href=”antioxidants.php">this article</a> for more information.
+						1.	Oral Health: Studies funded by the Tea Trade Health Research Association suggests that black tea reduces plaque formation as well as restricts bacteria growth that promotes the formation of cavities and tooth decays. Polyphenols found in black tea kill and surpass cavity-causing bacteria as well as hinder the growth of bacterial enzymes that form the sticky-like material that binds plaque to our teeth.
+						</p><p>
+						2.	Increased Energy: Unlike other drinks that have a relatively higher caffeine content, the low amounts found in tea can help enhance blood flow to the brain without over-stimulating the heart. It also stimulates the metabolism and respiratory system, as well as the heart and the kidneys.
+						</p><p>
+						3.	A Better Heart: As identified by Arab L. et al. in their 2009 research paper called “ Green and black tea consumption and risk of stroke: a meta-analysis”, it is seen that regardless of people’s country of origin, individuals who consume 3 or more cups of tea had a 21% lower risk of a stroke than people who consume less than 1 cup of green or black tea per day.
+						</p><p>
+						4. Antioxidants: Black tea contains polyphenols, which are also antioxidants that help block DNA damage associated with tobacco or other toxic chemicals. These antioxidants are different from those obtained from fruits and vegetables and therefore as a regular part of our diet they can provide additional benefits towards a healthy lifestyle.
+						</p><p>
+						5.	Cancer Prevention: Though a lot more research is required to confidently suggest cancer prevention techniques; it has been suggested that women who drink black tea regularly have a lower chance of ovarian cancer.
+						</p><p>
+						6.	Healthy Bones: It has also been suggested that regular tea drinkers have stronger bones and lower probability of developing arthritis due to the phytochemicals found in tea.
+						</p><p>
+						7.	Healthy Digestive Tract: In addition to improving your immune system, it has a therapeutic effect on gastric and intestinal illnesses.
+						</p><p>
+						8.	Lower Risk of Diabetes: Based on a research study conducted of elderly people living in the Mediterranean islands it was discovered that people that had been consuming black tea on a long-term basis 1-2 cups a day had a 70% lower chance of having or developing type 2 diabetes.
+						</p><p>
+						9.	Stress Relief: We all are aware and well experienced about the calming and relaxing benefits of black tea. Not only does it help slow you down after a long day, studies show that the amino acid L-theanine found in black tea can help you relax and concentrate better. Black tea has also been shown to reduce levels of the stress hormone cortisol when consumed in moderate amounts on a regular basis.
+						</p><p>
+						10.	Better Immune System: Black tea contains alkylamine antigens that help boost our immune response. In addition, it also contains tannins that have the ability to fight viruses and hence keep us protected from influenza, stomach flu and other such common viruses in our everyday lives.
 						</p>
-						<h2>2. Tea fights diseases</h2>
-						<p>
-							Tea has been found to reduce to risk of Parkinson’s disease, Alzheimer’s disease, and <a href=” https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3689013/”>type 2 diabetes</a>.
-						</p>
-						<h2>3. Tea has less caffeine than coffee</h2> 
-						<p>
-							The most caffeinated tea, black tea, contains 30-75mg per cup; coffee contains 90-200mg of caffeine per cup. Tea also contains L-theanine which lowers the absorption rate of caffeine, which is why you do not get that sharp spike in energy like you do in coffee.
-						</p>
-						<h2>4. Tea reduces the risk of stroke</h2>
-						<p>
-							<a href=” https://www.ncbi.nlm.nih.gov/pubmed/19228856”>Proof</a>
-						</p>
-						<h2>5. Tea lets you live forever</h2>
-						<p>
-							Not really, but tea does reduce the risk of breast cancer, lung cancer, and prostate cancer.
-						</p>
-						<h2>6. Tea can help you lose weight</h2>
-						<p>
-							Tea promotes a healthy cardiovascular system, improving cholesterol levels, increasing blood flow, and burning fat. Caffeine helps to increase endurance during physical activities.
-						</p>
-						<h2>7. Your ‘Tea’th will shine</h2>
-						<p>
-							Black, and green teas contain fluoride which are absorbed by your teeth and bones. Let’s ignore the fact that it also contains tannins that can also stain teeth.
-						</p>
-						<h2>8. Tea has an endless variety</h2>
-						<p>
-							From green tea, black tea, white tea to Ice-T, there is a large variety of tea to choose from. Specialty teas have been becoming especially popular from distributors such as DavidsTea and Teavana.
-						</p>
-						<h2>9. Tea reduces stress</h2>
-						<p>
-							How can you be mad while drinking a nice cup of tea? 
-						</p>
-						<h2>10. Tea is more environmentally friendly than coffee</h2>
-							<p>
-							Both tea and coffee both require harvesting, processing (drying), and shipping. Coffee is more intensive to process than tea, and weights significantly more for exportation.
-						</p>
-						
-						<h5>Disclaimer: this article does contain satire, please do not take this to heart.</h5>
 
 					</div>
 					<hr>

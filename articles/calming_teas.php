@@ -9,7 +9,7 @@
 	<html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>SereniTEA - What are Antioxidants?</title>
+		<title>SereniTEA - Calming Teas</title>
 		<link rel="stylesheet" href="../alt.css">
 	</head>
 
@@ -67,13 +67,13 @@
 			<div id="breadcrumbs"> <!-- news articles page -->
 				<ul>
 					<li><a href="../index.php">Home</a> &nbsp; ></li>
-					<li class="lastcrumb">What are Antioxidants?</li>
+					<li class="lastcrumb">Calming Teas</li>
 				</ul>    
 			</div>
 			<div id="wrapper">
 				<article id="article_body">
 					<h2 id="article_title">
-					What are Antioxidants?
+					Calming Teas
 					</h2>
 					
 					<div id="article_banner">
@@ -87,7 +87,7 @@
 					
 					<div id="article_author">
 						<h4>
-						<a href="../about.php#Andrew">Andrew Le</a>
+						<a href="../about.php#Setareh">Setareh Shir Koobi</a>
 						<br>
 						date and time
 						</h4>
@@ -99,30 +99,41 @@
 					<hr>
 					
 					<div id="article_content">
-							<p>
-							The word antioxidant is used to advertise foods, supplements, and skin-care products, but what do skin-care products have in common with food? Are antioxidants just a buzz-term for marketing like organic, superfoods, or anti-aging? Here’s what you need to know.
-							</p>
-							<p>
-							An antioxidant is a molecule that prevents the oxidation of cells from free radicals, no, not politics, but a term you might remember from your high school chemistry class. Free radicals are molecules with an unpaired electron; they occur naturally in your body though digestion, and are used by your body’s immune system against foreign invaders. Antioxidants help regulate free radicals, too many can lead to diseases, and even cancer. 
-							</p>
-							<p>
-							More isn’t necessarily better, taking too many antioxidants can be detrimental. The good news is it is very hard to take too many just from foods in your diet. Taking antioxidant supplements can have a negative impact on your body, it is recommended to stick to natural sources from foods.
-							</p>
-							<p>
-							Antioxidants come in a very wide range, and it is necessary to consume a variety of foods to benefit. Certain antioxidants will help combat certain cancers, and others will prevent age-related degenerative diseases such as Alzheimer’s. For example, vitamin A is desired for the growth and development of the retina.
-							</p>
-							<p>
-							Foods such as blueberries, and pomegranate have been given the term “superfoods” because of their antioxidant properties. Vitamin C (ascorbic acid) is readily most fruits and vegetables, vitamin E (tocopherols, tocotrienols) can be found in nuts, and seeds such as sunflower seeds, and almonds.
-							</p>
-							<p>
-							So, what do foods like blueberries and tea have in common with anti-aging cream? As we age, we are exposed to more and more radicals. The sun is a major contributor, UV-lights (ultraviolet) create free radicals on our skin, causing our cells to destroy themselves as a defensive mechanism against cancer. Anti-aging creams are usually packed with antioxidants to prevent wrinkles, and to protect against UV-lights.
-							</p>
-							<p>
-							Retinol, an active form of vitamin A is the most common ingredient in anti-aging cremes. Vitamin C has become more popular in creams, it is used to heal damaged skin. Extracts from plants, such as Aloe Vera, and green tea are widely used in natural anti-aging creams. Aloe Vera has an abundance of vitamin E, it works great as a skin application because of its fat-soluble property.
-							</p>
-							<p>
-							Antioxidant is more than just a buzzword, they are essential – in moderation. The proper amount will promote good health, and protect against chronic diseases, such as Alzheimer’s, loss of vision, and cancer. A variety of fruits and vegetables will ensure that there are enough antioxidants in your diet to help you feel and look healthy. If you are concerned with the number of antioxidants in your diet, or if you are thinking of taking supplements, it is recommended that you talk it through with your general practitioner or nutritionist.	
-							</p>
+						<p>
+						The world’s getting crazier by the minute and it doesn’t seem like it’ll stop any time soon. You’re bound to be stressed out! Anxiety and stress are tough to deal with. More and more people are looking for a safer and more natural solution. Here’s a list of 6 natural teas for stress and anxiety so that you can literally drink your way to relaxation. Here are a list of teas that you keep stress and anxiety at bay: 
+						</p>
+						<dl>
+						<dt>
+						1. Peppermint Tea (Mentha Piperita)
+						</dt><dd>
+						its lack of caffeine and the menthol contained in peppermint is a natural muscle relaxant. It is very effective for when you tend to feel very tense and irritable. It is  a wonderful tea to drink before going to bed. It will help you have a peaceful sleep, just what you need after a crazy day.
+						Note of warning: pregnant women must avoid drinking it. This is because it may increase the risk of miscarriage.
+						</dd><dt>
+						2. Chamomile Tea (Matricaria Recutita)
+						</dt><dd>
+						Sometimes excessive stress and anxiety may cause sleeplessness. Chamomile tea not only reduces stress and anxiety, but it also helps treat insomnia. Just like peppermint tea, chamomile tea has great benefits in relaxing the muscles and reducing irritability.
+						</dd><dt>
+						3. Lemon Balm Tea (Melissa Officinalis)
+						</dt><dd>
+						Lemon Balm is a calming herb that belongs to the mint family. No wonder it has a natural mint flavor with a slight taste of lemon. It reduces the stress hormone called cortisol and relaxes the body without causing drowsiness. It also helps to elevate the mood.
+						</dd><dt>
+						4. Oolong Tea (Camellia Sinensis)
+						</dt><dd>
+						Oolong tea is known to relieve stress by up to 20%! The natural polyphenol helps combat aniety and stress.
+						</dd><dt>
+						5. Green Tea (Camella Sinensis)
+						</dt><dd>
+						Green Tea is much like oolong, containing natural polyphenols. Although green tea contains a lot of caffeine, it’s adaptogenic in nature such that it keeps you alert yet calm enough without making you feel drowsy.
+						</dd><dt>
+						6. Rose Tea (Rosa centifolia)
+						</dt><dd>
+						Rose tea also helps remedy stress and anxiety. It does this by easing the mind; Its calming effect helps you sleep well.		
+						</dd><dt>
+						7. Passion Flower Tea (Passiflora incanata)
+						</dt><dd>
+						Passion flower tea is another great natural remedy for stress and anxiety. This is because of the flavone chrysin contained in passion flower which has anti-anxiety benefits. Passion flower tea helps induce a peaceful sleep.
+						</dd>
+						</dl>
 					</div>
 					<hr>
 					
