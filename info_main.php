@@ -66,8 +66,8 @@
 	
 	<!--Header-->
 		<header>
-			<div id="header_interior">
-					<img id="indexCover" src="img/infoMain.png" alt="contactUsBanner"><!--placeholder logo-->
+			<div id="infoMainHeader">
+				<h1 id="bannerHeaderSmall">Information</h1>
 			</div>
 		</header>
 	

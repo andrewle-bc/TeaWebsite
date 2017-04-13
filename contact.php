@@ -22,8 +22,8 @@
 	
 	<!--Header-->
 		<header>
-			<div id="header_interior">
-					<img id="indexCover" src="img/contactUs.png" alt="contactUsBanner"><!--placeholder logo-->
+		<div id="contactHeader">
+					<h1 id="bannerHeaderSmall">Contact</h1>
 			</div>
 		</header>
 	
@@ -45,7 +45,7 @@
 						<li><a href="info_main.php">Types of Tea</a></li>
 						<li><a href="info_pages/tea_location.php">Tea Producers</a></li>
 						<li><a href="info_pages/tea_production.php">How is Tea Produced</a></li>
-						<li><a href="info_pages/brewing_methods.php">Brewing Methods</a></li>
+						<li><a href="info_pages/brewing_method.php">Brewing Methods</a></li>
 						<li><a href="info_pages/tea_history.php">The History of Tea</a></li>
 					</ul>
 				</li>

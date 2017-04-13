@@ -17,8 +17,8 @@
 	
 	<!--Header-->
 		<header>
-			<div id="header_interior">
-					<img id="indexCover" src="../../img/infoPage.png" alt="contactUsBanner"><!--placeholder logo-->
+			<div id="whiteHeader">
+				<h1 id="bannerHeaderSmall">White Tea</h1>
 			</div>
 		</header>
 	
@@ -35,7 +35,7 @@
 						<li><a href="../../info_main.php">Types of Tea</a></li>
 						<li><a href="../tea_location.php">Tea Producers</a></li>
 						<li><a href="../tea_production.php">How is Tea Produced</a></li>
-						<li><a href="../brewing_methods.php">Steeping Methods</a></li>
+						<li><a href="../brewing_method.php">Steeping Methods</a></li>
 						<li><a href="../tea_history.php">The History of Tea</a></li>
 					</ul>
 				</li>
@@ -44,7 +44,7 @@
 				<li><a href="../../contact.php">Contact Us</a></li>
 				<?php
 				if (isLoggedIn()){
-					echo '<li><span class="user">User: '.$_SESSION['SESS_FIRST_NAME'].'</span><a href="logout.php" class="logout">|Logout</a></li>';
+					echo '<li><span class="user">User: '.$_SESSION['SESS_FIRST_NAME'].'</span><a href="../../logout.php" class="logout">|Logout</a></li>';
 				} else {
 					echo '<li class="sign-in"><a href="../../register.php">Register/Sign In</a></li>'; 
 				}

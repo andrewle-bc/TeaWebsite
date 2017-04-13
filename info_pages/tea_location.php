@@ -21,8 +21,8 @@
 	
 	<!--Header-->
 		<header>
-			<div id="header_interior">
-					<img id="indexCover" src="../img/infoPage.png" alt="contactUsBanner"><!--placeholder logo-->
+			<div id="producerHeader">
+				<h1 id="bannerHeaderSmall">Tea Producers</h1>
 			</div>
 		</header>
 	
@@ -47,7 +47,7 @@
 				<li><a href="../contact.php">Contact Us</a></li>
 				<?php
 				if (isLoggedIn()){
-					echo '<li><span class="user">User: '.$_SESSION['SESS_FIRST_NAME'].'</span><a href="logout.php" class="logout">|Logout</a></li>';
+					echo '<li><span class="user">User: '.$_SESSION['SESS_FIRST_NAME'].'</span><a href="../logout.php" class="logout">|Logout</a></li>';
 				} else {
 					echo '<li class="sign-in"><a href="register.php">Register/Sign In</a></li>'; 
 				}

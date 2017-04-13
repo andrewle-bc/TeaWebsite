@@ -21,8 +21,8 @@
 	
 	<!--Header-->
 		<header>
-			<div id="header_interior">
-					<img id="indexCover" src="img/infoPage.png" alt="contactUsBanner"><!--placeholder logo-->
+			<div id="sitemapHeader">
+					<h1 id="bannerHeaderSmall">Site Map</h1>
 			</div>
 		</header>
 	
@@ -76,17 +76,33 @@
     	</div>
 
 			<div id="wrapper">
-				<h1>Site map (more to be added)</h1>
+				<h1>Site map</h1>
 				<div class="site_map_content" id="sm_left">
 					<hr>
 					<h3><a href="index.php">Home</a></h3>
 					<br>
 					<h3><a href="info_main.php">Information</a></h3>
 					<ul>
-						<li><a href="info_page.php">Types of Tea</a> </li>
-						<li><a href="info_page.php">The History of Tea</a> </li>
-						<li><a href="info_page.php">Tea Products</a> </li>
-						<li><a href="steeping_methods.php">Steeping Methods</a> </li>
+						<li><a href="info_main.php">Types of Tea</a> </li>
+							<ul>
+								<li><a href="info_pages/types_of_tea/green_tea.php">
+								Green Tea</a></li>
+								<li><a href="info_pages/types_of_tea/black_tea.php">
+								Black Tea</a></li>
+								<li><a href="info_pages/types_of_tea/white_tea.php">
+								White Tea</a></li>
+								<li><a href="info_pages/types_of_tea/oolong_tea.php">
+								Oolong Tea</a></li>
+								<li><a href="info_pages/types_of_tea/other_teas.php">
+								Other Teas</a></li>
+
+							</ul>
+						<li><a href="info_pages/tea_location.php">Tea Producers</a></li>
+						<li><a href="info_pages/tea_production.php">How is Tea Produced?</a></li>
+						<li><a href="info_pages/brewing_method.php">Brewing Methods</a></li>
+						<li><a href="info_pages/tea_history.php">The History of Tea</a> </li>
+						
+						
 					</ul>
 				</div>
 				

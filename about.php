@@ -21,8 +21,8 @@
 	
 	<!--Header-->
 		<header>
-			<div id="header_interior">
-					<img id="indexCover" src="img/About.png" alt="contactUsBanner"><!--placeholder logo-->
+			<div id="aboutHeader">
+					<h1 id="bannerHeaderSmall">FAQ</h1>
 			</div>
 		</header>
 		

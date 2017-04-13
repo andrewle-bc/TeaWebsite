@@ -22,8 +22,8 @@
 	
 	<!--Header-->
 		<header>
-			<div id="header_interior">
-					<img id="indexCover" src="img/Register.png" alt="contactUsBanner"><!--placeholder logo-->
+			<div id="registerHeader">
+				<h1 id="bannerHeaderSmall">Register</h1>
 			</div>
 		</header>
 	

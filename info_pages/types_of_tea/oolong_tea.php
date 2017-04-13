@@ -17,17 +17,12 @@
 	
 	<!--Header-->
 		<header>
-			<div id="header_interior">
-					<img id="indexCover" src="../../img/infoPage.png" alt="contactUsBanner"><!--placeholder logo-->
+			<div id="oolongHeader">
+				<h1 id="bannerHeaderSmall">Oolong Tea</h1>
 			</div>
 		</header>
 	
-		<!--Navbar  that stays fixed at top of screen.
-		Basically had to create two nav bars, one of which (stickyNav) is hidden
-		underneath the banner until the user scrolls past the first nav bar. There's an easier way to 
-		do this with JavaScript but I don't know how yet. I will change the code
-		after I learn how. For now, this accomplishes the same thing. Would be 100x easier to have the nav
-		bar above the banner apparently but whatever.-->	
+		
 		<nav id="stickyNav">
 			<div id ="logoBox">
 			<img id ="logo" src="../../img/logo.png" alt="logo"><!--placeholder logo-->
@@ -40,7 +35,7 @@
 						<li><a href="../../info_main.php">Types of Tea</a></li>
 						<li><a href="../tea_location.php">Tea Producers</a></li>
 						<li><a href="../tea_production.php">How is Tea Produced</a></li>
-						<li><a href="../brewing_methods.php">Steeping Methods</a></li>
+						<li><a href="../brewing_method.php">Steeping Methods</a></li>
 						<li><a href="../tea_history.php">The History of Tea</a></li>
 					</ul>
 				</li>
@@ -49,7 +44,7 @@
 				<li><a href="../../contact.php">Contact Us</a></li>
 				<?php
 				if (isLoggedIn()){
-					echo '<li><span class="user">User: '.$_SESSION['SESS_FIRST_NAME'].'</span><a href="logout.php" class="logout">|Logout</a></li>';
+					echo '<li><span class="user">User: '.$_SESSION['SESS_FIRST_NAME'].'</span><a href="../../logout.php" class="logout">|Logout</a></li>';
 				} else {
 					echo '<li class="sign-in"><a href="../../register.php">Register/Sign In</a></li>'; 
 				}
