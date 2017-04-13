@@ -82,7 +82,7 @@
 				
 				<div class="info_content">
 					<div class="info_image">
-						<img src="../img/article_banner.jpg" alt="Info picture">
+						<img src="../img/tea_producer.jpg" alt="Info picture">
 						<h5>Image credits:<a href="https://www.flickr.com/people/vanderdecken/">
 						Vanderdecken</a></h5>
 						<hr>
