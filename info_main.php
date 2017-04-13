@@ -126,7 +126,7 @@
 						<li id="GreenTea" onmouseout="deEmphCircle('info_greentea')" onmouseover="emphCircle('GreenTea', 'info_greentea')">
 							<a class="TeaLink" href="info_pages/types_of_tea/green_tea.php">
 								<div class="text">
-									<!--<h1>Green Tea</h1>-->
+									<<h1>Green Tea</h1>
 								</div>
 							</a>
 						</li>
@@ -134,7 +134,7 @@
 						<li id="WhiteTea" onmouseout="deEmphCircle('info_whitetea')" onmouseover="emphCircle('WhiteTea', 'info_whitetea')">
 							<a class="TeaLink" href="info_pages/types_of_tea/white_tea.php">
 								<div class="text">
-									<!--<h1>White Tea</h1>-->
+									<<h1>White Tea</h1>
 								</div>
 							</a>
 						</li>
@@ -142,7 +142,7 @@
 						<li id="OtherTea" onmouseout="deEmphCircle('info_othertea')" onmouseover="emphCircle('OtherTea', 'info_othertea')">
 							<a class="TeaLink" href="info_pages/types_of_tea/other_teas.php">
 								<div class="text">
-									<!--<h1>Other Teas</h1>-->
+									<<h1>Other Teas</h1>
 								</div>
 							</a>
 						</li>
@@ -150,7 +150,7 @@
 						<li id="OolongTea" onmouseout="deEmphCircle('info_oolongtea')" onmouseover="emphCircle('OolongTea', 'info_oolongtea')">
 							<a class="TeaLink" href="info_pages/types_of_tea/oolong_tea.php">
 								<div class="text">
-									<!--<h1>Oolong Tea</h1>-->
+									<<h1>Oolong Tea</h1>
 								</div>
 							</a>
 						</li>
@@ -158,7 +158,7 @@
 						<li id="BlackTea" onmouseout="deEmphCircle('info_blacktea')" onmouseover="emphCircle('BlackTea', 'info_blacktea')">
 							<a class="TeaLink" href="info_pages/types_of_tea/black_tea.php">
 								<div class="text">
-									<!--<h1>Black Tea</h1>-->
+									<<h1>Black Tea</h1>
 								</div>
 							</a>
 						</li>
