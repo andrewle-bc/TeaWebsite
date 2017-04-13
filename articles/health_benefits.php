@@ -44,9 +44,9 @@
 						<li><a href="../info_pages/tea_history.php">The History of Tea</a></li>
 					</ul>
 				</li>
-				<li><a href="forum.php">Forum</a></li>
-				<li><a href="about.php">About</a></li>
-				<li><a href="contact.php">Contact Us</a></li>
+				<li><a href="../forum.php">Forum</a></li>
+				<li><a href="../about.php">About</a></li>
+				<li><a href="../contact.php">Contact Us</a></li>
 				<?php
 				if (isLoggedIn()){
 					echo '<li><span class="user">User: '.$_SESSION['SESS_FIRST_NAME'].'</span><a href="logout.php" class="logout">|Logout</a></li>';
