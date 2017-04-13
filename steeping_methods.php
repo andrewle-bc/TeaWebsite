@@ -23,10 +23,8 @@
 	
 	<!--Header-->
 		<header>
-			<div class="fadein">
-				<p><img src="img/steepingMethod1.png"></p>
-				<p><img src="img/steepingMethod2.png"></p>
-    			<p><img src="img/steepingMethod3.jpg"></p>
+			<div id="steepingHeader">
+				<h1 id="bannerHeaderSmall">Steeping Methods</h1>
 			</div>
 		</header>
 	
@@ -47,10 +45,10 @@
 				<li class="infoDropSticky"><a href="info_main.php">Information</a><!--Class to activate drop down menu-->
 					<ul id="dropDown" class="infoDropContentSticky"><!--Drop down menu contents -->
 						<li><a href="info_main.php">Types of Tea</a></li>
-						<li><a href="info_page.php">Tea Producers</a></li>
-						<li><a href="info_page.php">How is Tea Produced</a></li>
-						<li><a href="steeping_methods.php">Steeping Methods</a></li>
-						<li><a href="info_page.php">The History of Tea</a></li>
+						<li><a href="info_pages/tea_location.php">Tea Producers</a></li>
+						<li><a href="info_pages/tea_production.php">How is Tea Produced</a></li>
+						<li><a href="info_pages/brewing_method.php">Brewing Methods</a></li>
+						<li><a href="info_pages/tea_history.php">The History of Tea</a></li>
 					</ul>
 				</li>
 				<li><a href="forum.php">Forum</a></li>
@@ -86,9 +84,7 @@
 			
 			<div id="wrapper">
 				<div class="info_heading">
-				<h1>
-					steeping methods heading
-				</h1>
+				
 				<hr>
 				</div>
 				

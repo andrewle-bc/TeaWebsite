@@ -17,8 +17,8 @@
 	
 	<!--Header-->
 		<header>
-			<div id="header_interior">
-					<img id="indexCover" src="img/infoPage.png" alt="contactUsBanner"><!--placeholder logo-->
+			<div id="historyHeader">
+					<h1 id="bannerHeaderSmall">Tea's History</h1>
 			</div>
 		</header>
 	
@@ -29,7 +29,7 @@
 			</div>
 			<ul id="navList">
 				<li><a href="index.php">Home</a></li>
-				<li class="infoDropSticky"><a href="info_main.php">Information</a><!--Class to activate drop down menu-->
+				<li class="infoDropSticky"><a href="../info_main.php">Information</a><!--Class to activate drop down menu-->
 					<ul id="dropDown" class="infoDropContentSticky"><!--Drop down menu contents -->
 						<li><a href="../info_main.php">Types of Tea</a></li>
 						<li><a href="tea_location.php">Tea Producers</a></li>
@@ -43,7 +43,7 @@
 				<li><a href="../contact.php">Contact Us</a></li>
 				<?php
 				if (isLoggedIn()){
-					echo '<li><span class="user">User: '.$_SESSION['SESS_FIRST_NAME'].'</span><a href="logout.php" class="logout">|Logout</a></li>';
+					echo '<li><span class="user">User: '.$_SESSION['SESS_FIRST_NAME'].'</span><a href="../logout.php" class="logout">|Logout</a></li>';
 				} else {
 					echo '<li class="sign-in"><a href="register.php">Register/Sign In</a></li>'; 
 				}

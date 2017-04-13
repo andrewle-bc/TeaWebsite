@@ -36,9 +36,128 @@ header {
 	z-index: 2;
 }
 
-#indexCover {
+
+#forumHeader{
 	width: 100%;
-	height: auto;
+	height: 500px;
+	background-image: url("img/forum.png");
+	background-repeat: no-repeat;
+}
+
+#infoMainHeader{
+	width: 100%;
+	height: 500px;
+	background-image: url("img/infoMain.png");
+	background-repeat: no-repeat;
+}
+
+#contactHeader{
+	width: 100%;
+	height: 500px;
+	background-image: url("img/contactUs.png");
+	background-repeat: no-repeat;
+}
+
+#registerHeader{
+	width: 100%;
+	height: 500px;
+	background-image: url("img/Register.png");
+	background-repeat: no-repeat;
+}
+
+#aboutHeader{
+	width: 100%;
+	height: 500px;
+	background-image: url("img/About.png");
+	background-repeat: no-repeat;
+}
+#steepingHeader{
+	width: 100%;
+	height: 500px;
+	background-image: url("img/steepingMethod.png");
+	background-repeat: no-repeat;
+}
+#brewingHeader{
+	width: 100%;
+	height: 500px;
+	background-image: url("img/brewingMethod.png");
+	background-repeat: no-repeat;
+}
+#producerHeader{
+	width: 100%;
+	height: 500px;
+	background-image: url("img/teaProducers.png");
+	background-repeat: no-repeat;
+}
+#productionHeader{
+	width: 100%;
+	height: 500px;
+	background-image: url("img/teaProduction.png");
+	background-repeat: no-repeat;
+}
+#historyHeader{
+	width: 100%;
+	height: 500px;
+	background-image: url("img/teahistory.png");
+	background-repeat: no-repeat;
+}
+#greenHeader{
+	width: 100%;
+	height: 500px;
+	background-image: url("img/greentea.png");
+	background-repeat: no-repeat;
+}
+#blackHeader{
+	width: 100%;
+	height: 500px;
+	background-image: url("img/blacktea.png");
+	background-repeat: no-repeat;
+}
+#whiteHeader{
+	width: 100%;
+	height: 500px;
+	background-image: url("img/whitetea.png");
+	background-repeat: no-repeat;
+}
+#oolongHeader{
+	width: 100%;
+	height: 500px;
+	background-image: url("img/oolongtea.png");
+	background-repeat: no-repeat;
+}
+#otherHeader{
+	width: 100%;
+	height: 500px;
+	background-image: url("img/othertea.png");
+	background-repeat: no-repeat;
+}
+#sitemapHeader{
+	width: 100%;
+	height: 500px;
+	background-image: url("img/sitemap.png");
+	background-repeat: no-repeat;
+}
+#bannerHeader{
+	z-index: 7;
+	position: absolute;
+	margin-top: 150px;
+	margin-left: 100px;
+	font-family: "Times New Roman", sans-serif;
+	font-size: 350px;
+	color:white; 
+	opacity: 0.9;
+	text-shadow: 2px 8px grey;
+}
+#bannerHeaderSmall{
+	z-index: 7;
+	position: absolute;
+	margin-top: 250px;
+	margin-left: 100px;
+	font-family: "Times New Roman", sans-serif;
+	font-size: 225px;
+	color:white; 
+	opacity: 0.9;
+	text-shadow: 2px 8px grey;
 }
 
 #indexTitle{

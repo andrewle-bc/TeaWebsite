@@ -22,8 +22,8 @@
 	
 	<!--Header-->
 		<header>
-			<div id="header_interior">
-					<img id="indexCover" src="img/contactUs.png" alt="contactUsBanner"><!--placeholder logo-->
+			<div id="contactHeader">
+					<h1 id="bannerHeaderSmall">Contact</h1>
 			</div>
 		</header>
 	
@@ -43,10 +43,10 @@
 				<li class="infoDropSticky"><a href="info_main.php">Information</a><!--Class to activate drop down menu-->
 					<ul id="dropDown" class="infoDropContentSticky"><!--Drop down menu contents -->
 						<li><a href="info_main.php">Types of Tea</a></li>
-						<li><a href="info_pages/tea_location.php">Tea Producers</a></li>
-						<li><a href="info_pages/tea_production.php">How is Tea Produced</a></li>
-						<li><a href="info_pages/brewing_methods.php">Brewing Methods</a></li>
-						<li><a href="info_pages/tea_history.php">The History of Tea</a></li>
+						<li><a href="info_page.php">Tea Producers</a></li>
+						<li><a href="info_page.php">How is Tea Produced</a></li>
+						<li><a href="steeping_methods.php">Steeping Methods</a></li>
+						<li><a href="info_page.php">The History of Tea</a></li>
 					</ul>
 				</li>
 				<li><a href="forum.php">Forum</a></li>
@@ -86,9 +86,9 @@
 					<p>contact.us@email.com</p>
 				</div>
 	
-				<div class="contact_right" id="contactform">
+				<div class="contact_right">
 					<h2>Leave a Message</h2>
-					<form method="post" onsubmit="return checkFormContact()" action="formmail.php">
+					<form method="post" onsubmit="return checkFormContact()" action="http://webdevfoundations.net/scripts/formdemo.asp">
 					
 						<label for="name"><h4>Your Name</h4></label>
 						<input id="name" type="text" name="name" >
@@ -108,9 +108,6 @@
 					
 					<br><br>
 					<input id="submit" type="submit" value="Send">
-					<input type="hidden" name="recipients" value="andrewle.bc@gmail.com" />
-					<input type="hidden" name="subject" value="SereniTEA Contact" />
-					<input type="hidden" name="good_url" value="contactthankyou.php" />
 					</form>
 				
 					<!-- business inquiries, opportunities, marketing --> 

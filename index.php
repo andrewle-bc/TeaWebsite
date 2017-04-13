@@ -29,24 +29,24 @@
 
 			<div class="bss-slides">
 				<figure>
-					<a href="articles/10_positeave_benefits_of_tea.php"><img class="indexCover" src="img/slideShow1.jpg"/>
+					<a href="articles/health_benefits.php"><img class="indexCover" src="img/slideShow1.jpg"/>
 					<figcaption>
-						<h1>10 Posi'tea've Benefits</h1>
-						<h3>Andrew Le</h3>
+						<h1>The Various Health Benefits of Tea</h1>
+						<h3>Author McWriterguy</h3>
 					</figcaption> </a>
 				 </figure>
 				 <figure>
-					<a href="articles/calming_teas.php"><img class="indexCover" src="img/slideShow2.png"/>
+					<a href="articles/tea_traditions.php"><img class="indexCover" src="img/slideShow2.png"/>
 					<figcaption>
-						<h1>Introduction to Calming Teas</h1>
-						<h3>Setareh Shir Koobi</h3>
+						<h1>Tea Traditions from Around the World</h1>
+						<h3>Author McWriterguy</h3>
 					</figcaption> </a>
 				 </figure>
 				 <figure>
-					<a href="articles/antioxidants.php"><img class="indexCover" src="img/slideShow3.jpg"/>
+					<a href="articles/food_pairings.php"><img class="indexCover" src="img/slideShow3.jpg"/>
 					<figcaption>
-						<h1>What are Antioxidants?</h1>
-						<h3>Andrew Le</h3>
+						<h1>The Perfect Match: Tea and Food Pairings</h1>
+						<h3>Author McWriterguy</h3>
 					</figcaption> </a>
 				</figure>
 			 </div> <!-- end of slide show container -->
@@ -65,10 +65,10 @@
 				<li class="infoDropSticky"><a href="info_main.php">Information</a><!--Class to activate drop down menu-->
 					<ul id="dropDown" class="infoDropContentSticky"><!--Drop down menu contents -->
 						<li><a href="info_main.php">Types of Tea</a></li>
-						<li><a href="info_page.php">Tea Producers</a></li>
-						<li><a href="info_page.php">How is Tea Produced</a></li>
-						<li><a href="steeping_methods.php">Steeping Methods</a></li>
-						<li><a href="info_page.php">The History of Tea</a></li>
+						<li><a href="info_pages/tea_location.php">Tea Producers</a></li>
+						<li><a href="info_pages/tea_production.php">How is Tea Produced</a></li>
+						<li><a href="info_pages/brewing_method.php">Brewing Methods</a></li>
+						<li><a href="info_pages/tea_history.php">The History of Tea</a>
 					</ul>
 				</li>
 				<li><a href="forum.php">Forum</a></li>
@@ -107,50 +107,40 @@
 				<div class="index_article" id="index_left">
 				
 					<div class="article_block">
-						<a href="articles/10_positeave_benefits_of_tea.php">
-							<h2>10 Posi'tea've Benefits</h2>
+						<a href="articles/health_benefits.php">
+							<h2>10 Positivi’tea’ Benefits</h2>
 							<h5 class="author">by Andrew Le</h5>
 							<div class="index_article_img">
 								<img src="img/tea_pour.jpg" alt="portrait">
 							</div>
 						</a>
 						<div class="index_article_text">
-							<p>Read on how tea can bring some quali'tea' to your life!</p>
+							<p>Aenean ornare pretium nunc a tincidunt. Proin ut fermentum leo, non 
+							eleifend neque. Vivamus porta lobortis leo, non efficitur lacus volutpat
+							id. Vestibulum iaculis nulla quis lectus venenatis sodales vel a enim. 
+							Maecenas vel tempus est, elementum faucibus arcu.</p>
 						</div>
 						<div class="anchor">
 						</div>
 					</div>
 					
 					<div class="article_block">
-						<a href="articles/green_tea_variety.php">
-							<h2>Green Tea Variety!</h2>
-							<h5 class="author">by Setareh Shir Koobi</h5>
+						<a href="articles/health_benefits.php">
+							<h2>10 Positivi’tea’ Benefits</h2>
+							<h5 class="author">by Andrew Le</h5>
 							<div class="index_article_img">
 								<img src="img/tea_pour.jpg" alt="portrait">
 							</div>
 						</a>
 						<div class="index_article_text">
-							<p>Learn about all of the Green Teas you can try out!</p>
+							<p>Aenean ornare pretium nunc a tincidunt. Proin ut fermentum leo, non 
+							eleifend neque. Vivamus porta lobortis leo, non efficitur lacus volutpat
+							id. Vestibulum iaculis nulla quis lectus venenatis sodales vel a enim. 
+							Maecenas vel tempus est, elementum faucibus arcu.</p>
 						</div>
 						<div class="anchor">
 						</div>
 					</div>
-					
-					<div class="article_block">
-						<a href="articles/10_reasons_to_love_black_tea.php">
-							<h2>Top 10 Reasons to Love Black Tea!</h2>
-							<h5 class="author">by Setareh Shir Koobi</h5>
-							<div class="index_article_img">
-								<img src="img/tea_pour.jpg" alt="portrait">
-							</div>
-						</a>
-						<div class="index_article_text">
-							<p>Read about all of the tea-riffic wonders of Black Tea!</p>
-						</div>
-						<div class="anchor">
-						</div>
-					</div>
-					
 				</div>
 				
 				<div class="index_article" id="index_right">
@@ -164,22 +154,28 @@
 							</div>
 						</a>
 						<div class="index_article_text">
-							<p>Have you ever wondered what Antioxidant means? Click here to learn all about how to get the most out of them!</p>
+							<p>Aenean ornare pretium nunc a tincidunt. Proin ut fermentum leo, non 
+							eleifend neque. Vivamus porta lobortis leo, non efficitur lacus volutpat
+							id. Vestibulum iaculis nulla quis lectus venenatis sodales vel a enim. 
+							Maecenas vel tempus est, elementum faucibus arcu.</p>
 						</div>
 						<div class="anchor">
 						</div>
 					</div>
 					
 					<div class="article_block">
-						<a href="articles/calming_teas.php">
-							<h2>Introduction to Calming Teas</h2>
-							<h5 class="author">by Setareh Shir Koobi</h5>
+						<a href="articles/antioxidants.php">
+							<h2>What are Antioxidants?</h2>
+							<h5 class="author">by Andrew Le</h5>
 							<div class="index_article_img">
 								<img src="img/chamomile.jpg" alt="portrait">
 							</div>
 						</a>
 						<div class="index_article_text">
-							<p>Can't we just get oolong?</p>
+							<p>Aenean ornare pretium nunc a tincidunt. Proin ut fermentum leo, non 
+							eleifend neque. Vivamus porta lobortis leo, non efficitur lacus volutpat
+							id. Vestibulum iaculis nulla quis lectus venenatis sodales vel a enim. 
+							Maecenas vel tempus est, elementum faucibus arcu.</p>
 						</div>
 						<div class="anchor">
 						</div>
