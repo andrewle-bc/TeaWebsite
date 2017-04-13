@@ -90,6 +90,7 @@
 					</div>
 					
 					<div class="info_text">
+					<br>
 						<p>Green tea is by far the most popular tea in Eastern Asia. Originating from China prior to 600 A.D., 
 						Green tea is an intrinsic part of a Chinese culture. Since then however, green tea production has spread to 
 						many other Asian countries. The consumption of green tea has similarly spread across the globe.</p>

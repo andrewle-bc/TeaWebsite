@@ -89,7 +89,7 @@
 						<hr>
 					</div>
 					
-					<div class="info_text">
+					<div class="info_text"><br>
 						<p>Black tea is the most commonly known variety of tea in North America. It is the most highly oxidized and 
 						most fully fermented of the types of tea. Due to this high oxidation, black teas will usually have a much bolder 
 						flavour in comparison to other teas. The colour produced from steeping will be varying shades of amber.</p>
@@ -98,6 +98,8 @@
 						through steeping. Now however, black teas are cultivated and enjoyed world wide. In Western countries, most talk of tea 
 						is in reference to black teas. Sweet teas, iced teas, and afternoon teas are recipes of western culture which are typically 
 						made using black tea.</p>
+						
+						<br><br>
 						
 						<h2>Popular Types of Black Tea</h2>
 						

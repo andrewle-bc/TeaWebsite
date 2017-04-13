@@ -75,7 +75,7 @@
 					
 				<div class="info_heading">
 				<h1>
-					Tea's History
+					The History of Tea
 				</h1>
 				<hr>
 				</div>

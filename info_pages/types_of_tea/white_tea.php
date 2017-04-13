@@ -90,6 +90,7 @@
 					</div>
 					
 					<div class="info_text">
+					<br>
 						<p>White tea is among the most delicate of tea varieties because it is so minimally processed. It is made from the 
 						youngest and most delicate leaf tips and buds.  The buds are hand plucked before 
 						they are allowed to open, withered and then dried slowly at low temperatures. The leaves are not rolled and they 
@@ -100,7 +101,7 @@
 						the increasing popularity of white teas, production has spread to other large tea producing regions such as 
 						Darjeeling and Sri Lanka. White tea generally requires a very mild climate and abundant rainfall.</p>
 						
-						<h2>Popular types of White Tea</h2>
+						<br><h2>Popular types of White Tea</h2>
 						
 						<p><h3>White Peony</h3>Made from the first and second tips of a tea stem, White Peony is the most popular type of white 
 						tea. Its name is derived from the manner in which the brewed leaves will bloom like its namesake flower. The 
