@@ -126,7 +126,7 @@
 						<li id="GreenTea" onmouseout="deEmphCircle('info_greentea')" onmouseover="emphCircle('GreenTea', 'info_greentea')">
 							<a class="TeaLink" href="info_pages/types_of_tea/green_tea.php">
 								<div class="text">
-									<<h1>Green Tea</h1>
+									<h1>Green Tea</h1>
 								</div>
 							</a>
 						</li>
@@ -134,7 +134,7 @@
 						<li id="WhiteTea" onmouseout="deEmphCircle('info_whitetea')" onmouseover="emphCircle('WhiteTea', 'info_whitetea')">
 							<a class="TeaLink" href="info_pages/types_of_tea/white_tea.php">
 								<div class="text">
-									<<h1>White Tea</h1>
+									<h1>White Tea</h1>
 								</div>
 							</a>
 						</li>
@@ -142,7 +142,7 @@
 						<li id="OtherTea" onmouseout="deEmphCircle('info_othertea')" onmouseover="emphCircle('OtherTea', 'info_othertea')">
 							<a class="TeaLink" href="info_pages/types_of_tea/other_teas.php">
 								<div class="text">
-									<<h1>Other Teas</h1>
+									<h1>Other Teas</h1>
 								</div>
 							</a>
 						</li>
@@ -150,7 +150,7 @@
 						<li id="OolongTea" onmouseout="deEmphCircle('info_oolongtea')" onmouseover="emphCircle('OolongTea', 'info_oolongtea')">
 							<a class="TeaLink" href="info_pages/types_of_tea/oolong_tea.php">
 								<div class="text">
-									<<h1>Oolong Tea</h1>
+									<h1>Oolong Tea</h1>
 								</div>
 							</a>
 						</li>
@@ -158,7 +158,7 @@
 						<li id="BlackTea" onmouseout="deEmphCircle('info_blacktea')" onmouseover="emphCircle('BlackTea', 'info_blacktea')">
 							<a class="TeaLink" href="info_pages/types_of_tea/black_tea.php">
 								<div class="text">
-									<<h1>Black Tea</h1>
+									<h1>Black Tea</h1>
 								</div>
 							</a>
 						</li>
@@ -169,7 +169,7 @@
 							<img src="img/greentea.jpg" alt="portrait">
 						</div>
 						<p class="popup"> 
-							<h3>GREEN TEA</h3> 
+							<h3>GREEN TEA</h3>
 							Green tea is by far the most popular tea in Eastern Asia. Originating from China prior to 600 A.D., 
 							Green tea is an intrinsic part of a Chinese culture. Green teas are entirely unoxidized and as such, 
 							keep their vital green colour.
@@ -222,25 +222,25 @@
 						</p>
 					</div>
 					
-					<a class="TeaButtons" href="info_page.php">
+					<a class="TeaButtons" href="info_pages/tea_location.php">
 					<div class="info_button" id="button1">
 						<h2>Tea Producers</h2>
 					</div>
 					</a>
 					
-					<a class="TeaButtons" href="info_page.php">
+					<a class="TeaButtons" href="info_pages/tea_production.php">
 					<div class="info_button" id="button2">
 						<h2>How is Tea Produced</h2>
 					</div>
 					</a>
 					
-					<a class="TeaButtons" href="steeping_methods.php">
+					<a class="TeaButtons" href="info_pages/brewing_method.php">
 					<div class="info_button" id="button3">
 						<h2>Steeping Methods</h2>
 					</div>
 					</a>
 					
-					<a class="TeaButtons" href="info_page.php">
+					<a class="TeaButtons" href="info_pages/tea_history.php">
 					<div class="info_button" id="button4">
 						<h2>The History of Tea</h2>
 					</div>

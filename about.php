@@ -132,9 +132,7 @@
 							<p>
 							<strong>Jenny Ly</strong>
 							<br><br>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-							Phasellus tempor, arcu et sagittis elementum, mi quam ultricies tortor, 
-							a lacinia urna diam et dolor.
+							I'm Jenny and I'm a first year CST student. The highlight of my year is finishing the website for web development. Thank god it's completed!
 							</p>
 						</div>
 					</div>
