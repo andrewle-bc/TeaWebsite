@@ -23,12 +23,7 @@
 		<div id="nullHeader">
 		</div>
 	
-		<!--Navbar  that stays fixed at top of screen.
-		Basically had to create two nav bars, one of which (stickyNav) is hidden
-		underneath the banner until the user scrolls past the first nav bar. There's an easier way to 
-		do this with JavaScript but I don't know how yet. I will change the code
-		after I learn how. For now, this accomplishes the same thing. Would be 100x easier to have the nav
-		bar above the banner apparently but whatever.-->	
+			
 		<nav id="stickyNav">
 			<div id ="logoBox">
 			<img id ="logo" src="img/logo.png" alt="logo"><!--placeholder logo-->
@@ -41,7 +36,7 @@
 						<li><a href="info_main.php">Types of Tea</a></li>
 						<li><a href="info_pages/tea_location.php">Tea Producers</a></li>
 						<li><a href="info_pages/tea_production.php">How is Tea Produced</a></li>
-						<li><a href="info_pages/brewing_methods.php">Brewing Methods</a></li>
+						<li><a href="info_pages/brewing_method.php">Brewing Methods</a></li>
 						<li><a href="info_pages/tea_history.php">The History of Tea</a></li>
 					</ul>
 				</li>

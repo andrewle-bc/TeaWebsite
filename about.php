@@ -64,7 +64,7 @@
 		<main>
 			<div id="breadcrumbs"> <!-- about page -->
 				<ul>
-					<li><a href="index..php">Home</a> &nbsp; ></li>
+					<li><a href="index.php">Home</a> &nbsp; ></li>
 					<li class="lastcrumb">About<li>
 				</ul>   
 			</div>
