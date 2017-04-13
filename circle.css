@@ -1,0 +1,131 @@
+.circle {
+  position: relative;
+  border: 1px solid black;
+  padding: 0;
+  margin: 20px;
+  width: 26em;
+  height: 26em;
+  border-radius: 50%;
+  list-style: none;
+  overflow: hidden;
+  float:left;
+}
+
+ul.circle li {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 50%;
+  transform-origin: 0% 100%;
+  border-radius:0 50% 0 0;
+}
+
+.text {
+  position: absolute;
+  left: -100%;
+  width: 200%;
+  height: 200%;
+  text-align: center;
+  transform: skewY(18deg) rotate(36deg);
+  padding-top: 20px;
+}
+
+ul.circle li:first-child {
+  transform: rotate(0deg) skewY(-18deg);
+  background-image: url("img/green_tea_circle.jpg");
+}
+ul.circle li:nth-child(2) {
+  transform: rotate(72deg) skewY(-18deg);
+  background-image: url("img/white_tea_circle.jpg");
+}
+ul.circle li:nth-child(3) {
+  transform: rotate(144deg) skewY(-18deg);
+  background-image: url("img/other_tea_circle.jpg");
+}
+ul.circle li:nth-child(4) {
+  transform: rotate(216deg) skewY(-18deg);
+  background-image: url("img/oolong_tea_circle.jpg");
+}
+ul.circle li:nth-child(5) {
+  transform: rotate(288deg) skewY(-18deg);
+  background-image: url("img/black_tea_circle.jpg");
+}
+
+#info_greentea,#info_whitetea,#info_othertea,#info_oolongtea,#info_blacktea {
+	display:none;
+	visibility:visible;
+	clear:right;
+	
+	margin: 30px 20px 0 0;
+	padding: 5px;
+	float:right;
+	width:240px;
+	height:400px;
+}
+
+a.TeaLink:link, 
+a.TeaLink:visited,
+a.TeaLink:hover,
+a.TeaLink:active {
+	text-decoration: none;
+	font-weight:bold;
+	color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+
+a.TeaButtons:link, 
+a.TeaButtons:visited,
+a.TeaButtons:hover,
+a.TeaButtons:active {
+	text-decoration: none;
+	font-weight:bold;
+	color: black;
+}
+
+.popup{
+	display:block;
+	visibility:visible;
+	margin:0;
+	clear:both;
+}
+.popup img{
+	display:block;/*
+	visibility:visible;*/
+	width:80%;
+	margin:0;
+	margin-top: 3px;
+	margin-left:auto;
+	margin-right:auto;
+	clear:both;
+}
+.popup p{
+}
+.info_button{
+	padding:40px 20px 0 0;
+	float:right;
+	display:inline;
+	visibility:visible;
+	width: 250px;
+	height: 70px;
+}
+.info_button h2 {
+	margin: 0;
+	padding: 0.5em 0;
+	border-radius: 25px;
+	border: 3px solid #269062;
+	text-align: center;
+	background-color: white;
+}
+
+.info_button h2:hover {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: #6cbd9a;
+	color: white;
+	transition: 0.4s;
+}

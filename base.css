@@ -7,73 +7,211 @@ body {
 header {
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	width: 100%;
-	height: 300px;
+	height: 600px;
+	overflow:hidden;
 	background-color: #8D5273;
 	position: relative;
-	z-index: 250; /* above EVERYTHINg including stickynav */
+	margin-top: 200px;
+	z-index: 1; /* above EVERYTHINg including stickynav */
 }
 
-#header_interior {
-	width: 760px; /* to be changed to match whatever content-width we decide */
-	height:inherit;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
+
+
+.fadein { 
+	display: block;
+	z-index: 3;
 }
 
-/* placeholder image until logo is designed */
-#header_interior img {
-	margin-left: auto;
-	margin-right: auto;
-	position: relative;
+.fadein p img{
+	position:absolute; left:0; top:0; 
+	width: 100%;
 	height: auto;
-	max-height: 75%;
-	width: auto;
-	max-width: 100%;
+	z-index: 2;
+}
+
+.indexCover {
+	width: 100%;
+	height: auto;
+}
+
+#logo{
+	position: fixed;
+	left: 45%;
+	top: 20px;
+	height: 150px;
+	width: 150px;
+	z-index: 5;
+	
+}
+
+#logo.transEnabl{
+	transition: 0.4s ease;
+}
+
+
+#logo:hover {
+	opacity: 0.6;
+	transition: 0.6s;
+}
+
+
+
+#logoTitle{
+	font-size: 60px;
+	color: #3f3f3f;
+	position: fixed; 
+	left: 42%;
+	top: 10%;
+	z-index: 6;
+	
+}
+
+#logoTitle.transEnabl{
+	transition: 0.4s ease;
+}
+
+
+
+.scrolled-nav #logoTitle{
+	font-size: 30px;
+	color: #8D5273;
+	position: fixed; 
+	left: 150px;
+	top: 18px;
+	z-index: 6;
+	transition: 0.4s ease;
+}
+
+.scrolled-nav #logo{
+	position: fixed;
+	top: 15px;
+	left:70px;
+	height: 70px;
+	width: 70px;
+	z-index: 5;
+	transition: 0.4s ease;
 }
 
 header h1 {
-	font-size: 48px;
+	font-size: 30px;
 	margin:0;
 	color: #FFFFFF;
+	position: fixed;
+	top: 0;
+	left: 20px; 
+	z-index: 3;
+
+}
+
+header h2{
+	font-size: 20px;
+	font-weight: lighter;
+	font-style: italic;
+	margin:0;
+	color: #FFFFFF;
+	z-index: 3;
+	position: absolute;
+	top: 60.5%;
+	left: 45.5%;
+}
+
+header h2 span{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 35px;
+}
+
+
+
+
+#isolate p{
+	font-size: 25px;
+	margin:0;
+	color: #FFFFFF;
+	
+	position: absolute;
+	top: 70.5%;
+	left: 70.5%;
 }
 
 /* Sticky navbar */
 #stickyNav {
-	z-index: 100; /* above everything EXCEPT header */
+	z-index: 5; /* above everything EXCEPT header */
 	position: fixed;
 	width: 100%;
-	background-color: #333;
+	background-color: #6cbd9a;
 	color: #fff;
 	top: 0;
-	height: 48px;
+	height: 300px;
+
+	transition: 0.4s ease;
 }
+
+#stickyNav.scrolled-nav {
+  height: 100px;
+  
+}
+
+#navList{
+	padding-top: 220px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+
+}
+
+.scrolled-nav #navList{
+	padding-top: 20px;
+}
+
+#dropDown{
+	position: fixed;
+	padding-top: 0px;
+	margin-right: 5px;
+	padding-left:0px;
+	margin-top: 230px;
+	z-index: 8;
+}
+
+.scrolled-nav #dropDown{
+	position: fixed;
+	margin-top: 30px;
+}
+
 
 /* navbar style for both navbars */
 nav {
 	z-index: 1;
-	background-color: #333;
-	width: 100%;	
+	background-color: #6cbd9a;
+	width: 100%;
+	padding-top: 10px;	
+	transition: all 0.4s ease;
+}
+
+nav.shrink{
+	min-height: 60px;
 }
 
 /* stylizes contents of both nav bars */
 nav ul {
 	list-style-type: none;
-	background-color: #333;
+	background-color:#6cbd9a;
 	margin-top: 0;
 	margin-bottom: 0;
-	padding: 0;
+	padding-top: 100px;
 	overflow: hidden;
 	width: 760px; /* to be changed to match whatever content-width we decide */
 	margin-left: auto;
 	margin-right: auto;
+	transition: all 0.4s ease;
 }
+
+
 
 /* stylizes buttons of both nav bars */
 nav li a {
 	display: inline-block;
 	float: left;
-	color: white;
+	color: #3f3f3f;
 	text-align: center;
 	text-decoration: none;
 	padding: 15px;
@@ -82,12 +220,34 @@ nav li a {
 
 /* changes color of nav buttons when hovering over */
 nav li a:hover {
-	background-color: #94C433;
+	border-bottom: 1px solid #485952; 
+	color: #485952;
+
 }
 
 /* puts registration and sign-in to the right side of nav bar */
 nav .sign-in {
-	float: right;
+	
+}
+
+nav li .user {
+	display: inline-block;
+	float: left;
+	color: #8d5273;
+	padding: 15px;
+	padding-left: 10px;
+	padding-right: 0;
+	position: relative;
+	text-align: center;
+}
+
+nav li .user:hover {
+	
+}
+
+nav li .logout {
+	padding-left: 0;
+	padding-right: 0;
 }
 
 /*nav search bar form*/
@@ -109,8 +269,8 @@ nav li form input[type=text]{
     border: none;
     font-size: 16px;
     color: white;
-    background-color: #333;
-    background-image: url('img/search.png');
+    background-color: #6cbd9a;
+    background-image: url('img/search3.png');
     background-position: 6px 0;
     background-repeat: no-repeat;
     padding: 12px 10px 12px 40px;
@@ -118,28 +278,41 @@ nav li form input[type=text]{
     transition: width 0.4s ease-in-out;
 }
 
+nav li form input[type=text]:hover{
+
+	background-image:url('img/search4.png');
+	background-position: 6px 0;
+    background-repeat: no-repeat;
+
+}
+
 /*nav bar on focus */
 
 nav li form input[type=text]:focus{
 	box-sizing: border-box;
-	width: 740px;
-	margin-bottom: 10px;
+	background-color: #6cbd9a;
+	 
+	color: #485952;
+	width: 130px;
+	
 	margin-left: 10px;
 	margin-right: 10px;
-	background-color: #333;
-	z-index:1000;
+	
+	z-index:100;
+	outline: none;
 }
 
 /* drop-down menu under information for stickyNav */
 .infoDropContentSticky {
 	display: none;
-	position: absolute;
+	
 	margin-left: 71px;
 	top: 48px; /* size of navbar */
-	background-color: #94C433;
+	background-color: white;
 	width: inherit;
+	border-width: 0;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	z-index: 1;
+	z-index: 3;
 }
 
 /* shows drop-down menu on hover over information nav in stickNav */
@@ -147,30 +320,7 @@ nav li form input[type=text]:focus{
 	display: block;
 }
 
-/* drop-down menu under information for normal nav */
-.infoDropContent {
-	display: none;
-	position: absolute;
-	margin-left: 71px;
-	top: 348px; /* size of navbar plus banner */
-	background-color: #94C433;
-	width: inherit;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	z-index: 1;
-	float: left;
-}
 
-/* shows drop-down menu on hover over information nav in normal Nav */
-.infoDrop:hover .infoDropContent {
-	display: block;
-}
-
-/* actual drop-down menu contents for normal nav*/
-.infoDropContent a {
-	display: block;
-	width: 100%;
-	text-align: left;
-}
 
 /* actual drop-down menu contents for sticky nav*/
 .infoDropContentSticky a {
@@ -179,16 +329,11 @@ nav li form input[type=text]:focus{
 	text-align: left;
 }
 
-/* changes color of items in drop-down when hovered over for normal nav */
-.infoDropContent li a:hover {
-	background-color: #CFF18A;
-	color: #485952;
-}
-
 /* changes color of items in drop-down when hovered over for sticky nav */
 .infoDropContentSticky li a:hover {
-	background-color: #CFF18A;
-	color: #485952;
+	border: none;
+	background-color: #485952;
+	color: white;
 }
 
 /* Breadcrumbs */
@@ -229,6 +374,7 @@ main {
 	margin-left: auto;
 	margin-right: auto;
 	padding-bottom: 50px;
+
 }
 .anchor{
 	clear:both;			/*need for floating*/
@@ -314,6 +460,13 @@ main {
 	height:200px;
 }
 .index_article{
+}
+.article_block{
+	display:block;
+	height:230px;
+}
+.author {
+	margin:1px;
 }
 #index_left{
 	width:48%;
