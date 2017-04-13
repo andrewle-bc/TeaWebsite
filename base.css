@@ -476,26 +476,31 @@ main {
 	width:48%;
 	float:right;
 }
-.index_article a:link {
+.article_block a:link {
     text-decoration: none;
 }
-.index_article a:visited {
+.article_block a:visited {
     text-decoration: none;
 }
-.index_article a:hover {
+.article_block a:hover {
     text-decoration: none;
 }
-.index_article a:active {
+.article_block a:active {
     text-decoration: none;
+}
+.article_block h2{
+	margin-bottom:5px;
 }
 .index_article_img{
 	float:left;
 	width:48%;
+	min-height:175px;
 }
 .index_article_img img{
 	border: 1px solid black;
 	height: auto;		/*portrait will auto adjust height based on image width*/
 	max-width: 100%;
+	min-height:175px;
 }
 .index_article_text{
 	float:right;

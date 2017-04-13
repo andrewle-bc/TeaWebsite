@@ -15,6 +15,7 @@
 		<meta charset="utf-8">
 		<title>SereniTEA - Steeping Methods</title>
 		<link rel="stylesheet" href="alt.css">
+		<link rel="icon" href="img/icon.png" type="image/gif" sizes="16x16">
 		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 		<script src="javaFunc.js"></script>
 	</head>

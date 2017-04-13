@@ -13,8 +13,9 @@
 	<html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>SereniTEA - Test Information Page</title>
+		<title>SereniTEA - The History of Tea</title>
 		<link rel="stylesheet" href="../alt.css">
+		<link rel="icon" href="img/icon.png" type="image/gif" sizes="16x16">
 	</head>
 
 	<body>
@@ -22,7 +23,7 @@
 	<!--Header-->
 		<header>
 			<div id="historyHeader">
-				<h1 id="bannerHeaderSmall">Tea's History</h1>
+				<h1 id="bannerHeaderSmall">History</h1>
 			</div>
 		</header>
 	

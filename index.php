@@ -17,6 +17,7 @@
 		<title>SereniTEA - Home</title>
 		<link rel="stylesheet" href="base.css">
 		<link rel="stylesheet" href="slideshow.css">
+		<link rel="icon" href="img/icon.png" type="image/gif" sizes="16x16">
 		<script src="swipe_support.js"></script><!-- for swipe support on touch interfaces -->
         <script src="slideshow.js"></script>
 		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
@@ -31,7 +32,7 @@
 				<figure>
 					<a href="articles/10_positeave_benefits_of_tea.php"><img class="indexCover" src="img/slideShow1.jpg"/>
 					<figcaption>
-						<h1>10 Posi'tea've Benefits</h1>
+						<h1>10 Posi-tea-ve Benefits</h1>
 						<h3>Andrew Le</h3>
 					</figcaption> </a>
 				 </figure>
@@ -108,14 +109,14 @@
 				
 					<div class="article_block">
 						<a href="articles/10_positeave_benefits_of_tea.php">
-							<h2>10 Posi'tea've Benefits</h2>
+							<h2>10 Posi-tea-ve Benefits</h2>
 							<h5 class="author">by Andrew Le</h5>
 							<div class="index_article_img">
-								<img src="img/tea_pour.jpg" alt="portrait">
+								<img src="img/positive_benefits.jpg" alt="portrait">
 							</div>
 						</a>
 						<div class="index_article_text">
-							<p>Read on how tea can bring some quali'tea' to your life!</p>
+							<p>Read on how tea can bring some quali-tea to your life!</p>
 						</div>
 						<div class="anchor">
 						</div>
@@ -126,7 +127,7 @@
 							<h2>Green Tea Variety!</h2>
 							<h5 class="author">by Setareh Shir Koobi</h5>
 							<div class="index_article_img">
-								<img src="img/tea_pour.jpg" alt="portrait">
+								<img src="img/green_tea_article.jpg" alt="portrait">
 							</div>
 						</a>
 						<div class="index_article_text">
@@ -141,7 +142,7 @@
 							<h2>Top 10 Reasons to Love Black Tea!</h2>
 							<h5 class="author">by Setareh Shir Koobi</h5>
 							<div class="index_article_img">
-								<img src="img/tea_pour.jpg" alt="portrait">
+								<img src="img/black_tea_article.jpg" alt="portrait">
 							</div>
 						</a>
 						<div class="index_article_text">
@@ -160,7 +161,7 @@
 							<h2>What are Antioxidants?</h2>
 							<h5 class="author">by Andrew Le</h5>
 							<div class="index_article_img">
-								<img src="img/chamomile.jpg" alt="portrait">
+								<img src="img/antioxidants.jpg" alt="portrait">
 							</div>
 						</a>
 						<div class="index_article_text">
@@ -175,7 +176,7 @@
 							<h2>Introduction to Calming Teas</h2>
 							<h5 class="author">by Setareh Shir Koobi</h5>
 							<div class="index_article_img">
-								<img src="img/chamomile.jpg" alt="portrait">
+								<img src="img/calming_tea.jpg" alt="portrait">
 							</div>
 						</a>
 						<div class="index_article_text">

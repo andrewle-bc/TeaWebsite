@@ -15,6 +15,7 @@
 		<meta charset="utf-8">
 		<title>SereniTEA - Test Information Page</title>
 		<link rel="stylesheet" href="alt.css">
+		<link rel="icon" href="img/icon.png" type="image/gif" sizes="16x16">
 	</head>
 
 	<body>
@@ -108,9 +109,13 @@
 				
 				<div class="site_map_content" id="sm_right">
 					<hr>
+					<h3><a href="forum.php">Forum</a></h3>
+					<br>
 					<h3><a href="about.php">About us</a></h3>
 					<br>
 					<h3><a href="contact.php">Contact us</a></h3>
+					<br>
+					<h3><a href="register.php">Register/Sign</a></h3>
 				</div>
 				
 				<div class="anchor">

@@ -231,7 +231,7 @@
 					
 					<a class="TeaButtons" href="info_pages/brewing_method.php">
 					<div class="info_button" id="button3">
-						<h2>Steeping Methods</h2>
+						<h2>Brewing Methods</h2>
 					</div>
 					</a>
 					

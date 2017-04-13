@@ -15,6 +15,7 @@
 		<meta charset="utf-8">
 		<title>SereniTEA - Contact Us</title>
         <link rel="stylesheet" href="alt.css">
+		<link rel="icon" href="img/icon.png" type="image/gif" sizes="16x16">
 		<script src="validation.js"></script>
 	</head>
 

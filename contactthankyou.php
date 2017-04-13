@@ -16,6 +16,7 @@
 		<title>SereniTEA - Contact Us</title>
         <link rel="stylesheet" href="alt.css">
 		<script src="validation.js"></script>
+		<link rel="icon" href="img/icon.png" type="image/gif" sizes="16x16">
 	</head>
 
 	<body>
@@ -23,7 +24,7 @@
 	<!--Header-->
 		<header>
 		<div id="contactHeader">
-					<h1 id="bannerHeaderSmall">Contact</h1>
+					<h1 id="bannerHeaderSmall">Thank You!</h1>
 			</div>
 		</header>
 	

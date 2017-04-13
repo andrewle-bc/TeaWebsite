@@ -13,8 +13,9 @@
 	<html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>SereniTEA - 10 Posi'tea've Benefits</title>
+		<title>SereniTEA - 10 Posi-tea-ve Benefits</title>
 		<link rel="stylesheet" href="../alt.css">
+		<link rel="icon" href="img/icon.png" type="image/gif" sizes="16x16">
 	</head>
 
 	<body>
@@ -71,13 +72,13 @@
 			<div id="breadcrumbs"> <!-- news articles page -->
 				<ul>
 					<li><a href="../index.php">Home</a> &nbsp; ></li>
-					<li class="lastcrumb">10 Posi'tea've Benefits</li>
+					<li class="lastcrumb">10 Posi-tea-ve Benefits</li>
 				</ul>    
 			</div>
 			<div id="wrapper">
 				<article id="article_body">
 					<h2 id="article_title">
-					10 Posi'tea've Benefits
+					10 Posi-tea-ve Benefits
 					</h2>
 					
 					<div id="article_banner">
