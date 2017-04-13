@@ -30,28 +30,28 @@
 		
 		<nav id="stickyNav">
 			<div id ="logoBox">
-			<img id ="logo" src="img/logo.png" alt="logo"><!--placeholder logo-->
+			<img id ="logo" src="../img/logo.png" alt="logo"><!--placeholder logo-->
 			<h1 id="logoTitle">SereniTEA</h1>
 			</div>
 			<ul id="navList">
-				<li><a href="index.php">Home</a></li>
-				<li class="infoDropSticky"><a href="info_main.php">Information</a><!--Class to activate drop down menu-->
+				<li><a href="../index.php">Home</a></li>
+				<li class="infoDropSticky"><a href="../info_main.php">Information</a><!--Class to activate drop down menu-->
 					<ul id="dropDown" class="infoDropContentSticky"><!--Drop down menu contents -->
-						<li><a href="info_main.php">Types of Tea</a></li>
-						<li><a href="info_page.php">Tea Producers</a></li>
-						<li><a href="info_page.php">How is Tea Produced</a></li>
-						<li><a href="steeping_methods.php">Steeping Methods</a></li>
-						<li><a href="info_page.php">The History of Tea</a></li>
+						<li><a href="../info_main.php">Types of Tea</a></li>
+						<li><a href="../info_pages/tea_location.php">Tea Producers</a></li>
+						<li><a href="../info_pages/tea_production.php">How is Tea Produced</a></li>
+						<li><a href="../info_pages/brewing_method.php">Brewing Method</a></li>
+						<li><a href="../info_pages/tea_history.php">The History of Tea</a></li>
 					</ul>
 				</li>
-				<li><a href="forum.php">Forum</a></li>
-				<li><a href="about.php">About</a></li>
-				<li><a href="contact.php">Contact Us</a></li>
+				<li><a href="../forum.php">Forum</a></li>
+				<li><a href="../about.php">About</a></li>
+				<li><a href="../contact.php">Contact Us</a></li>
 				<?php
 				if (isLoggedIn()){
 					echo '<li><span class="user">User: '.$_SESSION['SESS_FIRST_NAME'].'</span><a href="logout.php" class="logout">|Logout</a></li>';
 				} else {
-					echo '<li class="sign-in"><a href="register.php">Register/Sign In</a></li>'; 
+					echo '<li class="sign-in"><a href="../register.php">Register/Sign In</a></li>'; 
 				}
 				?>
 				<li>

@@ -25,7 +25,7 @@
 		
 		<nav id="stickyNav">
 			<div id ="logoBox">
-			<img id ="logo" src="img/logo.png" alt="logo"><!--placeholder logo-->
+			<img id ="logo" src="../../img/logo.png" alt="logo"><!--placeholder logo-->
 			<h1 id="logoTitle">SereniTEA</h1>
 			</div>
 			<ul id="navList">

@@ -22,7 +22,7 @@
 	<!--Header-->
 		<header>
 			<div id="header_interior">
-					<img id="indexCover" src="../img/infoPage.png" alt="contactUsBanner"><!--placeholder logo-->
+					<img id="indexCover" src="img/infoPage.png" alt="contactUsBanner"><!--placeholder logo-->
 			</div>
 		</header>
 	
@@ -49,7 +49,7 @@
 				if (isLoggedIn()){
 					echo '<li><span class="user">User: '.$_SESSION['SESS_FIRST_NAME'].'</span><a href="logout.php" class="logout">|Logout</a></li>';
 				} else {
-					echo '<li class="sign-in"><a href="../register.php">Register/Sign In</a></li>'; 
+					echo '<li class="sign-in"><a href="register.php">Register/Sign In</a></li>'; 
 				}
 				?>
 				<li>
@@ -64,8 +64,8 @@
 		<main>
 			<div id="breadcrumbs"> <!-- information page -->
 				<ul>
-					<li><a href="../index.php">Home</a> &nbsp; ></li> 
-					<li><a href="../info_main.php">Information</a> &nbsp; ></li>
+					<li><a href="index.php">Home</a> &nbsp; ></li> 
+					<li><a href="info_main.php">Information</a> &nbsp; ></li>
 					<li class="lastcrumb">Steeping Method</li>
 				</ul>
 			</div>
@@ -89,13 +89,51 @@
 						<p> The most important component to make the perfect cup of tea is making sure the water temperature
 						and the steeping time follows the recommended temperature and time precisely.
 						Steeping with the correct temperature ensures the health benefits and the taste remain at its optimal.
-						Follow the temperature and steeping table below along with our brewing tips to produce the best tasting tea. </p>
-
+						Follow the temperature and steeping table below along with our brewing tips to produce the best tasting tea. </p> <br>
+						<!--Steeping time table-->
+					<table id="steepTimeTable"> 
+							<tr class="tableData">
+								<th>Type of Tea</th>
+								<th>Amount</th>
+								<th>Steeping Time</th>
+								<th>Water Temperature <br>(for 6-8oz of water)</th>
+							</tr>
+							<tr class="tableData">
+								<td>White</td>
+								<td>2-3 tsps</td>
+								<td>3 minutes</td>
+								<td>176&deg; - 185&deg; F / 80&deg; - 85&deg; C</td>
+							</tr>
+							<tr class="tableData">
+								<td>Green</td>
+								<td>1-2 tsps</td>
+								<td>1-3 minutes</td>
+								<td>176&deg; - 185&deg; F / 80&deg; - 85&deg; C</td>
+							</tr>
+							<tr class="tableData">
+								<td>Oolong</td>
+								<td>2-3 tsps</td>
+								<td>2-3 minutes</td>
+								<td>185&deg; - 203&deg; F / 85&deg; - 95&deg; C</td>
+							</tr>
+							<tr class="tableData">
+								<td>Black</td>
+								<td>1-2 tsps</td>
+								<td>3-5 minutes</td>
+								<td>203&deg; F / 95&deg; C</td>
+							</tr>
+							<tr class="tableData">
+								<td>Herbal</td>
+								<td>1-2 tsps</td>
+								<td>3 minutes</td>
+								<td>212&deg; F / 100&deg; C</td>
+							</tr>
+					</table>
 						<h3>Step1. Heat water to the desired temperature and add tea leaves to diffuser. </h3>
 						<img src="../img/step1.jpg" alt="step1"> <!-- size the 4 pictures please -->
 						<h3>Step2. Add water to leaves until the leaves are fully submerged.</h3>
 						<img src="../img/step2.jpg" alt="step2">
-						<h3>Step3. Steep tea for a specific amount of time. Check the chart below for optinal brewing time</h3>
+						<h3>Step3. Steep tea for a specific amount of time. Check the chart for optinal brewing time</h3>
 						<img src="../img/step3.jpg" alt="step3">
 						<h3>Step4. Remove the diffuser and enjoy your tea.</h3>
 						<img src="../img/step4.jpg" alt="step4">
