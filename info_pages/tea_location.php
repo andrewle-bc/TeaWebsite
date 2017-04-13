@@ -49,7 +49,7 @@
 				if (isLoggedIn()){
 					echo '<li><span class="user">User: '.$_SESSION['SESS_FIRST_NAME'].'</span><a href="../logout.php" class="logout">|Logout</a></li>';
 				} else {
-					echo '<li class="sign-in"><a href="register.php">Register/Sign In</a></li>'; 
+					echo '<li class="sign-in"><a href="../register.php">Register/Sign In</a></li>'; 
 				}
 				?>
 				<li>
@@ -66,7 +66,7 @@
 				<ul>
 					<li><a href="../index.php">Home</a> &nbsp; ></li> 
 					<li><a href="../info_main.php">Information</a> &nbsp; ></li>
-					<li class="lastcrumb">Types of Tea</li>
+					<li class="lastcrumb">Tea Producers</li>
 				</ul>
 			</div>
 			
@@ -74,7 +74,7 @@
 					
 				<div class="info_heading">
 				<h1>
-					How is tea produced
+					Tea Producers
 				</h1>
 				<hr>
 				</div>

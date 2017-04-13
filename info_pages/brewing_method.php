@@ -49,7 +49,7 @@
 				if (isLoggedIn()){
 					echo '<li><span class="user">User: '.$_SESSION['SESS_FIRST_NAME'].'</span><a href="../logout.php" class="logout">|Logout</a></li>';
 				} else {
-					echo '<li class="sign-in"><a href="register.php">Register/Sign In</a></li>'; 
+					echo '<li class="sign-in"><a href="../register.php">Register/Sign In</a></li>'; 
 				}
 				?>
 				<li>
@@ -64,9 +64,9 @@
 		<main>
 			<div id="breadcrumbs"> <!-- information page -->
 				<ul>
-					<li><a href="index.php">Home</a> &nbsp; ></li> 
-					<li><a href="info_main.php">Information</a> &nbsp; ></li>
-					<li class="lastcrumb">Steeping Method</li>
+					<li><a href="../index.php">Home</a> &nbsp; ></li> 
+					<li><a href="../info_main.php">Information</a> &nbsp; ></li>
+					<li class="lastcrumb">Classic Brewing Method</li>
 				</ul>
 			</div>
 			

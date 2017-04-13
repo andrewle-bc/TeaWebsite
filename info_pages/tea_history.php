@@ -3,6 +3,10 @@
 	require_once (dirname(__DIR__).'/config.php');
 	session_start();
 
+	// Connect to server and select database.
+	($GLOBALS["___mysqli_ston"] = mysqli_connect(DB_HOST,  DB_USER,  DB_PASSWORD))or die("cannot connect, error: ".((is_object($GLOBALS["___mysqli_ston"])) ? mysqli_error($GLOBALS["___mysqli_ston"]) : (($___mysqli_res = mysqli_connect_error()) ? $___mysqli_res : false)));
+	((bool)mysqli_query($GLOBALS["___mysqli_ston"], "USE " . constant('DB_DATABASE')))or die("cannot select DB, error: ".((is_object($GLOBALS["___mysqli_ston"])) ? mysqli_error($GLOBALS["___mysqli_ston"]) : (($___mysqli_res = mysqli_connect_error()) ? $___mysqli_res : false)));
+	$tbl_name="topic"; // Table name
 ?>
 
 <!DOCTYPE html>
@@ -28,7 +32,7 @@
 			<h1 id="logoTitle">SereniTEA</h1>
 			</div>
 			<ul id="navList">
-				<li><a href="index.php">Home</a></li>
+				<li><a href="../index.php">Home</a></li>
 				<li class="infoDropSticky"><a href="../info_main.php">Information</a><!--Class to activate drop down menu-->
 					<ul id="dropDown" class="infoDropContentSticky"><!--Drop down menu contents -->
 						<li><a href="../info_main.php">Types of Tea</a></li>
@@ -45,7 +49,7 @@
 				if (isLoggedIn()){
 					echo '<li><span class="user">User: '.$_SESSION['SESS_FIRST_NAME'].'</span><a href="../logout.php" class="logout">|Logout</a></li>';
 				} else {
-					echo '<li class="sign-in"><a href="register.php">Register/Sign In</a></li>'; 
+					echo '<li class="sign-in"><a href="../register.php">Register/Sign In</a></li>'; 
 				}
 				?>
 				<li>
@@ -60,8 +64,8 @@
 		<main>
 			<div id="breadcrumbs"> <!-- information page -->
 				<ul>
-					<li><a href="index.php">Home</a> &nbsp; ></li> 
-					<li><a href="info_main.php">Information</a> &nbsp; ></li>
+					<li><a href="../index.php">Home</a> &nbsp; ></li> 
+					<li><a href="../info_main.php">Information</a> &nbsp; ></li>
 					<li class="lastcrumb">The History of Tea</li>
 				</ul>
 			</div>
@@ -131,9 +135,9 @@
 					<li>&copy; Copyright</li>
 					
 					<!--Social Media Links-->
-					<li><a href="https://www.facebook.com/"><img src="img/facebook.jpg" alt="facebook"></a></li>
-					<li><a href="https://www.instagram.com/"><img src="img/instagram.jpg" alt="facebook"></a></li>
-					<li><a href="https://www.twitter.com/"><img src="img/twitter.jpg" alt="facebook"></a></li>
+					<li><a href="https://www.facebook.com/"><img src="../img/facebook.jpg" alt="facebook"></a></li>
+					<li><a href="https://www.instagram.com/"><img src="../img/instagram.jpg" alt="facebook"></a></li>
+					<li><a href="https://www.twitter.com/"><img src="../img/twitter.jpg" alt="facebook"></a></li>
 				</ul>
 			</div>
 		</footer>
