@@ -39,7 +39,7 @@
 						<li><a href="tea_location.php">Tea Producers</a></li>
 						<li><a href="tea_production.php">How is Tea Produced</a></li>
 						<li><a href="brewing_method.php">Brewing Methods</a></li>
-						<li><a href="tea_history">The History of Tea</a></li>
+						<li><a href="tea_history.php">The History of Tea</a></li>
 					</ul>
 				</li>
 				<li><a href="../forum.php">Forum</a></li>
