@@ -87,8 +87,18 @@
 	// ORDER BY id DESC is order result by descending
 	$result=mysqli_query($GLOBALS["___mysqli_ston"], $sql);
 ?>
-
+<br>
 <table width="100%" border="0" align="center" cellpadding="3" cellspacing="1" bgcolor="#CCCCCC">
+
+
+<?php
+if (isLoggedIn()){
+	echo '<tr><td colspan="5" align="right" bgcolor="#E6E6E6"><a href="add_topic_form.php"><strong>Create New Topic</strong> </a></td></tr>';
+} else {
+	echo '<tr><td colspan="5" align="right" bgcolor="#E6E6E6">Please login to create a topic.</td></tr>';
+}
+?>
+
 <tr>
 <td width="6%" align="center" bgcolor="#E6E6E6"><strong>#</strong></td>
 <td width="53%" align="center" bgcolor="#E6E6E6"><strong>Topic</strong></td>
@@ -112,9 +122,7 @@ while($rows=mysqli_fetch_array($result)){ // Start looping table row
 }
 ((is_null($___mysqli_res = mysqli_close($GLOBALS["___mysqli_ston"]))) ? false : $___mysqli_res);
 ?>
-<tr>
-<td colspan="5" align="right" bgcolor="#E6E6E6"><a href="add_topic_form.php"><strong>Create New Topic</strong> </a></td>
-</tr>
+<tr><td colspan="5" align="right" bgcolor="#E6E6E6"></td></tr>
 </table>
 				</div>
 			</div>
