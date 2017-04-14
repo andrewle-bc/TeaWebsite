@@ -40,7 +40,7 @@ header {
 #forumHeader{
 	width: 100%;
 	height: 500px;
-	background-image: url("img/forumscaled.jpg");
+	background-image: url("img/forumscaled.png");
 	background-repeat: no-repeat;
 	margin-left: auto;
 	margin-right: auto;
@@ -49,7 +49,7 @@ header {
 #infoMainHeader{
 	width: 100%;
 	height: 500px;
-	background-image: url("img/infoMainscaled.jpg");
+	background-image: url("img/infoMain.png");
 	background-repeat: no-repeat;
 	margin-left: auto;
 	margin-right: auto;
@@ -58,7 +58,7 @@ header {
 #contactHeader{
 	width: 100%;
 	height: 500px;
-	background-image: url("img/contactUsscaled.jpg");
+	background-image: url("img/contactUsscaled.png");
 	background-repeat: no-repeat;
 	margin-left: auto;
 	margin-right: auto;
@@ -67,7 +67,7 @@ header {
 #registerHeader{
 	width: 100%;
 	height: 500px;
-	background-image: url("img/Registerscaled.jpg");
+	background-image: url("img/Registerscaled.png");
 	background-repeat: no-repeat;
 	margin-left: auto;
 	margin-right: auto;
@@ -76,7 +76,7 @@ header {
 #aboutHeader{
 	width: 100%;
 	height: 500px;
-	background-image: url("img/Aboutscaled.jpg");
+	background-image: url("img/Aboutscaled.png");
 	background-repeat: no-repeat;
 	margin-left: auto;
 	margin-right: auto;
@@ -92,7 +92,7 @@ header {
 #brewingHeader{
 	width: 100%;
 	height: 500px;
-	background-image: url("img/brewingMethod.jpg");
+	background-image: url("img/brewingMethod.png");
 	background-repeat: no-repeat;
 	margin-left: auto;
 	margin-right: auto;
@@ -100,7 +100,7 @@ header {
 #producerHeader{
 	width: 100%;
 	height: 500px;
-	background-image: url("img/teaProducers.jpg");
+	background-image: url("img/teaProducers.png");
 	background-repeat: no-repeat;
 	margin-left: auto;
 	margin-right: auto;
@@ -108,7 +108,7 @@ header {
 #productionHeader{
 	width: 100%;
 	height: 500px;
-	background-image: url("img/teaProduction.jpg");
+	background-image: url("img/teaProduction.png");
 	background-repeat: no-repeat;
 	margin-left: auto;
 	margin-right: auto;
