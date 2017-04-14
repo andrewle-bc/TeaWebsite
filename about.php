@@ -116,7 +116,7 @@
 							<p>
 							<strong>Andrew Le</strong>
 							<br><br>
-							Andrew has actually reached the rank of <em>Legend</em> in hearthstone.
+							Andrew has earned a B.Sc Chemistry from UBC prior to beginning his journey at BCIT's CST program. His favourite tea is Earl Grey with honey. He has an  interest in badminton, comic books, and musicals. Andrew has actually reached the rank of <em>Legend</em> in hearthstone.
 							</p>
 						</div>
 					</div>
