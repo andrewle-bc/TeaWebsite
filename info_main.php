@@ -16,6 +16,7 @@
 		<title>SereniTEA - Information</title>
 		<link rel="stylesheet" href="alt.css">
 		<link rel="stylesheet" href="circle.css">
+		<link rel="icon" href="img/icon.png" type="image/gif" sizes="16x16">
 		<script>
 			function $(id){
 				var element = document.getElementById(id);
