@@ -15,7 +15,7 @@
 		<meta charset="utf-8">
 		<title>SereniTEA - Tea Production</title>
 		<link rel="stylesheet" href="../alt.css">
-		<link rel="icon" href="img/icon.png" type="image/gif" sizes="16x16">
+		<link rel="icon" href="../img/icon.png" type="image/gif" sizes="16x16">
 	</head>
 
 	<body>
@@ -67,7 +67,7 @@
 				<ul>
 					<li><a href="../index.php">Home</a> &nbsp; ></li> 
 					<li><a href="../info_main.php">Information</a> &nbsp; ></li>
-					<li class="lastcrumb">How is tea produced</li>
+					<li class="lastcrumb">How is Tea Produced?</li>
 				</ul>
 			</div>
 			
@@ -75,7 +75,7 @@
 					
 				<div class="info_heading">
 				<h1>
-					How is tea produced?
+					How is Tea Produced?
 				</h1>
 				<hr>
 				</div>

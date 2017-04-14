@@ -15,7 +15,7 @@
 		<meta charset="utf-8">
 		<title>SereniTEA - White Tea</title>
 		<link rel="stylesheet" href="../../alt.css">
-		<link rel="icon" href="img/icon.png" type="image/gif" sizes="16x16">
+		<link rel="icon" href="../../img/icon.png" type="image/gif" sizes="16x16">
 	</head>
 
 	<body>

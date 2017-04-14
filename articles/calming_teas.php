@@ -15,7 +15,7 @@
 		<meta charset="utf-8">
 		<title>SereniTEA - Calming Teas</title>
 		<link rel="stylesheet" href="../alt.css">
-		<link rel="icon" href="img/icon.png" type="image/gif" sizes="16x16">
+		<link rel="icon" href="../img/icon.png" type="image/gif" sizes="16x16">
 	</head>
 
 	<body>
@@ -82,7 +82,7 @@
 					</h2>
 					
 					<div id="article_banner">
-						<img src="../img/slideShow1.jpg" alt="article_banner">
+						<img src="../img/chamomile.jpg" alt="article_banner">
 						<h5>Image credits:<a href="https://www.flickr.com/people/vanderdecken/">
 						Vanderdecken</a>
 						</h5>
