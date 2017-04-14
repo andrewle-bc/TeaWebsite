@@ -30,21 +30,21 @@
 
 			<div class="bss-slides">
 				<figure>
-					<a href="articles/10_positeave_benefits_of_tea.php"><img class="indexCover" src="img/slideShow1scaled.jpg"/>
+					<a href="articles/10_positeave_benefits_of_tea.php"><img class="indexCover" src="img/slideShow1scaled.png"/>
 					<figcaption>
 						<h1>10 Posi-tea-ve Benefits</h1>
 						<h3>Andrew Le</h3>
 					</figcaption> </a>
 				 </figure>
 				 <figure>
-					<a href="articles/calming_teas.php"><img class="indexCover" src="img/slideShow2scaled.jpg"/>
+					<a href="articles/calming_teas.php"><img class="indexCover" src="img/slideShow2scaled.png"/>
 					<figcaption>
 						<h1>Introduction to Calming Teas</h1>
 						<h3>Setareh Shir Koobi</h3>
 					</figcaption> </a>
 				 </figure>
 				 <figure>
-					<a href="articles/antioxidants.php"><img class="indexCover" src="img/slideShow3scaled.jpg"/>
+					<a href="articles/antioxidants.php"><img class="indexCover" src="img/slideShow3scaled.png"/>
 					<figcaption>
 						<h1>What are Antioxidants?</h1>
 						<h3>Andrew Le</h3>
