@@ -82,7 +82,7 @@
 					</h2>
 					
 					<div id="article_banner">
-						<img src="../img/slideShow1.jpg" alt="article_banner">
+						<img src="../img/article_image.jpg" alt="article_banner">
 						<h5>Image credits:<a href="https://www.flickr.com/people/vanderdecken/">
 						Vanderdecken</a>
 						</h5>
